@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-19T19:02:01.255Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-19T19:03:44.399Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 33,
@@ -71,7 +71,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 303,
+   "segundos": 379,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -89,13 +89,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 303,
-    "pulsaciones": 6,
+    "segundos": 379,
+    "pulsaciones": 7,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "05:03",
+    "textoFood": "06:19",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -149,10 +149,10 @@
     "351Gg 351Gg 351Gg 353Gg 351Gg 351Gg 351Gg 351Gg 354Gg 353Gg 351Gg 354Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "351Gg 351Gg 353Gg 383Ww 384Ww 353Gg 351Gg 351Gg 351Gg 353Gg+3992 351Gg 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "374Ww 374Ww 374Ww 379Ww 375Ww 351Gg 351Gg 354Gg 355Gg 351Gg 351Gg 351Gg 351Gg 355Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 351Gg 353Gg 351Gg 353Gg 351Gg+2887+3987 351Gg 383Ww 374Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    "101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 351Gg 353Gg 351Gg 353Gg 351Gg+2888+3987 351Gg 383Ww 374Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 351Gg 351Gg 351Gg 355Gg 351Gg 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 351Gg 351Gg+3987 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 377Ww 381Ww 351Gg+3992 351Gg+3987 351Gg 351Gg+2890 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    "101Ww 101Ww 101Ww 101Ww 377Ww 381Ww 351Gg+3992 351Gg+3987 351Gg 351Gg+2891 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 375Ww 351Gg+1282Ww 351Gg+1282Ww 351Gg+1633 351Gg+1282Ww 351Gg+1282Ww 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 351Gg 351Gg 351Gg 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 375Ww+2931 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
