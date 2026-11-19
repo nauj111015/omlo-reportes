@@ -1,44 +1,56 @@
 {
- "enviado": "2026-11-19T05:33:04.739Z",
- "motivo": "manual",
+ "enviado": "2026-11-19T05:36:31.455Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 32,
   "mapLoads": 1,
-  "tiles": 1421,
+  "tiles": 5089,
   "posicion": {
-   "x": 32715,
-   "y": 31645,
+   "x": 32727,
+   "y": 31631,
    "z": 11
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 1,
+   "rechazados": 2,
    "porOpcode": {
-    "0": 1
+    "0": 1,
+    "230": 1
    },
    "ultimoError": null,
    "ultimos": []
   },
   "comida": {
-   "segundos": 0,
-   "intentos": 2,
+   "segundos": 216,
+   "intentos": 18,
    "confirmados": 0,
    "accion": "no-selected-food-available",
    "error": null,
    "gesto": null
   },
   "explorador": {
-   "activo": false,
-   "pasos": 0,
+   "activo": true,
+   "pasos": 58,
    "espera": "",
    "atasco": 0,
    "log": [
-    ""
+    "02:36:23  Explorando hacia 32727, 31631 · faltan 10 casillas · clic",
+    "02:36:23  Explorando hacia 32728, 31632 · faltan 11 casillas · clic",
+    "02:36:24  Explorando hacia 32729, 31632 · faltan 11 casillas · clic",
+    "02:36:24  Explorando hacia 32730, 31633 · faltan 12 casillas · clic",
+    "02:36:25  Explorando hacia 32730, 31633 · faltan 12 casillas · teclas",
+    "02:36:26  Explorando hacia 32731, 31634 · faltan 13 casillas · teclas",
+    "02:36:27  Explorando hacia 32732, 31634 · faltan 13 casillas · teclas",
+    "02:36:27  Explorando hacia 32731, 31637 · faltan 14 casillas · teclas",
+    "02:36:28  Explorando hacia 32731, 31637 · faltan 13 casillas · teclas",
+    "02:36:29  Explorando hacia 32731, 31637 · faltan 12 casillas · teclas",
+    "02:36:30  Explorando hacia 32731, 31638 · faltan 12 casillas · teclas",
+    "02:36:31  Explorando hacia 32731, 31638 · faltan 11 casillas · teclas"
    ]
   },
   "combate": {
-   "ataque": false,
+   "ataque": true,
    "loot": false,
    "lootMode": "click",
    "spearOn": false
