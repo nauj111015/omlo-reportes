@@ -1,30 +1,43 @@
 {
- "enviado": "2026-11-19T05:42:46.275Z",
- "motivo": "manual",
+ "enviado": "2026-11-19T05:51:51.708Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 32,
   "mapLoads": 1,
-  "tiles": 7604,
+  "tiles": 7832,
   "posicion": {
-   "x": 32716,
-   "y": 31632,
+   "x": 32690,
+   "y": 31623,
    "z": 11
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 8,
+   "rechazados": 2,
    "porOpcode": {
     "0": 1,
-    "30": 3,
-    "230": 4
+    "30": 1
+   },
+   "muestrasRechazo": {
+    "0": {
+     "at": 11937,
+     "len": 12110,
+     "hex": "78 69 73 20 53 61 6e 63 68 65 7a 00 00 00 00 00 b4 14 34 00 59 6f 75 72 20 6c 61 73 74 20 76 69 73 69 74 20 69 6e 20 54 69 62",
+     "marca": 12
+    },
+    "30": {
+     "at": 0,
+     "len": 1,
+     "hex": "1e",
+     "marca": 0
+    }
    },
    "ultimoError": null,
    "ultimos": []
   },
   "comida": {
    "segundos": 0,
-   "intentos": 48,
+   "intentos": 20,
    "confirmados": 0,
    "accion": "no-selected-food-available",
    "error": null,
@@ -32,22 +45,22 @@
   },
   "explorador": {
    "activo": false,
-   "pasos": 384,
+   "pasos": 156,
    "espera": "",
    "atasco": 0,
    "log": [
-    "02:41:26  Explorando hacia 32725, 31629 · faltan 10 casillas · teclas",
-    "02:41:27  Explorando hacia 32725, 31629 · faltan 10 casillas · clic",
-    "02:41:27  Explorando hacia 32726, 31632 · faltan 11 casillas · clic",
-    "02:41:28  Explorando hacia 32693, 31618 · faltan 51 casillas · clic",
-    "02:41:28  Explorando hacia 32693, 31618 · faltan 50 casillas · clic",
-    "02:41:29  Explorando hacia 32693, 31618 · faltan 49 casillas · clic",
-    "02:41:30  Explorando hacia 32693, 31618 · faltan 48 casillas · clic",
-    "02:41:31  Explorando hacia 32693, 31618 · faltan 49 casillas · clic",
-    "02:41:32  Explorando hacia 32693, 31618 · faltan 48 casillas · clic",
-    "02:41:33  Explorando hacia 32693, 31618 · faltan 48 casillas · teclas",
-    "02:41:35  Casilla bloqueada 32716,31632: se busca otro camino.",
-    "02:41:35  Exploración completa: recorrí 29 casillas alcanzables (25 paredes, 0 bloqueadas por «raras»). Si hay zonas sin visitar, apaga «Evitar casillas raras»."
+    "02:51:14  Explorando hacia 32687, 31612 · faltan 26 casillas · teclas",
+    "02:51:15  Explorando hacia 32687, 31612 · faltan 26 casillas · clic",
+    "02:51:15  Explorando hacia 32687, 31612 · faltan 25 casillas · clic",
+    "02:51:16  Explorando hacia 32687, 31612 · faltan 24 casillas · clic",
+    "02:51:17  Explorando hacia 32687, 31612 · faltan 23 casillas · clic",
+    "02:51:18  Explorando hacia 32687, 31612 · faltan 22 casillas · clic",
+    "02:51:18  Explorando hacia 32687, 31612 · faltan 23 casillas · clic",
+    "02:51:19  Explorando hacia 32687, 31612 · faltan 22 casillas · clic",
+    "02:51:20  Explorando hacia 32687, 31612 · faltan 21 casillas · clic",
+    "02:51:21  Explorando hacia 32687, 31612 · faltan 21 casillas · teclas",
+    "02:51:23  Casilla bloqueada 32690,31623: se busca otro camino.",
+    "02:51:23  Exploración completa: recorrí 44 casillas alcanzables (33 paredes, 2 bloqueadas por «raras»). Si hay zonas sin visitar, apaga «Evitar casillas raras»."
    ]
   },
   "combate": {
