@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-19T18:43:47.873Z",
+ "enviado": "2026-11-19T18:48:47.877Z",
  "motivo": "auto: 3 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -81,10 +81,10 @@
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 99,
-    "fallos": 99,
+    "pulsaciones": 104,
+    "fallos": 104,
     "nota": "esperando reintento",
-    "metodo": "casillero",
+    "metodo": "tecla",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
     "ultimosMensajes": []
@@ -139,7 +139,7 @@
    "rows": [
     "101Ww 101Ww 101Ww 358Ww 352Gg 352Gg 353Gg 366Ww 357Ww 357Ww 357Ww 367Ww 353Gg 355Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 360Ww+1296Ww 356Ww+1295Ww 356Ww+1295Ww 364Ww+1295Ww 354Gg 353Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 358Ww 352Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 453Gg 408Gg 408Gg+2853*C 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 358Ww 352Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg+2853*C 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "356Ww 356Ww 356Ww 364Ww 352Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+1948 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "352Gg 355Gg 354Gg 355Gg 353Gg 353Gg 354Gg 359Ww 358Ww+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+2853+3412*C 408Gg+2853*C 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
