@@ -1,11 +1,11 @@
 {
- "enviado": "2026-11-19T18:48:47.877Z",
+ "enviado": "2026-11-19T18:57:01.254Z",
  "motivo": "auto: 3 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 33,
   "mapLoads": 1,
-  "tiles": 6693,
+  "tiles": 1294,
   "posicion": {
    "x": 32679,
    "y": 31689,
@@ -13,44 +13,37 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 37,
+   "rechazados": 12,
    "porOpcode": {
     "0": 1,
-    "143": 3,
-    "218": 2,
-    "221": 20,
-    "223": 6,
+    "218": 1,
+    "236": 1,
+    "237": 4,
     "251": 5
    },
    "muestrasRechazo": {
     "0": {
-     "at": 12151,
-     "len": 12333,
+     "at": 11912,
+     "len": 12067,
      "hex": "78 69 73 20 53 61 6e 63 68 65 7a 00 00 00 00 00 b4 14 34 00 59 6f 75 72 20 6c 61 73 74 20 76 69 73 69 74 20 69 6e 20 54 69 62",
      "marca": 12
     },
-    "143": {
+    "218": {
+     "at": 21,
+     "len": 35,
+     "hex": "6f 75 72 20 69 6e 62 6f 78 24 01 00 da 01 00 00 00 00 00 00 00 00 fb 01 08 00",
+     "marca": 12
+    },
+    "236": {
      "at": 0,
-     "len": 33,
-     "hex": "8f 47 19 00 00 36 01 83 ab 7f ca 7b 07 0f 83 ab 7f ca 7b 07 0e 6d a7 7f cb 7b 07 01 a6 7f",
+     "len": 4,
+     "hex": "ec 02 00 00",
      "marca": 0
     },
-    "218": {
-     "at": 26,
-     "len": 40,
-     "hex": "6e 62 6f 78 24 01 01 f9 0d 00 00 0f da 01 00 00 00 00 01 00 00 00 fb 01 08 00",
-     "marca": 12
-    },
-    "221": {
-     "at": 12,
-     "len": 88,
-     "hex": "85 cd 7f 86 7b 0b cc 7f 85 7b 0b 01 dd cd 0c 00 00 00 01 00 6a cc 7f 85 7b 0b cd 0c 00 00 01 78 06 cd 0c 00 00 0b a0 b6 00 d7",
-     "marca": 12
-    },
-    "223": {
+    "237": {
      "at": 0,
-     "len": 45,
-     "hex": "df 00 06 04 a7 03 00 00 00 64 02 14 00 00 00 90 d0 03 00 00 fa 1e 0b 00 41 62 27 44 65 6e",
+     "len": 6,
+     "hex": "ed 00 02 00 e8 03",
      "marca": 0
     },
     "251": {
@@ -74,19 +67,20 @@
     "activo": false,
     "lista": [],
     "tirados": 0,
-    "nota": "lista vacía"
+    "nota": "esperando"
    },
    "autoEatTecla": {
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 104,
-    "fallos": 104,
+    "pulsaciones": 2,
+    "fallos": 2,
     "nota": "esperando reintento",
     "metodo": "tecla",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
+    "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
@@ -106,13 +100,7 @@
    "visitadas": 0,
    "destino": null,
    "log": [
-    "13:46:26  Explorando el piso 11. No subirá ni bajará escaleras.",
-    "13:46:26  En espera: atacando (1 cerca)",
-    "13:46:26  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "13:47:22  Detenido con Escape.",
-    "13:47:31  Exploración detenida.",
-    "13:47:31  Memoria de exploración borrada.",
-    "13:48:31  Exploración detenida."
+    ""
    ]
   },
   "combate": {
@@ -122,11 +110,11 @@
    "lootKey": "F12",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Yendo al cadáver en 32659,31643…",
+   "estado": "Esperando posición del personaje…",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
-   "recuperaciones": 1,
+   "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
@@ -137,22 +125,22 @@
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    "101Ww 101Ww 101Ww 358Ww 352Gg 352Gg 353Gg 366Ww 357Ww 357Ww 357Ww 367Ww 353Gg 355Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 360Ww+1296Ww 356Ww+1295Ww 356Ww+1295Ww 364Ww+1295Ww 354Gg 353Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 358Ww 352Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg+2853*C 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "356Ww 356Ww 356Ww 364Ww 352Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+1948 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "352Gg 355Gg 354Gg 355Gg 353Gg 353Gg 354Gg 359Ww 358Ww+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+2853+3412*C 408Gg+2853*C 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "353Gg 352Gg 353Gg 352Gg 355Gg 355Gg 352Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "357Ww 357Ww 367Ww 355Gg 354Gg 354Gg 352Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 363Ww 357Ww 357Ww 367Ww 355Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 453Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 362Ww 358Ww+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1298Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "373Ww 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "103Gg 382Ww 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 103Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 103Gg 382Ww 378Ww 101Ww 101Ww+1283Ww 101Ww+1282Ww 101Ww+1290Ww 101Ww+1290Ww 101Ww+1284Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 103Gg 103Gg 376Ww 101Ww 101Ww+1281Ww 436Gg 436Gg+1286Ww 436Gg+1290Ww 436Gg+1287Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". . . . . . . . . . . . . . . . . . . . .",
+    ". 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 360Ww+1296Ww 356Ww+1295Ww 356Ww+1295Ww 364Ww+1295Ww 354Gg 353Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 358Ww 352Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg+2853 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 358Ww 355Gg 355Gg 353Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 356Ww 356Ww 364Ww 352Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+1948 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 355Gg 354Gg 355Gg 353Gg 353Gg 354Gg 359Ww 358Ww+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+3412+2853 408Gg+2853 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 352Gg 353Gg 352Gg 355Gg 355Gg 352Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 357Ww 367Ww 355Gg 354Gg 354Gg 352Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 363Ww 357Ww 357Ww 367Ww 355Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 453Gg*C 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 362Ww 358Ww+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1298Ww 359Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 382Ww 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 103Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 103Gg 382Ww 378Ww 101Ww 101Ww+1283Ww 101Ww+1282Ww 101Ww+1290Ww 101Ww+1290Ww 101Ww+1284Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 103Gg 103Gg 376Ww 101Ww 101Ww+1281Ww 436Gg 436Gg+1286Ww 436Gg+1290Ww 436Gg+1287Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
