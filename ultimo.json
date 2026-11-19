@@ -1,22 +1,22 @@
 {
- "enviado": "2026-11-19T05:41:31.462Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-19T05:42:46.275Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 32,
   "mapLoads": 1,
   "tiles": 7604,
   "posicion": {
-   "x": 32717,
-   "y": 31631,
+   "x": 32716,
+   "y": 31632,
    "z": 11
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 7,
+   "rechazados": 8,
    "porOpcode": {
     "0": 1,
-    "30": 2,
+    "30": 3,
     "230": 4
    },
    "ultimoError": null,
@@ -24,30 +24,30 @@
   },
   "comida": {
    "segundos": 0,
-   "intentos": 42,
+   "intentos": 48,
    "confirmados": 0,
    "accion": "no-selected-food-available",
    "error": null,
    "gesto": null
   },
   "explorador": {
-   "activo": true,
-   "pasos": 380,
+   "activo": false,
+   "pasos": 384,
    "espera": "",
    "atasco": 0,
    "log": [
-    "02:41:22  Explorando hacia 32724, 31629 · faltan 13 casillas · clic",
-    "02:41:23  Explorando hacia 32724, 31629 · faltan 12 casillas · clic",
-    "02:41:24  Explorando hacia 32725, 31629 · faltan 12 casillas · clic",
-    "02:41:25  Explorando hacia 32725, 31629 · faltan 12 casillas · teclas",
-    "02:41:25  Explorando hacia 32725, 31629 · faltan 11 casillas · teclas",
     "02:41:26  Explorando hacia 32725, 31629 · faltan 10 casillas · teclas",
     "02:41:27  Explorando hacia 32725, 31629 · faltan 10 casillas · clic",
     "02:41:27  Explorando hacia 32726, 31632 · faltan 11 casillas · clic",
     "02:41:28  Explorando hacia 32693, 31618 · faltan 51 casillas · clic",
     "02:41:28  Explorando hacia 32693, 31618 · faltan 50 casillas · clic",
     "02:41:29  Explorando hacia 32693, 31618 · faltan 49 casillas · clic",
-    "02:41:30  Explorando hacia 32693, 31618 · faltan 48 casillas · clic"
+    "02:41:30  Explorando hacia 32693, 31618 · faltan 48 casillas · clic",
+    "02:41:31  Explorando hacia 32693, 31618 · faltan 49 casillas · clic",
+    "02:41:32  Explorando hacia 32693, 31618 · faltan 48 casillas · clic",
+    "02:41:33  Explorando hacia 32693, 31618 · faltan 48 casillas · teclas",
+    "02:41:35  Casilla bloqueada 32716,31632: se busca otro camino.",
+    "02:41:35  Exploración completa: recorrí 29 casillas alcanzables (25 paredes, 0 bloqueadas por «raras»). Si hay zonas sin visitar, apaga «Evitar casillas raras»."
    ]
   },
   "combate": {
