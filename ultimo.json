@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-19T05:36:53.807Z",
+ "enviado": "2026-11-19T05:36:59.225Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
@@ -7,8 +7,8 @@
   "mapLoads": 1,
   "tiles": 5359,
   "posicion": {
-   "x": 32716,
-   "y": 31633,
+   "x": 32713,
+   "y": 31636,
    "z": 11
   },
   "erroresMapa": {
@@ -22,8 +22,8 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 194,
-   "intentos": 20,
+   "segundos": 188,
+   "intentos": 21,
    "confirmados": 0,
    "accion": "no-selected-food-available",
    "error": null,
@@ -31,22 +31,22 @@
   },
   "explorador": {
    "activo": true,
-   "pasos": 88,
+   "pasos": 95,
    "espera": "",
    "atasco": 0,
    "log": [
-    "02:36:45  Explorando hacia 32703, 31630 · faltan 34 casillas · teclas",
-    "02:36:46  Explorando hacia 32703, 31630 · faltan 33 casillas · teclas",
-    "02:36:46  Explorando hacia 32703, 31630 · faltan 32 casillas · teclas",
-    "02:36:47  Explorando hacia 32703, 31630 · faltan 32 casillas · clic",
-    "02:36:48  Explorando hacia 32703, 31630 · faltan 31 casillas · clic",
-    "02:36:48  Explorando hacia 32703, 31630 · faltan 30 casillas · clic",
-    "02:36:49  Explorando hacia 32703, 31630 · faltan 29 casillas · clic",
     "02:36:50  Explorando hacia 32703, 31630 · faltan 28 casillas · clic",
     "02:36:50  Explorando hacia 32703, 31630 · faltan 27 casillas · clic",
     "02:36:51  Explorando hacia 32703, 31630 · faltan 27 casillas · teclas",
     "02:36:52  Explorando hacia 32703, 31630 · faltan 26 casillas · teclas",
-    "02:36:53  Explorando hacia 32703, 31630 · faltan 25 casillas · teclas"
+    "02:36:53  Explorando hacia 32703, 31630 · faltan 25 casillas · teclas",
+    "02:36:53  Explorando hacia 32703, 31630 · faltan 24 casillas · teclas",
+    "02:36:54  Explorando hacia 32703, 31630 · faltan 23 casillas · teclas",
+    "02:36:55  Explorando hacia 32703, 31630 · faltan 22 casillas · teclas",
+    "02:36:56  Explorando hacia 32703, 31630 · faltan 21 casillas · teclas",
+    "02:36:57  Explorando hacia 32703, 31630 · faltan 20 casillas · teclas",
+    "02:36:58  Explorando hacia 32703, 31630 · faltan 19 casillas · teclas",
+    "02:36:58  Explorando hacia 32703, 31630 · faltan 18 casillas · teclas"
    ]
   },
   "combate": {
