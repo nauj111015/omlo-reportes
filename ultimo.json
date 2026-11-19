@@ -1,0 +1,48 @@
+{
+ "enviado": "2026-11-19T05:33:04.739Z",
+ "motivo": "manual",
+ "resumen": {
+  "version": "3.2.4",
+  "ext": 32,
+  "mapLoads": 1,
+  "tiles": 1421,
+  "posicion": {
+   "x": 32715,
+   "y": 31645,
+   "z": 11
+  },
+  "erroresMapa": {
+   "parseErrors": 0,
+   "rechazados": 1,
+   "porOpcode": {
+    "0": 1
+   },
+   "ultimoError": null,
+   "ultimos": []
+  },
+  "comida": {
+   "segundos": 0,
+   "intentos": 2,
+   "confirmados": 0,
+   "accion": "no-selected-food-available",
+   "error": null,
+   "gesto": null
+  },
+  "explorador": {
+   "activo": false,
+   "pasos": 0,
+   "espera": "",
+   "atasco": 0,
+   "log": [
+    ""
+   ]
+  },
+  "combate": {
+   "ataque": false,
+   "loot": false,
+   "lootMode": "click",
+   "spearOn": false
+  },
+  "fallosJS": []
+ }
+}
