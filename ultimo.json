@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-19T12:07:31.860Z",
+ "enviado": "2026-11-19T12:12:36.858Z",
  "motivo": "auto: 4 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -44,7 +44,7 @@
   },
   "comida": {
    "segundos": 0,
-   "intentos": 1787,
+   "intentos": 1811,
    "confirmados": 0,
    "accion": "no-selected-food-available",
    "error": null,
