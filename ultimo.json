@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-20T04:53:30.942Z",
+ "enviado": "2026-11-20T04:58:30.945Z",
  "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 33,
   "mapLoads": 2,
-  "tiles": 8134,
+  "tiles": 8141,
   "posicion": {
-   "x": 32672,
-   "y": 31654,
+   "x": 32673,
+   "y": 31648,
    "z": 11
   },
   "erroresMapa": {
@@ -43,7 +43,7 @@
    "error": null,
    "gesto": null,
    "autoDrop": {
-    "activo": false,
+    "activo": true,
     "objetos": [
      {
       "itemId": 3268,
@@ -88,30 +88,36 @@
       ]
      }
     ],
-    "tirados": 0,
-    "nota": "esperando",
+    "tirados": 3,
+    "nota": "nada que tirar",
     "enMochila": [
      {
       "w": 0,
       "s": 0,
-      "id": 3031,
-      "fp": "1nj0tyt:176"
+      "id": 3277,
+      "fp": "8ro1t0:116"
      },
      {
       "w": 0,
       "s": 1,
       "id": 3031,
-      "fp": "q0jvf4:408"
+      "fp": "1nj0tyt:176"
      },
      {
       "w": 0,
       "s": 2,
+      "id": 3031,
+      "fp": "q0jvf4:408"
+     },
+     {
+      "w": 0,
+      "s": 3,
       "id": 2969,
       "fp": "137gypd:131"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 4,
       "id": 3031,
       "fp": "q0jvf4:408"
      }
@@ -122,8 +128,8 @@
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 25,
-    "fallos": 16,
+    "pulsaciones": 29,
+    "fallos": 20,
     "nota": "esperando reintento",
     "metodo": "tecla",
     "casilleroEncontrado": true,
@@ -134,36 +140,36 @@
   },
   "explorador": {
    "activo": true,
-   "pasos": 1079,
+   "pasos": 1389,
    "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 116,
+    "wall": 30,
     "rare": 0,
     "empty": 0
    },
    "peligros": 1,
-   "visitadas": 108,
+   "visitadas": 65,
    "destino": {
-    "x": 32686,
-    "y": 31667,
+    "x": 32672,
+    "y": 31654,
     "z": 11
    },
    "log": [
-    "01:53:21  Explorando hacia 32686, 31667 · faltan 43 casillas · clic",
-    "01:53:22  Explorando hacia 32686, 31667 · faltan 42 casillas · clic",
-    "01:53:22  Explorando hacia 32686, 31667 · faltan 41 casillas · clic",
-    "01:53:23  Explorando hacia 32686, 31667 · faltan 40 casillas · clic",
-    "01:53:24  Explorando hacia 32686, 31667 · faltan 40 casillas · teclas",
-    "01:53:25  Explorando hacia 32686, 31667 · faltan 39 casillas · teclas",
-    "01:53:25  Explorando hacia 32686, 31667 · faltan 38 casillas · teclas",
-    "01:53:26  Explorando hacia 32686, 31667 · faltan 37 casillas · teclas",
-    "01:53:27  Explorando hacia 32686, 31667 · faltan 36 casillas · teclas",
-    "01:53:28  Explorando hacia 32686, 31667 · faltan 35 casillas · teclas",
-    "01:53:29  Explorando hacia 32686, 31667 · faltan 34 casillas · teclas",
-    "01:53:30  Explorando hacia 32686, 31667 · faltan 33 casillas · teclas"
+    "01:58:22  Explorando hacia 32672, 31654 · faltan 17 casillas · teclas",
+    "01:58:22  Explorando hacia 32672, 31654 · faltan 16 casillas · teclas",
+    "01:58:23  Explorando hacia 32672, 31654 · faltan 15 casillas · teclas",
+    "01:58:24  Explorando hacia 32672, 31654 · faltan 14 casillas · teclas",
+    "01:58:25  Explorando hacia 32672, 31654 · faltan 13 casillas · teclas",
+    "01:58:26  Explorando hacia 32672, 31654 · faltan 13 casillas · clic",
+    "01:58:26  Explorando hacia 32672, 31654 · faltan 12 casillas · clic",
+    "01:58:27  Explorando hacia 32672, 31654 · faltan 11 casillas · clic",
+    "01:58:28  Explorando hacia 32672, 31654 · faltan 10 casillas · clic",
+    "01:58:28  Explorando hacia 32672, 31654 · faltan 10 casillas · teclas",
+    "01:58:29  Explorando hacia 32672, 31654 · faltan 9 casillas · teclas",
+    "01:58:30  Explorando hacia 32672, 31654 · faltan 10 casillas · teclas"
    ]
   },
   "combate": {
@@ -182,29 +188,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32672,
-    "y": 31654,
+    "x": 32673,
+    "y": 31648,
     "z": 11
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 358Ww 353Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 358Ww 353Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 353Gg 353Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww",
+    "101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 352Gg 352Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 352Gg 352Gg 355Gg 355Gg 365Ww 361Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 364Ww 355Gg 355Gg 355Gg 355Gg 355Gg 352Gg 355Gg 355Gg 355Gg 365Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg*C 355Gg 355Gg 355Gg 366Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 366Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+3987*C 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww"
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 352Gg 352Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 352Gg 352Gg 355Gg 355Gg 365Ww 361Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 364Ww 355Gg 355Gg 355Gg 355Gg 355Gg 352Gg 355Gg 355Gg 355Gg 365Ww 361Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg 355Gg 366Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg"
    ]
   },
   "fallosJS": [
