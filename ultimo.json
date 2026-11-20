@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-20T03:53:00.943Z",
+ "enviado": "2026-11-20T03:58:00.947Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -36,7 +36,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 0,
+   "segundos": 39,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -94,8 +94,8 @@
      {
       "w": 0,
       "s": 0,
-      "id": 3350,
-      "fp": "kc9681:248"
+      "id": 3577,
+      "fp": "10pmv6l:534"
      },
      {
       "w": 0,
@@ -106,24 +106,36 @@
      {
       "w": 0,
       "s": 2,
+      "id": 3350,
+      "fp": "kc9681:248"
+     },
+     {
+      "w": 0,
+      "s": 3,
+      "id": 3447,
+      "fp": "10h62qq:468"
+     },
+     {
+      "w": 0,
+      "s": 4,
       "id": 3277,
       "fp": "8ro1t0:116"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 5,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 4,
+      "s": 6,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 7,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -133,13 +145,13 @@
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 0,
+    "segundos": 39,
     "pulsaciones": 5,
     "fallos": 0,
     "nota": "apagado",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "00:00",
+    "textoFood": "00:39",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -202,7 +214,7 @@
     "4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4529Gg 4518Gg 4515Gg 4515Gg 4516Gg 4515Gg 4515Gg+3376+3655*C 4524Gg 4515Gg 4524Gg 4564Gg+4534 4562Gg 4560Gg+2172Ww 4564Gg+4532+1791Ww 4515Gg 4515Gg+3654",
     ". 4518Gg+1282Ww 4515Gg+1282Ww+2599 4515Gg+1282Ww+2597 4515Gg+1282Ww+2599 4515Gg+1282Ww 4515Gg+1282Ww+2599 4515Gg+1284Ww 4515Gg+3620Ww 4516Gg 4527Gg 4515Gg 4523Gg 4522Gg 4522Gg 4560Gg+4534 4560Gg 4560Gg+2172Ww 4565Gg+4532+2174Ww 4522Gg 4525Gg+3657",
     ". 409Gg 409Gg 409Gg+2324Ww+2983 409Gg 409Gg 409Gg 409Gg+1281Ww 4516Gg 4515Gg 4521Gg 4515Gg 4515Gg 4523Gg 4515Gg 4568Gg+4534 4561Gg 4564Gg 4563Gg+4532+2178 4526Gg 106Gg+4539+3656+3654",
-    ". 409Gg 409Gg 409Gg+2322Ww 409Gg 409Gg*C 437Gg 409Gg+1281Ww 4515Gg 4515Gg 4515Gg+3620Ww 4523Gg 4515Gg+3621Ww 4515Gg 4515Gg 4568Gg+4534 4561Gg 4566Gg 4562Gg+4532+2173Ww+3657 106Gg+4539+3656*C 106Gg+4535",
+    ". 409Gg 409Gg 409Gg+2322Ww 409Gg 409Gg 437Gg 409Gg+1281Ww 4515Gg 4515Gg 4515Gg+3620Ww 4523Gg 4515Gg+3621Ww 4515Gg 4515Gg 4568Gg+4534 4561Gg 4566Gg 4562Gg+4532+2173Ww+3657 106Gg+4539+3656 106Gg+4535",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
