@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-20T03:58:00.947Z",
+ "enviado": "2026-11-20T04:03:05.953Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -36,7 +36,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 39,
+   "segundos": 0,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -94,48 +94,54 @@
      {
       "w": 0,
       "s": 0,
+      "id": 3447,
+      "fp": "10h62qq:468"
+     },
+     {
+      "w": 0,
+      "s": 1,
       "id": 3577,
       "fp": "10pmv6l:534"
      },
      {
       "w": 0,
-      "s": 1,
+      "s": 2,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 2,
+      "s": 3,
       "id": 3350,
       "fp": "kc9681:248"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 4,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 4,
+      "s": 5,
       "id": 3277,
       "fp": "8ro1t0:116"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 6,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 6,
+      "s": 7,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 7,
+      "s": 8,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -145,13 +151,13 @@
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 39,
+    "segundos": 0,
     "pulsaciones": 5,
     "fallos": 0,
     "nota": "apagado",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "00:39",
+    "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
