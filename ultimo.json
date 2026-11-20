@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-20T03:45:10.961Z",
- "motivo": "auto: 15 errores nuevos",
+ "enviado": "2026-11-20T03:53:00.943Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 33,
@@ -94,48 +94,36 @@
      {
       "w": 0,
       "s": 0,
-      "id": 3447,
-      "fp": "10h62qq:468"
-     },
-     {
-      "w": 0,
-      "s": 1,
       "id": 3350,
       "fp": "kc9681:248"
      },
      {
       "w": 0,
-      "s": 2,
+      "s": 1,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 3,
-      "id": 3577,
-      "fp": "lqtxtt:315"
-     },
-     {
-      "w": 0,
-      "s": 4,
+      "s": 2,
       "id": 3277,
       "fp": "8ro1t0:116"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 3,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 6,
+      "s": 4,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 7,
+      "s": 5,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -143,14 +131,14 @@
    },
    "autoEatTecla": {
     "activo": false,
-    "tecla": "F4",
+    "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 0,
+    "pulsaciones": 5,
     "fallos": 0,
     "nota": "apagado",
-    "metodo": null,
-    "casilleroEncontrado": null,
+    "metodo": "casillero",
+    "casilleroEncontrado": true,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
@@ -213,17 +201,12 @@
     "4515Gg+3657 4526Gg 4515Gg 4515Gg+3626Ww 4515Gg 4518Gg 4515Gg 4521Gg 4529Gg 4517Gg 4515Gg 4515Gg 4515Gg 4527Gg 4515Gg 4561Gg+4539 4559Gg+4531 4560Gg+4531+2172Ww 4567Gg+4540 4521Gg+3655+3654 4525Gg",
     "4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4529Gg 4518Gg 4515Gg 4515Gg 4516Gg 4515Gg 4515Gg+3376+3655*C 4524Gg 4515Gg 4524Gg 4564Gg+4534 4562Gg 4560Gg+2172Ww 4564Gg+4532+1791Ww 4515Gg 4515Gg+3654",
     ". 4518Gg+1282Ww 4515Gg+1282Ww+2599 4515Gg+1282Ww+2597 4515Gg+1282Ww+2599 4515Gg+1282Ww 4515Gg+1282Ww+2599 4515Gg+1284Ww 4515Gg+3620Ww 4516Gg 4527Gg 4515Gg 4523Gg 4522Gg 4522Gg 4560Gg+4534 4560Gg 4560Gg+2172Ww 4565Gg+4532+2174Ww 4522Gg 4525Gg+3657",
-    ". 409Gg 409Gg 409Gg+2324Ww+2983 409Gg 409Gg 409Gg 409Gg+1281Ww 4516Gg 4515Gg 4521Gg 4515Gg 4515Gg 4523Gg 4515Gg 4568Gg+4534 4561Gg 4564Gg 4563Gg+4532+2177Ww 4526Gg 106Gg+4539+3656+3654",
-    ". 409Gg 409Gg 409Gg+2322Ww 409Gg 409Gg 437Gg 409Gg+1281Ww 4515Gg 4515Gg 4515Gg+3620Ww 4523Gg 4515Gg+3621Ww 4515Gg 4515Gg 4568Gg+4534 4561Gg 4566Gg 4562Gg+4532+2173Ww+3657 106Gg+4539+3656 106Gg+4535",
+    ". 409Gg 409Gg 409Gg+2324Ww+2983 409Gg 409Gg 409Gg 409Gg+1281Ww 4516Gg 4515Gg 4521Gg 4515Gg 4515Gg 4523Gg 4515Gg 4568Gg+4534 4561Gg 4564Gg 4563Gg+4532+2178 4526Gg 106Gg+4539+3656+3654",
+    ". 409Gg 409Gg 409Gg+2322Ww 409Gg 409Gg*C 437Gg 409Gg+1281Ww 4515Gg 4515Gg 4515Gg+3620Ww 4523Gg 4515Gg+3621Ww 4515Gg 4515Gg 4568Gg+4534 4561Gg 4566Gg 4562Gg+4532+2173Ww+3657 106Gg+4539+3656*C 106Gg+4535",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
   "fallosJS": [
-   {
-    "at": 1795146221068,
-    "message": "ResizeObserver loop completed with undelivered notifications.",
-    "line": 0
-   },
    {
     "at": 1795146274525,
     "message": "ResizeObserver loop completed with undelivered notifications.",
@@ -256,6 +239,11 @@
    },
    {
     "at": 1795146275517,
+    "message": "ResizeObserver loop completed with undelivered notifications.",
+    "line": 0
+   },
+   {
+    "at": 1795146780402,
     "message": "ResizeObserver loop completed with undelivered notifications.",
     "line": 0
    }
