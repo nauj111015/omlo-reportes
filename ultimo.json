@@ -1,15 +1,15 @@
 {
- "enviado": "2026-11-19T23:53:25.422Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-20T03:09:46.023Z",
+ "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 33,
   "mapLoads": 1,
-  "tiles": 1302,
+  "tiles": 1016,
   "posicion": {
-   "x": 32681,
-   "y": 31682,
-   "z": 8
+   "x": 32679,
+   "y": 31683,
+   "z": 7
   },
   "erroresMapa": {
    "parseErrors": 0,
@@ -19,8 +19,8 @@
    },
    "muestrasRechazo": {
     "0": {
-     "at": 12151,
-     "len": 12370,
+     "at": 10227,
+     "len": 10446,
      "hex": "64 65 64 20 56 75 6e 75 76 65 62 00 00 00 00 00 d2 00 19 00 00 07 00 55 7a 75 6d 61 6b 69 00 00 00 00 00 b4 14 34 00 59 6f 75",
      "marca": 12
     }
@@ -29,14 +29,14 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 314,
+   "segundos": 0,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
    "error": null,
    "gesto": null,
    "autoDrop": {
-    "activo": true,
+    "activo": false,
     "objetos": [
      {
       "itemId": 3268,
@@ -82,25 +82,25 @@
      }
     ],
     "tirados": 0,
-    "nota": "nada que tirar",
+    "nota": "esperando",
     "enMochila": [
      {
       "w": 0,
       "s": 0,
-      "id": 3577,
-      "fp": "10pmv6l:534"
+      "id": 3350,
+      "fp": "kc9681:248"
      },
      {
       "w": 0,
       "s": 1,
-      "id": 3300,
-      "fp": "16wnl0r:132"
+      "id": 3447,
+      "fp": "10h62qq:468"
      },
      {
       "w": 0,
       "s": 2,
-      "id": 3425,
-      "fp": "ho2xno:668"
+      "id": 3577,
+      "fp": "lqtxtt:315"
      },
      {
       "w": 0,
@@ -129,16 +129,16 @@
     ]
    },
    "autoEatTecla": {
-    "activo": true,
+    "activo": false,
     "tecla": "F4",
     "umbral": 300,
-    "segundos": 314,
-    "pulsaciones": 4,
+    "segundos": 0,
+    "pulsaciones": 0,
     "fallos": 0,
-    "nota": "Food ok",
-    "metodo": "casillero",
-    "casilleroEncontrado": true,
-    "textoFood": "05:14",
+    "nota": "apagado",
+    "metodo": null,
+    "casilleroEncontrado": null,
+    "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -164,12 +164,12 @@
   },
   "combate": {
    "ataque": false,
-   "loot": true,
+   "loot": false,
    "lootMode": "key",
    "lootKey": "F12",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Esperando posición del personaje…",
+   "estado": "Desactivado.",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
@@ -178,31 +178,37 @@
   },
   "mapa": {
    "pos": {
-    "x": 32681,
-    "y": 31682,
-    "z": 8
+    "x": 32679,
+    "y": 31683,
+    "z": 7
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 101Ww 101Ww 101Ww 358Ww 353Gg 351Gg 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 101Ww 101Ww 360Ww 364Ww 351Gg 351Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 101Ww 360Ww 364Ww 354Gg 355Gg 354Gg 353Gg 355Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 360Ww 364Ww 355Gg 355Gg 355Gg 353Gg 354Gg 352Gg+2853 352Gg 353Gg 354Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 352Gg 354Gg 353Gg 355Gg 353Gg 353Gg 353Gg 353Gg 352Gg 355Gg 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 355Gg 352Gg 353Gg 354Gg 355Gg 352Gg 352Gg 352Gg 353Gg 354Gg+2853 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 352Gg 352Gg 353Gg 366Ww 357Ww 357Ww 357Ww 367Ww 353Gg 355Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 355Gg 355Gg 353Gg 359Ww 360Ww+1296Ww 356Ww+1295Ww 356Ww+1295Ww 364Ww+1295Ww 354Gg*C 353Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 352Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg+2853 408Gg+2853 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 358Ww 355Gg 355Gg 353Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 364Ww 352Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+1948 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 355Gg 353Gg 353Gg 354Gg 359Ww 358Ww+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 352Gg 355Gg 355Gg 352Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 355Gg 354Gg 354Gg 352Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 357Ww 357Ww 367Ww 355Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 4515Gg 4530Gg 4530Gg+3626Ww 4519Gg 4525Gg 4515Gg+4786+3618Ww 351Gg+3114+2957 351Gg+3673 351Gg+2871+2916+3673 351Gg+3114+3446 351Gg+2492Ww 351Gg+2492Ww 4530Gg+4788+3625Ww 4527Gg 4525Gg 4515Gg 4515Gg 194Gg+4534 194Gg+4532 .",
+    ". 4515Gg 4515Gg 4518Gg 4518Gg 4515Gg 4515Gg+4786+3619Ww 351Gg+3619Ww 351Gg+1641 4521Gg+4793+3617Ww 4524Gg+4785+3621Ww 4515Gg+4785+3626Ww 4515Gg+4785+3626Ww 4515Gg+4789+3614Ww 4518Gg 4515Gg 4522Gg+3614Ww 4515Gg 194Gg+4534 194Gg+4532 .",
+    ". 4523Gg 4526Gg 4518Gg 4515Gg 4515Gg 4528Gg+4790+3654 4518Gg+4785 4515Gg+4785 4515Gg+4789 4515Gg+2526Ww 4524Gg 4526Gg 4523Gg 4515Gg+3657 4521Gg 4515Gg 4515Gg 194Gg+4534 194Gg+4532 .",
+    ". 4515Gg 4519Gg 4523Gg 4515Gg+3657 4517Gg 4521Gg 4515Gg 4515Gg 4515Gg 4515Gg 4522Gg 4522Gg 4526Gg 4525Gg+3504+3504+3504 4515Gg 4519Gg 194Gg+4539 194Gg+4535 194Gg+4532 .",
+    ". 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4531 194Gg+4535 194Gg+4538 194Gg+4542 .",
+    ". 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533+1283Ww 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533+1283Ww 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533 194Gg+4533+1283Ww 194Gg+4533 194Gg+4542 103Gg+4539+3657 .",
+    ". 4515Gg 4517Gg 4515Gg 4529Gg 4515Gg 4523Gg 4529Gg 4517Gg+3618Ww 4515Gg+3616Ww 4515Gg+3615Ww 4515Gg+3614Ww 4517Gg 4525Gg 4515Gg 4515Gg 4518Gg 4527Gg 4518Gg 4821Gg+4534 .",
+    ". 4515Gg+3657 4517Gg 4522Gg+3656 4515Gg 4529Gg 4516Gg 4515Gg 4515Gg+3621Ww 408Gg+2321Ww+3498Ww 453Gg*C 408Gg 408Gg 408Gg 408Gg 4515Gg+3625Ww 4518Gg 4515Gg 4515Gg 4821Gg+4534 .",
+    ". 4522Gg 4515Gg 4515Gg+3618Ww 4515Gg 4525Gg 4515Gg 4515Gg 4515Gg+3617Ww 408Gg+2320Ww 408Gg+3682Ww 408Gg+2111Ww 408Gg 408Gg 408Gg 4522Gg+3622Ww 4515Gg 4521Gg+3614Ww 4515Gg 4821Gg+4534 .",
+    ". 4515Gg 4515Gg+3552 4521Gg 4515Gg 4515Gg 4522Gg 4515Gg 4515Gg+3625Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 433Gg 408Gg 4515Gg+3621Ww 4515Gg 4515Gg 4515Gg 4821Gg+4534 .",
+    ". 4515Gg 4515Gg 4515Gg 4515Gg 4526Gg+3626Ww 4515Gg 4515Gg 4515Gg+3626Ww 408Gg+3682Ww 408Gg+3682Ww 408Gg+3682Ww 408Gg 408Gg*C 408Gg 4519Gg+3619Ww 4521Gg+1283Ww 4519Gg 4517Gg 4821Gg+4534 .",
+    ". 4515Gg 4515Gg 4518Gg 4515Gg+3657 4518Gg+3616Ww 4515Gg 4515Gg+1283Ww 4515Gg+3620Ww 408Gg+2321Ww+3498Ww 453Gg*C 408Gg 408Gg 408Gg+1948 408Gg 4515Gg+3617Ww 4515Gg 4515Gg 4526Gg 4821Gg+4534 .",
+    ". 4518Gg 4515Gg 4522Gg+3655 4515Gg 4529Gg 4523Gg 4515Gg 4526Gg+3624Ww 408Gg+2320Ww 408Gg+3682Ww 408Gg+2111Ww 408Gg 408Gg 408Gg 4515Gg+3621Ww 4515Gg+3654 4515Gg 4528Gg+3626Ww 4529Gg+2171Ww .",
+    ". 4515Gg 4515Gg 4515Gg+3614Ww 4515Gg 4522Gg 4518Gg 4515Gg 4515Gg+3615Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+2526Ww 4517Gg+3625Ww 4515Gg 4515Gg 4515Gg 4515Gg+2172Ww .",
+    ". 4529Gg+3626Ww 4517Gg 4515Gg+3625Ww 4515Gg+3621Ww 4526Gg+3654 4515Gg 4530Gg 4515Gg+3614Ww 4515Gg+3622Ww 4515Gg+3621Ww 4526Gg+3625Ww 4515Gg 4515Gg 4526Gg 4520Gg+2012Ww 4515Gg 4525Gg 4515Gg 4515Gg+2172Ww .",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
-  "fallosJS": []
+  "fallosJS": [
+   {
+    "at": 1795144181305,
+    "message": "ResizeObserver loop completed with undelivered notifications.",
+    "line": 0
+   }
+  ]
  }
 }
