@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-21T01:06:32.631Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-21T01:06:41.637Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
   "mapLoads": 1,
-  "tiles": 1332,
+  "tiles": 1418,
   "posicion": {
    "x": 33173,
-   "y": 31803,
+   "y": 31802,
    "z": 8
   },
   "erroresMapa": {
@@ -29,7 +29,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 862,
+   "segundos": 853,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -158,13 +158,13 @@
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 862,
+    "segundos": 853,
     "pulsaciones": 0,
     "fallos": 0,
     "nota": "apagado",
     "metodo": null,
     "casilleroEncontrado": null,
-    "textoFood": "14:22",
+    "textoFood": "14:13",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -216,28 +216,28 @@
   "mapa": {
    "pos": {
     "x": 33173,
-    "y": 31803,
+    "y": 31802,
     "z": 8
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
     ". . . . . . . . . . . . . . . . . . . . .",
+    ". 429Gg+1294Ww 429Gg+2326Ww+3499Ww 429Gg+2323Ww 429Gg+2327Ww+3499Ww 429Gg+1294Ww 429Gg+2326Ww+3499Ww 429Gg+2323Ww 429Gg+2327Ww+3499Ww 429Gg+1294Ww 429Gg+2326Ww+3499Ww 429Gg+2323Ww 429Gg+2327Ww+3499Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 429Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2526Ww 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 429Gg+1294Ww 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+1294Ww 430Gg*C 429Gg+2164Ww 431Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2526Ww 429Gg+1294Ww 429Gg*C 429Gg+2164Ww 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 429Gg+2326Ww+3497Ww 429Gg+2323Ww 429Gg+2327Ww+3497Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg+1298Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1299Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1300Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+3501Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg+2110Ww 438Gg 438Gg 438Gg 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". . . . . . . . . . . . . . . . . . . . ."
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww ."
    ]
   },
   "fallosJS": []
