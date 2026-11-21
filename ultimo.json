@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-21T00:30:40.677Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-21T00:35:45.654Z",
+ "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
@@ -13,10 +13,10 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 2,
+   "rechazados": 3,
    "porOpcode": {
     "0": 1,
-    "219": 1
+    "219": 2
    },
    "muestrasRechazo": {
     "0": {
@@ -90,44 +90,7 @@
     ],
     "tirados": 4,
     "nota": "pausa por presencia",
-    "enMochila": [
-     {
-      "w": 1,
-      "s": 0,
-      "id": 3031,
-      "fp": "1tqmmyc:278"
-     },
-     {
-      "w": 1,
-      "s": 1,
-      "id": 3277,
-      "fp": "8ro1t0:116"
-     },
-     {
-      "w": 1,
-      "s": 2,
-      "id": 3577,
-      "fp": "1surxaj:677"
-     },
-     {
-      "w": 1,
-      "s": 3,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 4,
-      "id": 3054,
-      "fp": "17q0dpd:145"
-     },
-     {
-      "w": 1,
-      "s": 5,
-      "id": 2969,
-      "fp": "137gypd:131"
-     }
-    ]
+    "enMochila": []
    },
    "autoEatTecla": {
     "activo": false,
@@ -299,7 +262,7 @@
     "101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 360Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 364Ww 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww .",
     "101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg*C 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg*C 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww .",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg+3987*C 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 366Ww 367Ww 355Gg 366Ww 367Ww 355Gg 355Gg 355Gg 359Ww 101Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 362Ww 363Ww 357Ww 362Ww 358Ww 355Gg 355Gg 355Gg 365Ww 361Ww .",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 354Gg 355Gg 355Gg 365Ww .",
