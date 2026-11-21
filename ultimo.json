@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-21T19:53:49.897Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-21T19:54:22.190Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
@@ -13,10 +13,10 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 2,
+   "rechazados": 4,
    "porOpcode": {
     "0": 1,
-    "219": 1
+    "219": 3
    },
    "muestrasRechazo": {
     "0": {
@@ -36,7 +36,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 1029,
+   "segundos": 1018,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -49,9 +49,9 @@
     "msg": ""
    },
    "paladin": {
-    "activo": true,
+    "activo": false,
     "distanciaMin": 3,
-    "nota": "en pausa",
+    "nota": "apagado",
     "monstruos": 1,
     "masCercano": 3,
     "retrocesos": 4,
@@ -63,7 +63,7 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": true,
+    "activo": false,
     "objetos": [
      {
       "itemId": 3268,
@@ -110,88 +110,27 @@
     ],
     "tirados": 0,
     "nota": "pausa por presencia",
-    "enMochila": [
-     {
-      "w": 0,
-      "s": 0,
-      "id": 3031,
-      "fp": "jy29sc:208"
-     },
-     {
-      "w": 0,
-      "s": 1,
-      "id": 3447,
-      "fp": "10h62qq:468"
-     },
-     {
-      "w": 0,
-      "s": 2,
-      "id": 3447,
-      "fp": "10h62qq:468"
-     },
-     {
-      "w": 0,
-      "s": 3,
-      "id": 3577,
-      "fp": "qhktbc:394"
-     },
-     {
-      "w": 0,
-      "s": 4,
-      "id": null,
-      "fp": "2sol5u:72"
-     },
-     {
-      "w": 0,
-      "s": 5,
-      "id": 3300,
-      "fp": "16wnl0r:132"
-     },
-     {
-      "w": 0,
-      "s": 6,
-      "id": 3425,
-      "fp": "ho2xno:668"
-     },
-     {
-      "w": 0,
-      "s": 7,
-      "id": 3277,
-      "fp": "8ro1t0:116"
-     },
-     {
-      "w": 0,
-      "s": 8,
-      "id": 3457,
-      "fp": "1vfnhuv:242"
-     },
-     {
-      "w": 0,
-      "s": 9,
-      "id": 2969,
-      "fp": "137gypd:131"
-     }
-    ]
+    "enMochila": []
    },
    "autoEatTecla": {
-    "activo": true,
+    "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 1029,
+    "segundos": 1018,
     "pulsaciones": 2,
     "fallos": 0,
-    "nota": "pausa por presencia",
+    "nota": "apagado",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "17:09",
+    "textoFood": "16:58",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
   "explorador": {
-   "activo": true,
+   "activo": false,
    "pasos": 21,
-   "espera": "control de presencia: resuélvelo tú",
+   "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
@@ -248,19 +187,18 @@
     "16:53:41  Explorando el piso 8. No subirá ni bajará escaleras.",
     "16:53:41  En espera: atacando (1 cerca)",
     "16:53:41  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "16:53:49  En espera: control de presencia: resuélvelo tú. Continúa sola al terminar."
+    "16:53:49  En espera: control de presencia: resuélvelo tú. Continúa sola al terminar.",
+    "16:54:07  Detenido."
    ]
   },
   "lootUI": {
-   "loot": true,
+   "loot": false,
    "caminar": true,
-   "maestro": false,
+   "maestro": true,
    "presencia": true
   },
   "combate": {
    "historial": [
-    "16:50:29 Yendo al cadáver en 33174,31812…",
-    "16:50:31 Yendo al cadáver en 33174,31811…",
     "16:50:32 Yendo al cadáver en 33174,31812…",
     "16:50:34 Yendo al cadáver en 33174,31811…",
     "16:50:50 Yendo al cadáver en 33174,31812…",
@@ -288,7 +226,9 @@
     "16:53:46 1 monstruo cerca · menú del juego → rotworm",
     "16:53:47 Attack no enviado al objetivo; se reintentará.",
     "16:53:47 1 monstruo cerca · menú del juego → rotworm",
-    "16:53:48 Desactivado."
+    "16:53:48 Desactivado.",
+    "16:54:14 Activado.",
+    "16:54:14 Desactivado."
    ],
    "ataque": false,
    "loot": false,
@@ -299,7 +239,8 @@
    "estado": "Desactivado.",
    "ultimoLoot": null,
    "monstruos": [
-    "rotworm#1073821327"
+    "rotworm#1073821327",
+    "rotworm#1073820644"
    ],
    "objetivo": null,
    "recuperaciones": 0,
@@ -321,10 +262,10 @@
     "101Ww 101Ww 101Ww 101Ww 380Ww 374Ww 384Ww 355Gg 355Gg 355Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 355Gg 355Gg 382Ww 373Ww 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 355Gg 355Gg 355Gg+2853 355Gg 382Ww 378Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 377Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 355Gg+3374 355Gg 355Gg+3374+2889 355Gg 355Gg+2889 382Ww 378Ww 101Ww 101Ww 101Ww 377Ww 373Ww 381Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 374Ww 384Ww 355Gg 355Gg*C 355Gg 355Gg+2889*C 376Ww 377Ww 373Ww 373Ww 381Ww 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 355Gg+3374 355Gg 355Gg+2889+2889 355Gg*C 355Gg+2889 382Ww 378Ww 101Ww 101Ww 101Ww 377Ww 373Ww 381Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 374Ww 384Ww 355Gg 355Gg 355Gg 355Gg+2889*C 376Ww 377Ww 373Ww 373Ww 381Ww 355Gg 355Gg",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 355Gg 355Gg 355Gg 382Ww 381Ww 355Gg 355Gg 355Gg 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 355Gg 355Gg+2889*C 355Gg 355Gg 355Gg 355Gg 355Gg+3430*C 355Gg 355Gg*C",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 355Gg 355Gg+2889*C 355Gg 355Gg 355Gg 355Gg 355Gg*C 355Gg 355Gg*C",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+4006 355Gg 383Ww 374Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 377Ww 381Ww 355Gg 355Gg 383Ww 374Ww 374Ww 374Ww 374Ww 379Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 377Ww 381Ww 355Gg 355Gg 355Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
