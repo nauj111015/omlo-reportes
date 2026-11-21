@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-21T23:08:49.893Z",
+ "enviado": "2026-11-21T23:13:54.898Z",
  "motivo": "auto: 4 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
   "mapLoads": 5,
-  "tiles": 2357,
+  "tiles": 2504,
   "posicion": {
-   "x": 32681,
-   "y": 31688,
+   "x": 32680,
+   "y": 31691,
    "z": 6
   },
   "erroresMapa": {
@@ -57,7 +57,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 0,
+   "segundos": 415,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -136,20 +136,20 @@
       ]
      }
     ],
-    "tirados": 57,
+    "tirados": 62,
     "nota": "nada que tirar",
     "enMochila": [
      {
       "w": 1,
       "s": 0,
-      "id": 3147,
-      "fp": "19fx1zg:268"
+      "id": 3066,
+      "fp": "5hfw0h:203"
      },
      {
       "w": 1,
       "s": 1,
-      "id": 3147,
-      "fp": "19fx1zg:268"
+      "id": 3577,
+      "fp": "1surxaj:677"
      },
      {
       "w": 1,
@@ -184,8 +184,8 @@
      {
       "w": 1,
       "s": 7,
-      "id": 2853,
-      "fp": "1leha45:371"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
@@ -196,8 +196,8 @@
      {
       "w": 1,
       "s": 9,
-      "id": 3147,
-      "fp": "19fx1zg:268"
+      "id": 2853,
+      "fp": "1leha45:371"
      },
      {
       "w": 1,
@@ -226,36 +226,18 @@
      {
       "w": 1,
       "s": 14,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 15,
       "id": 3035,
       "fp": "1ep954c:69"
      },
      {
       "w": 1,
-      "s": 15,
-      "id": 3031,
-      "fp": "1nj0tyt:176"
-     },
-     {
-      "w": 1,
       "s": 16,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 17,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 18,
-      "id": 3577,
-      "fp": "1surxaj:677"
-     },
-     {
-      "w": 1,
-      "s": 19,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -265,20 +247,20 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 0,
-    "pulsaciones": 109,
+    "segundos": 415,
+    "pulsaciones": 113,
     "fallos": 0,
-    "nota": "apagado",
+    "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "00:00",
+    "textoFood": "06:55",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
   "explorador": {
    "activo": false,
-   "pasos": 1562,
+   "pasos": 0,
    "espera": "",
    "atasco": 0,
    "evitarRaras": true,
@@ -291,12 +273,11 @@
     "unsafe": 1
    },
    "peligros": 1,
-   "visitadas": 776,
+   "visitadas": 0,
    "destino": null,
    "tiposInseguros": [],
    "casillasPeligro": 1,
    "log": [
-    "19:41:58  Explorando hacia 32678, 31626 · faltan 58 casillas · teclas",
     "19:41:59  Explorando hacia 32678, 31626 · faltan 57 casillas · teclas",
     "19:42:00  Explorando hacia 32678, 31626 · faltan 57 casillas · clic",
     "19:42:01  Explorando hacia 32678, 31626 · faltan 56 casillas · clic",
@@ -355,7 +336,8 @@
     "19:42:38  Explorando hacia 32678, 31626 · faltan 12 casillas · teclas",
     "19:42:38  Meta nueva 32661,31621 (a 13 pasos, estoy en 32670,31623)",
     "19:42:38  Explorando hacia 32661, 31621 · faltan 13 casillas · teclas",
-    "19:42:39  Detenido con Escape."
+    "19:42:39  Detenido con Escape.",
+    "20:08:52  Memoria de exploración borrada."
    ]
   },
   "lootUI": {
@@ -412,28 +394,28 @@
   },
   "mapa": {
    "pos": {
-    "x": 32681,
-    "y": 31688,
+    "x": 32680,
+    "y": 31691,
     "z": 6
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    ". . . . 447Ww 439Ww 439Ww 439Ww 439Ww 439Ww 1771Gg 1771Gg 439Ww 439Ww 439Ww 448Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1296Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg+1948 408Gg+1294Ww 408Gg+1948 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww+2931 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 432Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
-    ". 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg*C 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
-    ". 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 408Gg+3501Ww 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
-    ". . . . 450Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 449Ww . . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg+1948 408Gg+1294Ww 408Gg+1948 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww+2931 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 432Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
+    "1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
+    "1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 408Gg+3501Ww 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg*C 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . .",
+    ". . . . . 450Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 449Ww . . . .",
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 1282Ww 1282Ww 1290Ww 1282Ww 1282Ww+2596 1282Ww 1284Ww . . . . . . . . . . . . .",
+    ". 1282Ww+2599 1282Ww 1282Ww 1290Ww 1282Ww 1282Ww+2596 1282Ww 1284Ww . . . . . . . . . . . .",
+    ". 409Gg+2487Ww 409Gg+2524Ww 409Gg+2535Ww 409Gg+1281Ww 409Gg+2981 409Gg+2360 409Gg+2981 409Gg+1281Ww . . . . . . . . . . . .",
+    ". 409Gg+2488Ww 409Gg+2572 409Gg+2574 409Gg+1629Ww 409Gg 409Gg+2319Ww 409Gg 409Gg+1281Ww . . . . . . . . . . . .",
+    ". 409Gg+2434Ww 409Gg+2575 409Gg+2577 409Gg+1281Ww 409Gg 409Gg 409Gg 409Gg+1281Ww . . . . . . . . . . . .",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
