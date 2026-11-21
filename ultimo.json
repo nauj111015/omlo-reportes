@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-21T23:13:54.898Z",
+ "enviado": "2026-11-21T23:18:54.946Z",
  "motivo": "auto: 4 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
   "mapLoads": 5,
-  "tiles": 2504,
+  "tiles": 2510,
   "posicion": {
-   "x": 32680,
-   "y": 31691,
+   "x": 32679,
+   "y": 31689,
    "z": 6
   },
   "erroresMapa": {
@@ -57,7 +57,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 415,
+   "segundos": 331,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -247,13 +247,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 415,
-    "pulsaciones": 113,
+    "segundos": 331,
+    "pulsaciones": 114,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "06:55",
+    "textoFood": "05:31",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -394,29 +394,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32680,
-    "y": 31691,
+    "x": 32679,
+    "y": 31689,
     "z": 6
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg+1948 408Gg+1294Ww 408Gg+1948 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww+2931 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 432Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
-    "1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
-    "1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 408Gg+3501Ww 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg*C 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . .",
-    ". . . . . 450Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 449Ww . . . .",
+    ". . . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1296Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg+1948 408Gg+1294Ww 408Gg+1948 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww+2931 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 432Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . .",
+    ". 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . .",
+    ". 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 453Gg*C 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 408Gg+3501Ww 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . .",
+    ". . . . . . 450Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 449Ww . . .",
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 1282Ww+2599 1282Ww 1282Ww 1290Ww 1282Ww 1282Ww+2596 1282Ww 1284Ww . . . . . . . . . . . .",
-    ". 409Gg+2487Ww 409Gg+2524Ww 409Gg+2535Ww 409Gg+1281Ww 409Gg+2981 409Gg+2360 409Gg+2981 409Gg+1281Ww . . . . . . . . . . . .",
-    ". 409Gg+2488Ww 409Gg+2572 409Gg+2574 409Gg+1629Ww 409Gg 409Gg+2319Ww 409Gg 409Gg+1281Ww . . . . . . . . . . . .",
-    ". 409Gg+2434Ww 409Gg+2575 409Gg+2577 409Gg+1281Ww 409Gg 409Gg 409Gg 409Gg+1281Ww . . . . . . . . . . . .",
-    ". . . . . . . . . . . . . . . . . . . . ."
+    ". 1283Ww 1282Ww+2599 1282Ww 1282Ww 1290Ww 1282Ww 1282Ww+2596 1282Ww 1284Ww . . . . . . . . . . .",
+    ". 408Gg+1281Ww 409Gg+2487Ww 409Gg+2524Ww 409Gg+2535Ww 409Gg+1281Ww 409Gg+2981 409Gg+2360 409Gg+2981 409Gg+1281Ww . . . . . . . . . . .",
+    ". . 409Gg+2488Ww 409Gg+2572 409Gg+2574 409Gg+1629Ww 409Gg 409Gg+2319Ww 409Gg 409Gg+1281Ww . . . . . . . . . . ."
    ]
   },
   "fallosJS": []
