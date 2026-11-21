@@ -1,21 +1,22 @@
 {
- "enviado": "2026-11-21T23:03:44.908Z",
- "motivo": "auto: 3 errores nuevos",
+ "enviado": "2026-11-21T23:08:49.893Z",
+ "motivo": "auto: 4 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
-  "mapLoads": 4,
-  "tiles": 4569,
+  "mapLoads": 5,
+  "tiles": 2357,
   "posicion": {
-   "x": 32734,
-   "y": 31634,
-   "z": 7
+   "x": 32681,
+   "y": 31688,
+   "z": 6
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 16,
+   "rechazados": 17,
    "porOpcode": {
     "0": 5,
+    "200": 1,
     "219": 9,
     "236": 1,
     "247": 1
@@ -26,6 +27,12 @@
      "len": 12777,
      "hex": "64 65 64 20 56 75 6e 75 76 65 62 00 00 00 00 00 d2 00 19 00 00 07 00 55 7a 75 6d 61 6b 69 00 00 00 00 00 b4 14 34 00 59 6f 75",
      "marca": 12
+    },
+    "200": {
+     "at": 0,
+     "len": 293,
+     "hex": "c8 80 00 4e 45 3a 4c 80 00 83 00 00 00 00 00 00 00 00 00 12 00 80 00 07 00 43 69 74 69 7a",
+     "marca": 0
     },
     "219": {
      "at": 0,
@@ -77,7 +84,7 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": false,
+    "activo": true,
     "objetos": [
      {
       "itemId": 3268,
@@ -135,55 +142,127 @@
      {
       "w": 1,
       "s": 0,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 1,
-      "id": 3035,
-      "fp": "1hpuew1:176"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 2,
-      "id": 3031,
-      "fp": "jy29sc:208"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 3,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 4,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 5,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 6,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 7,
+      "id": 2853,
+      "fp": "1leha45:371"
+     },
+     {
+      "w": 1,
+      "s": 8,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 9,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 10,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 11,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 12,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 13,
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 14,
+      "id": 3035,
+      "fp": "1ep954c:69"
+     },
+     {
+      "w": 1,
+      "s": 15,
+      "id": 3031,
+      "fp": "1nj0tyt:176"
+     },
+     {
+      "w": 1,
+      "s": 16,
       "id": 3031,
       "fp": "q0jvf4:408"
      },
      {
       "w": 1,
-      "s": 6,
+      "s": 17,
+      "id": 3031,
+      "fp": "q0jvf4:408"
+     },
+     {
+      "w": 1,
+      "s": 18,
       "id": 3577,
       "fp": "1surxaj:677"
      },
      {
       "w": 1,
-      "s": 7,
+      "s": 19,
       "id": 2969,
       "fp": "137gypd:131"
      }
     ]
    },
    "autoEatTecla": {
-    "activo": false,
+    "activo": true,
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
@@ -280,15 +359,13 @@
    ]
   },
   "lootUI": {
-   "loot": false,
+   "loot": true,
    "caminar": true,
-   "maestro": true,
+   "maestro": false,
    "presencia": false
   },
   "combate": {
    "historial": [
-    "19:39:15 Sin monstruos a 5 casillas.",
-    "19:39:15 tecla F2 → troll",
     "19:39:15 1 monstruo cerca · tecla F2 → troll",
     "19:39:16 1 monstruo cerca · atacando troll",
     "19:39:17 Loot: tecla F12",
@@ -316,15 +393,17 @@
     "19:41:40 Sin monstruos a 5 casillas.",
     "19:41:42 Loot: tecla F12",
     "19:41:48 Sin monstruos a 5 casillas.",
-    "19:42:41 Desactivado."
+    "19:42:41 Desactivado.",
+    "20:08:49 Activado.",
+    "20:08:49 Sin monstruos a 5 casillas."
    ],
-   "ataque": false,
-   "loot": false,
+   "ataque": true,
+   "loot": true,
    "lootMode": "key",
    "lootKey": "F12",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Desactivado.",
+   "estado": "Sin monstruos a 5 casillas.",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
@@ -333,29 +412,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32734,
-    "y": 31634,
-    "z": 7
+    "x": 32681,
+    "y": 31688,
+    "z": 6
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
+    ". . . . 447Ww 439Ww 439Ww 439Ww 439Ww 439Ww 1771Gg 1771Gg 439Ww 439Ww 439Ww 448Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1296Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg 408Gg+1948 408Gg+1294Ww 408Gg+1948 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww+2931 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg 408Gg 432Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
+    ". 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg*C 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
+    ". 1771Gg 1771Gg 1771Gg 1771Gg 408Gg 408Gg+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg 408Gg 408Gg+2526Ww 408Gg+1294Ww 408Gg+3501Ww 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg+1299Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg 408Gg+1294Ww 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 441Ww 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 408Gg 442Ww . . . . .",
+    ". . . . 450Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 440Ww 449Ww . . . . .",
     ". . . . . . . . . . . . . . . . . . . . .",
-    "4599Ww 4598Ww 4598Ww 4598Ww 4600Ww 4598Ww 4598Ww 4515Gg+4637Ww+1791Ww 4515Gg+4633Ww+3654 4515Gg+4638Ww+1791Ww 4597Ww 4601Ww 4598Ww 4599Ww 4600Ww 4598Ww 4597Ww 4598Ww 4601Ww 4598Ww .",
-    "4597Ww 4602Ww 4599Ww 4598Ww 4613Ww 4515Gg+4633Ww+1772Ww 4523Gg+4633Ww+1791Ww 4515Gg+4641Ww+3626Ww 4515Gg 4521Gg+4642Ww+3654 4529Gg+4633Ww 4515Gg+4633Ww 4515Gg+4638Ww 4602Ww 4598Ww 4599Ww 4598Ww 4600Ww 4599Ww 4602Ww .",
-    "4602Ww 4602Ww 4602Ww 4522Gg+4637Ww+1772Ww+3654 4518Gg+4633Ww+3616Ww 4515Gg+3620Ww 4515Gg+3654 4515Gg+3657 4515Gg 4515Gg+3657 4518Gg+3622Ww 4515Gg+2110Ww 4515Gg+4642Ww 4515Gg+4638Ww+1791Ww 4598Ww 4602Ww 4602Ww 4597Ww 4600Ww 4601Ww .",
-    "4598Ww 4602Ww 4598Ww 4529Gg+4636Ww+1772Ww 4515Gg+2110Ww 4528Gg 429Gg 429Gg 429Gg 429Gg 429Gg 4517Gg 4515Gg+3616Ww 4515Gg+4634Ww+1791Ww 4598Ww 4597Ww 4600Ww 4599Ww 4601Ww 4602Ww .",
-    "4601Ww 4601Ww 4597Ww 4515Gg+4636Ww+3657 4529Gg 4515Gg 429Gg 429Gg 109Gg 429Gg 429Gg 4515Gg 4515Gg+3614Ww 4515Gg+4634Ww 4598Ww 4601Ww 4600Ww 4599Ww 4597Ww 4598Ww .",
-    "4599Ww 4602Ww 4599Ww 4515Gg+4636Ww+1791Ww 4515Gg 4526Gg+3657 429Gg 109Gg 109Gg+3613Ww 109Gg 429Gg 4515Gg 4516Gg+3656 4521Gg+4642Ww+1791Ww 4515Gg+4638Ww+1772Ww 4602Ww 4597Ww 4602Ww 4602Ww 4601Ww .",
-    "4525Gg+4633Ww 4519Gg+4638Ww 4611Ww 4515Gg+4636Ww 4523Gg+3618Ww 4519Gg 429Gg 429Gg 109Gg 429Gg 429Gg 4515Gg 4520Gg+3657 4519Gg 4515Gg+4642Ww+3654 4515Gg+4638Ww 4597Ww 4601Ww 4599Ww 4601Ww .",
-    "4515Gg 4515Gg+4642Ww+3619Ww 4515Gg+4638Ww 4526Gg+4636Ww+1791Ww 4515Gg+3622Ww+3654 4515Gg 429Gg 429Gg 431Gg 429Gg*C 429Gg 4515Gg 4515Gg+3654 4523Gg+2110Ww 4515Gg+3622Ww 4518Gg+4634Ww 4598Ww 4600Ww 4597Ww 4601Ww .",
-    "4515Gg 4528Gg 4521Gg+4642Ww 4521Gg+4641Ww+3626Ww 4522Gg+3621Ww 4526Gg 429Gg 429Gg 429Gg 429Gg 429Gg 4515Gg 4515Gg 4515Gg+3621Ww 4515Gg+4644Ww+1791Ww 4515Gg+4640Ww 4598Ww 4598Ww 4601Ww 4602Ww .",
-    "4515Gg+4643Ww 4525Gg 4530Gg+3657*C 4525Gg 4515Gg 4527Gg 4515Gg 4515Gg 4515Gg 4518Gg 4525Gg 4515Gg 4515Gg+3620Ww 4523Gg+4644Ww+1772Ww 4515Gg+4640Ww 4597Ww 4601Ww 4601Ww 4601Ww 4599Ww .",
-    "4529Gg+4639Ww 4515Gg+4643Ww 4515Gg 4515Gg 4515Gg+3656 4515Gg+2110Ww 4530Gg 4517Gg 4515Gg 4515Gg+3657 4521Gg 4519Gg 4529Gg 4515Gg+4634Ww+3657 4602Ww 4602Ww 4598Ww 4602Ww 4602Ww 4597Ww .",
-    "4597Ww 4523Gg+4639Ww+3654 4515Gg+4643Ww 4515Gg+3657 4521Gg+1776Ww 4528Gg+1775Ww 4518Gg+3626Ww 4515Gg 4526Gg+3654 4519Gg+3620Ww 4515Gg+2110Ww 4515Gg+3626Ww 4518Gg+3616Ww 4518Gg+4634Ww+3654 4600Ww 4597Ww 4597Ww 4600Ww 4602Ww 4601Ww .",
-    "4597Ww 4598Ww 4519Gg+4639Ww+1772Ww 4524Gg+4635Ww 4515Gg+4643Ww+1774Ww 4515Gg+1773Ww 4529Gg+4644Ww+1791Ww 4515Gg+4643Ww+1791Ww 4515Gg 4515Gg 4515Gg 4515Gg+3622Ww 4515Gg+4644Ww+1791Ww 4515Gg+4640Ww 4600Ww 4599Ww 4601Ww 4598Ww 4601Ww 4597Ww .",
-    "4600Ww 4598Ww 4598Ww 4598Ww 4515Gg+4639Ww 4515Gg+4635Ww+3654 4515Gg+4640Ww+1772Ww 4515Gg+4639Ww 4515Gg+4643Ww 4515Gg+3616Ww 4515Gg+3621Ww 4515Gg+4644Ww+1791Ww 4526Gg+4640Ww 4598Ww 4599Ww 4602Ww 4601Ww 4602Ww 4600Ww 4600Ww .",
-    "4599Ww 4601Ww 4601Ww 4600Ww 4597Ww 4597Ww 4600Ww 4598Ww 4515Gg+4639Ww 4515Gg+4635Ww 4515Gg+4635Ww 4526Gg+4640Ww+1772Ww+3654 4598Ww 4598Ww 4602Ww 4598Ww 4598Ww 4597Ww 4602Ww 4601Ww .",
-    "4599Ww 4597Ww 4601Ww 4602Ww 4602Ww 4601Ww 4601Ww 4598Ww 4601Ww 4597Ww 4600Ww 4602Ww 4601Ww 4602Ww 4599Ww 4602Ww 4601Ww 4597Ww 4597Ww 4600Ww ."
+    ". 1282Ww 1282Ww 1290Ww 1282Ww 1282Ww+2596 1282Ww 1284Ww . . . . . . . . . . . . .",
+    ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
   "fallosJS": []
