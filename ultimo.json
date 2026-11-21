@@ -1,47 +1,60 @@
 {
- "enviado": "2026-11-21T00:40:50.663Z",
- "motivo": "auto: 2 errores nuevos",
+ "enviado": "2026-11-21T01:06:32.631Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 36,
   "mapLoads": 1,
-  "tiles": 9926,
+  "tiles": 1332,
   "posicion": {
-   "x": 32688,
-   "y": 31643,
-   "z": 11
+   "x": 33173,
+   "y": 31803,
+   "z": 8
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 3,
+   "rechazados": 1,
    "porOpcode": {
-    "0": 1,
-    "219": 2
+    "0": 1
    },
    "muestrasRechazo": {
     "0": {
-     "at": 12275,
-     "len": 12457,
-     "hex": "78 69 73 20 53 61 6e 63 68 65 7a 00 00 00 00 00 b4 14 34 00 59 6f 75 72 20 6c 61 73 74 20 76 69 73 69 74 20 69 6e 20 54 69 62",
+     "at": 13241,
+     "len": 13469,
+     "hex": "64 65 64 20 56 75 6e 75 76 65 62 00 00 00 00 00 d2 00 19 00 00 07 00 55 7a 75 6d 61 6b 69 00 00 00 00 00 b4 14 34 00 59 6f 75",
      "marca": 12
-    },
-    "219": {
-     "at": 0,
-     "len": 5035,
-     "hex": "db 04 dc bb 99 6c 78 00 02 02 d8 00 e8 00 8f 13 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48",
-     "marca": 0
     }
    },
    "ultimoError": null,
    "ultimos": []
   },
   "comida": {
-   "segundos": 0,
+   "segundos": 862,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
    "error": null,
    "gesto": null,
+   "entrenar": {
+    "activo": false,
+    "nota": "",
+    "municion": null,
+    "msg": ""
+   },
+   "paladin": {
+    "activo": false,
+    "distanciaMin": 3,
+    "nota": "apagado",
+    "monstruos": 0,
+    "masCercano": null,
+    "retrocesos": 0,
+    "hechizos": 0,
+    "vida": null,
+    "huyendo": false,
+    "hechizoCerca": "",
+    "hechizoLejos": "",
+    "huirBajo": 35
+   },
    "autoDrop": {
     "activo": true,
     "objetos": [
@@ -88,187 +101,142 @@
       ]
      }
     ],
-    "tirados": 4,
-    "nota": "pausa por presencia",
-    "enMochila": []
+    "tirados": 0,
+    "nota": "nada que tirar",
+    "enMochila": [
+     {
+      "w": 0,
+      "s": 0,
+      "id": 3577,
+      "fp": "e8bdjo:171"
+     },
+     {
+      "w": 0,
+      "s": 1,
+      "id": 3582,
+      "fp": "1widydg:713"
+     },
+     {
+      "w": 0,
+      "s": 2,
+      "id": null,
+      "fp": "2sol5u:72"
+     },
+     {
+      "w": 0,
+      "s": 3,
+      "id": 3300,
+      "fp": "16wnl0r:132"
+     },
+     {
+      "w": 0,
+      "s": 4,
+      "id": 3425,
+      "fp": "ho2xno:668"
+     },
+     {
+      "w": 0,
+      "s": 5,
+      "id": 3277,
+      "fp": "8ro1t0:116"
+     },
+     {
+      "w": 0,
+      "s": 6,
+      "id": 3457,
+      "fp": "1vfnhuv:242"
+     },
+     {
+      "w": 0,
+      "s": 7,
+      "id": 2969,
+      "fp": "137gypd:131"
+     }
+    ]
    },
    "autoEatTecla": {
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 0,
+    "segundos": 862,
     "pulsaciones": 0,
     "fallos": 0,
     "nota": "apagado",
     "metodo": null,
     "casilleroEncontrado": null,
-    "textoFood": "00:00",
+    "textoFood": "14:22",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
   "explorador": {
-   "activo": true,
-   "pasos": 1307,
-   "espera": "control de presencia: resuélvelo tú",
+   "activo": false,
+   "pasos": 0,
+   "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 14,
+    "wall": 0,
     "rare": 0,
     "empty": 0
    },
    "peligros": 0,
-   "visitadas": 503,
-   "destino": {
-    "x": 32690,
-    "y": 31643,
-    "z": 11
-   },
+   "visitadas": 0,
+   "destino": null,
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "21:30:08  Explorando hacia 32669, 31634 · faltan 4 casillas · teclas",
-    "21:30:09  Meta nueva 32669,31635 (a 4 pasos, estoy en 32669,31631)",
-    "21:30:09  Explorando hacia 32669, 31635 · faltan 4 casillas · teclas",
-    "21:30:10  Meta nueva 32673,31632 (a 4 pasos, estoy en 32669,31632)",
-    "21:30:10  Explorando hacia 32673, 31632 · faltan 4 casillas · teclas",
-    "21:30:11  Meta nueva 32674,31632 (a 4 pasos, estoy en 32670,31632)",
-    "21:30:11  Explorando hacia 32674, 31632 · faltan 4 casillas · teclas",
-    "21:30:12  Meta nueva 32675,31634 (a 6 pasos, estoy en 32671,31632)",
-    "21:30:12  Explorando hacia 32675, 31634 · faltan 6 casillas · teclas",
-    "21:30:12  Meta nueva 32674,31636 (a 6 pasos, estoy en 32672,31632)",
-    "21:30:12  Explorando hacia 32674, 31636 · faltan 6 casillas · teclas",
-    "21:30:13  Explorando hacia 32674, 31636 · faltan 5 casillas · teclas",
-    "21:30:14  Explorando hacia 32674, 31636 · faltan 4 casillas · teclas",
-    "21:30:14  Meta nueva 32674,31637 (a 4 pasos, estoy en 32674,31633)",
-    "21:30:14  Explorando hacia 32674, 31637 · faltan 4 casillas · teclas",
-    "21:30:15  Meta nueva 32675,31638 (a 5 pasos, estoy en 32674,31634)",
-    "21:30:15  Explorando hacia 32675, 31638 · faltan 5 casillas · teclas",
-    "21:30:16  Explorando hacia 32675, 31638 · faltan 4 casillas · teclas",
-    "21:30:17  Meta nueva 32679,31638 (a 7 pasos, estoy en 32675,31635)",
-    "21:30:17  Explorando hacia 32679, 31638 · faltan 7 casillas · teclas",
-    "21:30:17  Explorando hacia 32679, 31638 · faltan 6 casillas · teclas",
-    "21:30:18  Meta nueva 32680,31638 (a 6 pasos, estoy en 32676,31636)",
-    "21:30:18  Explorando hacia 32680, 31638 · faltan 6 casillas · teclas",
-    "21:30:19  Explorando hacia 32680, 31638 · faltan 5 casillas · teclas",
-    "21:30:20  Explorando hacia 32680, 31638 · faltan 5 casillas · clic",
-    "21:30:21  Meta nueva 32681,31639 (a 6 pasos, estoy en 32677,31637)",
-    "21:30:21  Explorando hacia 32681, 31639 · faltan 6 casillas · clic",
-    "21:30:21  Meta nueva 32682,31639 (a 6 pasos, estoy en 32678,31637)",
-    "21:30:21  Explorando hacia 32682, 31639 · faltan 6 casillas · clic",
-    "21:30:22  Explorando hacia 32682, 31639 · faltan 5 casillas · clic",
-    "21:30:23  Explorando hacia 32682, 31639 · faltan 5 casillas · teclas",
-    "21:30:24  Meta nueva 32683,31640 (a 6 pasos, estoy en 32679,31638)",
-    "21:30:24  Explorando hacia 32683, 31640 · faltan 6 casillas · teclas",
-    "21:30:25  Meta nueva 32682,31642 (a 6 pasos, estoy en 32680,31638)",
-    "21:30:25  Explorando hacia 32682, 31642 · faltan 6 casillas · teclas",
-    "21:30:26  Explorando hacia 32682, 31642 · faltan 6 casillas · clic",
-    "21:30:26  Meta nueva 32684,31641 (a 6 pasos, estoy en 32680,31639)",
-    "21:30:26  Explorando hacia 32684, 31641 · faltan 6 casillas · clic",
-    "21:30:27  Meta nueva 32685,31641 (a 6 pasos, estoy en 32681,31639)",
-    "21:30:27  Explorando hacia 32685, 31641 · faltan 6 casillas · clic",
-    "21:30:28  Meta nueva 32684,31643 (a 6 pasos, estoy en 32682,31639)",
-    "21:30:28  Explorando hacia 32684, 31643 · faltan 6 casillas · clic",
-    "21:30:29  Explorando hacia 32684, 31643 · faltan 6 casillas · teclas",
-    "21:30:29  Meta nueva 32686,31642 (a 6 pasos, estoy en 32682,31640)",
-    "21:30:29  Explorando hacia 32686, 31642 · faltan 6 casillas · teclas",
-    "21:30:30  Meta nueva 32685,31644 (a 6 pasos, estoy en 32683,31640)",
-    "21:30:30  Explorando hacia 32685, 31644 · faltan 6 casillas · teclas",
-    "21:30:31  Meta nueva 32687,31643 (a 6 pasos, estoy en 32683,31641)",
-    "21:30:31  Explorando hacia 32687, 31643 · faltan 6 casillas · teclas",
-    "21:30:32  Explorando hacia 32687, 31643 · faltan 6 casillas · clic",
-    "21:30:32  Meta nueva 32688,31643 (a 6 pasos, estoy en 32684,31641)",
-    "21:30:32  Explorando hacia 32688, 31643 · faltan 6 casillas · clic",
-    "21:30:33  Meta nueva 32689,31643 (a 6 pasos, estoy en 32685,31641)",
-    "21:30:33  Explorando hacia 32689, 31643 · faltan 6 casillas · clic",
-    "21:30:34  Explorando hacia 32689, 31643 · faltan 5 casillas · clic",
-    "21:30:35  Meta nueva 32690,31643 (a 5 pasos, estoy en 32686,31642)",
-    "21:30:35  Explorando hacia 32690, 31643 · faltan 5 casillas · clic",
-    "21:30:35  En espera: atacando (1 cerca)",
-    "21:30:35  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "21:30:36  En espera: control de presencia: resuélvelo tú. Continúa sola al terminar."
+    ""
    ]
   },
   "lootUI": {
    "loot": true,
    "caminar": true,
    "maestro": false,
-   "presencia": true
+   "presencia": false
   },
   "combate": {
    "historial": [
-    "21:25:15 Cuerpo anotado en 32714,31647",
-    "21:25:15 Loot: tecla F12",
-    "21:25:21 Sin monstruos a 5 casillas.",
-    "21:25:24 tecla F2 → troll",
-    "21:25:24 1 monstruo cerca · tecla F2 → troll",
-    "21:25:24 1 monstruo cerca · atacando troll",
-    "21:25:33 Cuerpo anotado en 32717,31651",
-    "21:25:33 Loot: tecla F12",
-    "21:25:38 tecla F2 → troll",
-    "21:25:38 1 monstruo cerca · tecla F2 → troll",
-    "21:25:38 1 monstruo cerca · atacando troll",
-    "21:25:47 Cuerpo anotado en 32716,31653",
-    "21:25:47 Loot: tecla F12",
-    "21:25:48 Yendo al cadáver en 32716,31654…",
-    "21:25:48 Sin monstruos a 5 casillas.",
-    "21:25:51 Loot: tecla F12",
-    "21:25:56 Sin monstruos a 5 casillas.",
-    "21:28:05 tecla F2 → troll",
-    "21:28:05 1 monstruo cerca · tecla F2 → troll",
-    "21:28:05 1 monstruo cerca · atacando troll",
-    "21:28:18 Cuerpo anotado en 32681,31609",
-    "21:28:18 Buscando el cadáver…",
-    "21:28:19 Yendo al cadáver en 32681,31609…",
-    "21:28:19 Sin monstruos a 5 casillas.",
-    "21:28:21 Loot: tecla F12",
-    "21:28:27 Sin monstruos a 5 casillas.",
-    "21:30:35 tecla F2 → troll",
-    "21:30:35 1 monstruo cerca · tecla F2 → troll",
-    "21:30:35 1 monstruo cerca · atacando troll",
-    "21:30:36 Desactivado."
+    "22:05:28 Esperando posición del personaje…"
    ],
    "ataque": false,
-   "loot": false,
+   "loot": true,
    "lootMode": "key",
    "lootKey": "F12",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Desactivado.",
+   "estado": "Esperando posición del personaje…",
    "ultimoLoot": null,
-   "monstruos": [
-    "troll#1073749926"
-   ],
+   "monstruos": [],
    "objetivo": null,
    "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
    "pos": {
-    "x": 32688,
-    "y": 31643,
-    "z": 11
+    "x": 33173,
+    "y": 31803,
+    "z": 8
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 360Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 364Ww 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww .",
-    "101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg*C 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg+3987*C 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 366Ww 367Ww 355Gg 366Ww 367Ww 355Gg 355Gg 355Gg 359Ww 101Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 362Ww 363Ww 357Ww 362Ww 358Ww 355Gg 355Gg 355Gg 365Ww 361Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 354Gg 355Gg 355Gg 365Ww .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 354Gg 355Gg 355Gg 355Gg .",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 354Gg 355Gg 355Gg .",
-    "356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 354Gg 355Gg .",
+    ". . . . . . . . . . . . . . . . . . . . .",
+    ". 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2526Ww 429Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+1294Ww 430Gg*C 429Gg+2164Ww 431Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 429Gg+2326Ww+3497Ww 429Gg+2323Ww 429Gg+2327Ww+3497Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg+1298Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1299Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1300Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+3501Ww 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg+2110Ww 438Gg 438Gg 438Gg 429Gg+2110Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
     ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
