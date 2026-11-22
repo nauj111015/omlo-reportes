@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-22T17:53:12.136Z",
- "motivo": "manual",
+ "enviado": "2026-11-22T17:57:42.813Z",
+ "motivo": "auto: 46 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
@@ -51,7 +51,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 332,
+   "segundos": 422,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -171,13 +171,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 332,
-    "pulsaciones": 3,
+    "segundos": 422,
+    "pulsaciones": 5,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "05:32",
+    "textoFood": "07:02",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -204,20 +204,23 @@
    ]
   },
   "lootUI": {
-   "loot": false,
+   "loot": true,
    "caminar": true,
    "maestro": false,
    "presencia": false
   },
   "combate": {
-   "historial": [],
-   "ataque": false,
-   "loot": false,
+   "historial": [
+    "14:56:07 Activado.",
+    "14:56:07 Sin monstruos a 5 casillas."
+   ],
+   "ataque": true,
+   "loot": true,
    "lootMode": "key",
    "lootKey": "F12",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Desactivado.",
+   "estado": "Sin monstruos a 5 casillas.",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
