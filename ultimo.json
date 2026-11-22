@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-22T17:52:42.810Z",
- "motivo": "auto: 46 errores nuevos",
+ "enviado": "2026-11-22T17:53:10.774Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
@@ -51,7 +51,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 362,
+   "segundos": 334,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -171,13 +171,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 362,
+    "segundos": 334,
     "pulsaciones": 3,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "06:02",
+    "textoFood": "05:34",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
