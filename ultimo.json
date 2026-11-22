@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-22T17:53:10.774Z",
+ "enviado": "2026-11-22T17:53:12.136Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
@@ -51,7 +51,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 334,
+   "segundos": 332,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -171,13 +171,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 334,
+    "segundos": 332,
     "pulsaciones": 3,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "05:34",
+    "textoFood": "05:32",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
