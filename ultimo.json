@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-22T20:29:26.070Z",
- "motivo": "auto: 465 errores nuevos",
+ "enviado": "2026-11-22T20:30:47.208Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
@@ -13,9 +13,9 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 468,
+   "rechazados": 477,
    "porOpcode": {
-    "0": 467,
+    "0": 476,
     "232": 1
    },
    "muestrasRechazo": {
@@ -368,10 +368,10 @@
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 30,
-    "fallos": 4,
+    "pulsaciones": 31,
+    "fallos": 5,
     "nota": "esperando reintento",
-    "metodo": "tecla",
+    "metodo": "casillero",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
