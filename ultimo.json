@@ -1,52 +1,38 @@
 {
- "enviado": "2026-11-22T07:05:54.644Z",
+ "enviado": "2026-11-22T17:37:37.822Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
-  "ext": 36,
+  "ext": 39,
   "mapLoads": 1,
-  "tiles": 7526,
+  "tiles": 4721,
   "posicion": {
-   "x": 32708,
-   "y": 31637,
-   "z": 11
+   "x": 32660,
+   "y": 31639,
+   "z": 9
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 2,
+   "rechazados": 6,
    "porOpcode": {
-    "0": 1,
-    "219": 1
+    "0": 6
    },
    "muestrasRechazo": {
     "0": {
-     "at": 12788,
-     "len": 12972,
-     "hex": "10 0a 13 0a 82 ff d7 8d 00 19 00 00 00 00 a1 0a 0c 0b 32 0a 00 10 4b 0a 1e 13 26 0a 00 dc 07 0a 0b 0a 10 0a 13 0a d2 5f 19 00 00 0e 00 41 6c 65 78 69 73 20 53 61 6e 63 68 65 7a 00 00 00 00 00 d2 6e 18 00 00 04 00 4e 61 75 6a 00 00 00 00 00 b4 14 34 00 59 6f 75 72 20 6c",
+     "at": 12014,
+     "len": 12609,
+     "hex": "40 00 00 00 bd 1f 00 40 00 00 00 be 1f 00 40 00 00 00 00 19 00 00 04 00 00 c1 1f 00 40 00 00 00 c4 1f 00 40 00 00 00 cb 1f 00 40 00 00 00 c7 1f 00 40 00 00 00 83 b1 7f 8d 7b 0b 0b 00 78 03 26 0b 00 00 78 04 e9 0d 00 00 78 05 54 0d 00 00 78 06 fa 0b 00 00 78 07 e7 0d 00",
      "marca": 60,
      "trail": [
-      "120@12395",
-      "120@12401",
-      "248@12407",
-      "160@12702",
-      "130@12732",
-      "141@12735",
-      "161@12742",
-      "220@12757",
-      "210@12766",
-      "0@12788"
+      "10@0",
+      "242@8",
+      "253@10",
+      "100@25",
+      "252@11948",
+      "131@12007",
+      "0@12014"
      ],
      "ini": "0a 00 19 00 00 32 00 00 f2 00 fd 06"
-    },
-    "219": {
-     "at": 0,
-     "len": 1216,
-     "hex": "db 01 18 1a 75 5e 78 00 03 a8 38 00 00 00 02 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00",
-     "marca": 0,
-     "trail": [
-      "219@0"
-     ],
-     "ini": "db 01 18 1a 75 5e 78 00 03 a8 38 00"
     }
    },
    "ultimoError": null,
@@ -81,7 +67,7 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": true,
+    "activo": false,
     "objetos": [
      {
       "itemId": 3268,
@@ -135,7 +121,7 @@
     ],
     "tirados": 0,
     "ultimosTirados": [],
-    "nota": "pausa por presencia",
+    "nota": "esperando",
     "enMochila": [
      {
       "w": 1,
@@ -203,129 +189,34 @@
    }
   },
   "explorador": {
-   "activo": true,
-   "pasos": 1288,
-   "espera": "control de presencia: resuélvelo tú",
+   "activo": false,
+   "pasos": 0,
+   "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 14,
+    "wall": 0,
     "rare": 0,
-    "empty": 0,
-    "blocked": 3
+    "empty": 0
    },
    "peligros": 0,
-   "visitadas": 332,
-   "destino": {
-    "x": 32711,
-    "y": 31642,
-    "z": 11
-   },
+   "visitadas": 0,
+   "destino": null,
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "04:04:29  Explorando hacia 32706, 31636 · faltan 5 casillas · clic",
-    "04:04:30  Explorando hacia 32706, 31636 · faltan 4 casillas · clic",
-    "04:04:30  Meta nueva 32707,31637 (a 5 pasos, estoy en 32706,31633)",
-    "04:04:30  Explorando hacia 32707, 31637 · faltan 5 casillas · clic",
-    "04:04:31  Explorando hacia 32707, 31637 · faltan 6 casillas · clic",
-    "04:04:32  Explorando hacia 32707, 31637 · faltan 5 casillas · clic",
-    "04:04:33  Meta nueva 32708,31638 (a 6 pasos, estoy en 32706,31634)",
-    "04:04:33  Explorando hacia 32708, 31638 · faltan 6 casillas · clic",
-    "04:04:34  Explorando hacia 32708, 31638 · faltan 7 casillas · clic",
-    "04:04:35  Explorando hacia 32708, 31638 · faltan 6 casillas · clic",
-    "04:04:36  Explorando hacia 32708, 31638 · faltan 7 casillas · clic",
-    "04:04:37  Explorando hacia 32708, 31638 · faltan 6 casillas · clic",
-    "04:04:37  Explorando hacia 32708, 31638 · faltan 7 casillas · clic",
-    "04:04:38  Explorando hacia 32708, 31638 · faltan 6 casillas · clic",
-    "04:04:39  Explorando hacia 32708, 31638 · faltan 7 casillas · clic",
-    "04:04:40  Vaivén detectado cerca de 32706,31634: se bloquea 32707,31634 y la meta 32708,31638.",
-    "04:04:41  Meta nueva 32710,31637 (a 6 pasos, estoy en 32706,31635)",
-    "04:04:41  Explorando hacia 32710, 31637 · faltan 6 casillas · clic",
-    "04:04:42  Meta nueva 32711,31637 (a 6 pasos, estoy en 32707,31635)",
-    "04:04:42  Explorando hacia 32711, 31637 · faltan 6 casillas · clic",
-    "04:04:43  Explorando hacia 32711, 31637 · faltan 7 casillas · clic",
-    "04:04:43  Meta nueva 32709,31639 (a 6 pasos, estoy en 32708,31634)",
-    "04:04:43  Explorando hacia 32709, 31639 · faltan 6 casillas · clic",
-    "04:04:44  Explorando hacia 32709, 31639 · faltan 5 casillas · clic",
-    "04:04:45  Explorando hacia 32709, 31639 · faltan 6 casillas · clic",
-    "04:04:46  Explorando hacia 32709, 31639 · faltan 7 casillas · clic",
-    "04:04:47  Explorando hacia 32709, 31639 · faltan 6 casillas · clic",
-    "04:04:48  Explorando hacia 32709, 31639 · faltan 5 casillas · clic",
-    "04:04:49  Explorando hacia 32709, 31639 · faltan 5 casillas · teclas",
-    "04:04:49  Meta nueva 32712,31637 (a 5 pasos, estoy en 32708,31636)",
-    "04:04:49  Explorando hacia 32712, 31637 · faltan 5 casillas · teclas",
-    "04:04:50  Explorando hacia 32712, 31637 · faltan 6 casillas · teclas",
-    "04:04:51  Explorando hacia 32712, 31637 · faltan 5 casillas · teclas",
-    "04:04:52  Explorando hacia 32712, 31637 · faltan 5 casillas · clic",
-    "04:04:52  Explorando hacia 32712, 31637 · faltan 4 casillas · clic",
-    "04:04:53  Meta nueva 32713,31637 (a 4 pasos, estoy en 32709,31637)",
-    "04:04:53  Explorando hacia 32713, 31637 · faltan 4 casillas · clic",
-    "04:04:54  Explorando hacia 32713, 31637 · faltan 5 casillas · clic",
-    "04:04:55  Explorando hacia 32713, 31637 · faltan 4 casillas · clic",
-    "04:04:55  Explorando hacia 32713, 31637 · faltan 6 casillas · clic",
-    "04:04:56  Explorando hacia 32713, 31637 · faltan 6 casillas · teclas",
-    "04:04:57  Casilla bloqueada 32708,31637: se busca otro camino.",
-    "04:04:57  Meta nueva 32691,31615 (a 38 pasos, estoy en 32708,31636)",
-    "04:04:57  Explorando hacia 32691, 31615 · faltan 38 casillas · clic",
-    "04:04:58  Meta nueva 32713,31637 (a 4 pasos, estoy en 32709,31637)",
-    "04:04:58  Explorando hacia 32713, 31637 · faltan 4 casillas · clic",
-    "04:04:59  Explorando hacia 32713, 31637 · faltan 4 casillas · teclas",
-    "04:05:00  Casilla bloqueada 32710,31637: se busca otro camino.",
-    "04:05:00  Meta nueva 32710,31641 (a 5 pasos, estoy en 32709,31637)",
-    "04:05:00  Explorando hacia 32710, 31641 · faltan 5 casillas · clic",
-    "04:05:01  Meta nueva 32713,31637 (a 5 pasos, estoy en 32709,31638)",
-    "04:05:01  Explorando hacia 32713, 31637 · faltan 5 casillas · clic",
-    "04:05:01  Meta nueva 32711,31642 (a 5 pasos, estoy en 32710,31638)",
-    "04:05:01  Explorando hacia 32711, 31642 · faltan 5 casillas · clic",
-    "04:05:02  En espera: atacando (1 cerca)",
-    "04:05:02  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "04:05:19  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "04:05:42  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "04:05:45  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "04:05:51  En espera: control de presencia: resuélvelo tú. Continúa sola al terminar."
+    ""
    ]
   },
   "lootUI": {
    "loot": false,
    "caminar": true,
    "maestro": false,
-   "presencia": true
+   "presencia": false
   },
   "combate": {
-   "historial": [
-    "04:01:57 2 monstruos cerca · atacando troll",
-    "04:02:02 Cuerpo anotado en 32734,31617",
-    "04:02:02 1 monstruo cerca · atacando troll",
-    "04:02:05 Cuerpo anotado en 32734,31619",
-    "04:02:05 Sin monstruos a 5 casillas.",
-    "04:03:09 tecla F2 → troll",
-    "04:03:09 1 monstruo cerca · tecla F2 → troll",
-    "04:03:10 Cuerpo anotado en 32697,31621",
-    "04:03:10 Sin monstruos a 5 casillas.",
-    "04:03:11 1 monstruo cerca · atacando troll",
-    "04:03:35 2 monstruos cerca · atacando troll",
-    "04:03:41 Recuperando ataque sin progreso…",
-    "04:03:42 2 monstruos cerca",
-    "04:03:43 tecla F2 → troll",
-    "04:03:43 2 monstruos cerca · tecla F2 → troll",
-    "04:03:43 2 monstruos cerca · atacando troll",
-    "04:03:49 Cuerpo anotado en 32699,31622",
-    "04:03:49 1 monstruo cerca · atacando troll",
-    "04:04:15 Cuerpo anotado en 32701,31622",
-    "04:04:15 Sin monstruos a 5 casillas.",
-    "04:05:02 1 monstruo cerca · atacando troll",
-    "04:05:19 2 monstruos cerca · atacando troll",
-    "04:05:42 Cuerpo anotado en 32709,31637",
-    "04:05:42 1 monstruo cerca · atacando troll",
-    "04:05:45 2 monstruos cerca · atacando troll",
-    "04:05:49 Recuperando ataque sin progreso…",
-    "04:05:50 2 monstruos cerca",
-    "04:05:51 tecla F2 → troll",
-    "04:05:51 2 monstruos cerca · tecla F2 → troll",
-    "04:05:51 Desactivado."
-   ],
+   "historial": [],
    "ataque": false,
    "loot": false,
    "lootMode": "key",
@@ -334,39 +225,36 @@
    "cuerpos": 0,
    "estado": "Desactivado.",
    "ultimoLoot": null,
-   "monstruos": [
-    "troll#1073889903",
-    "troll#1073890697"
-   ],
+   "monstruos": [],
    "objetivo": null,
-   "recuperaciones": 3,
+   "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
    "pos": {
-    "x": 32708,
-    "y": 31637,
-    "z": 11
+    "x": 32660,
+    "y": 31639,
+    "z": 9
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    "101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 356Ww 364Ww",
-    "101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 354Gg",
-    "101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg",
-    "101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 366Ww",
-    "101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 366Ww 362Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 359Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 360Ww 364Ww 355Gg 354Gg 355Gg 366Ww 362Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg*C 365Ww 356Ww 364Ww 355Gg 355Gg 355Gg 354Gg 359Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 367Ww 355Gg 355Gg+2889+2889 355Gg 355Gg 355Gg 355Gg 355Gg 366Ww 357Ww 362Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg*C 355Gg*C 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 366Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 354Gg 365Ww 361Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 354Gg+3003*C 354Gg 365Ww 361Ww 101Ww 101Ww",
-    ". . 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 354Gg 355Gg 354Gg 359Ww 101Ww 101Ww"
+    ". 353Gg 351Gg 351Gg 382Ww 378Ww 101Ww 101Ww 101Ww 375Ww 351Gg 351Gg 376Ww 101Ww 101Ww 375Ww 351Gg 354Gg 354Gg 354Gg 354Gg",
+    ". 354Gg 351Gg 353Gg 351Gg 376Ww 101Ww 101Ww 101Ww 375Ww 351Gg 353Gg 376Ww 101Ww 101Ww 375Ww 354Gg 354Gg 354Gg 354Gg 354Gg",
+    ". 351Gg+1998 354Gg 353Gg 351Gg 376Ww 101Ww 377Ww 373Ww 381Ww 351Gg 353Gg 376Ww 101Ww 101Ww 380Ww 384Ww 353Gg 354Gg 355Gg 354Gg",
+    ". 354Gg 355Gg 351Gg 351Gg 376Ww 377Ww 381Ww 354Gg 353Gg 351Gg 353Gg 382Ww 373Ww 373Ww 378Ww 380Ww 374Ww 384Ww 351Gg 354Gg",
+    ". 354Gg 354Gg 351Gg 353Gg 382Ww 381Ww 355Gg 354Gg 354Gg 351Gg 351Gg 351Gg 351Gg 354Gg 376Ww 101Ww 101Ww 380Ww 374Ww 374Ww",
+    ". 351Gg 354Gg 351Gg 351Gg 355Gg 354Gg 354Gg 355Gg 351Gg 351Gg 351Gg*C 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 354Gg 351Gg 353Gg 351Gg 351Gg 351Gg 354Gg+3987 354Gg 351Gg+3987 353Gg 355Gg 351Gg 353Gg 353Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 351Gg 351Gg 351Gg 353Gg 351Gg 351Gg 351Gg 351Gg 354Gg 353Gg+3987 351Gg 354Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 351Gg 351Gg 353Gg 383Ww 384Ww 353Gg+3987 351Gg 351Gg 351Gg 353Gg 351Gg 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 374Ww 374Ww 374Ww 379Ww 375Ww 351Gg 351Gg 354Gg 355Gg 351Gg+3987 351Gg 351Gg 351Gg 355Gg 376Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 351Gg 353Gg 351Gg 353Gg+3987 351Gg 351Gg 383Ww 374Ww 379Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 351Gg 351Gg 351Gg 355Gg 351Gg 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 375Ww 351Gg 351Gg 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 377Ww 381Ww 351Gg 351Gg 351Gg 351Gg 351Gg 376Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 375Ww 351Gg+1282Ww 351Gg+1282Ww 351Gg+1631Ww 351Gg+1282Ww 351Gg+1282Ww 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 380Ww 384Ww 351Gg 351Gg 351Gg+3358 383Ww 379Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
   "fallosJS": []
