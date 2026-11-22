@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-22T20:30:47.208Z",
- "motivo": "manual",
+ "enviado": "2026-11-22T20:34:26.088Z",
+ "motivo": "auto: 493 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
@@ -13,9 +13,9 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 477,
+   "rechazados": 496,
    "porOpcode": {
-    "0": 476,
+    "0": 495,
     "232": 1
    },
    "muestrasRechazo": {
@@ -368,10 +368,10 @@
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 31,
-    "fallos": 5,
+    "pulsaciones": 34,
+    "fallos": 8,
     "nota": "esperando reintento",
-    "metodo": "casillero",
+    "metodo": "tecla",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
@@ -526,7 +526,7 @@
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg+3991 355Gg 355Gg 355Gg+3991 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+3987 355Gg 355Gg+3987+3991*C 355Gg+3991 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+3991 355Gg 355Gg+3987+3991*C 355Gg+3991 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg 352Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 355Gg+3987 352Gg 352Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 352Gg+3552+3003 352Gg 355Gg 352Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
