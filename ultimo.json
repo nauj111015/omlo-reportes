@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-23T19:55:45.214Z",
+ "enviado": "2026-11-23T20:00:50.234Z",
  "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -381,10 +381,10 @@
     "tecla": "F11",
     "umbral": 500,
     "segundos": 0,
-    "pulsaciones": 55,
-    "fallos": 13,
-    "nota": "esperando reintento",
-    "metodo": "casillero",
+    "pulsaciones": 60,
+    "fallos": 18,
+    "nota": "tecla F11 enviada",
+    "metodo": "tecla",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
