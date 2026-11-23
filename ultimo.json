@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-23T06:13:43.357Z",
+ "enviado": "2026-11-23T06:18:43.358Z",
  "motivo": "auto: 3 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -399,8 +399,8 @@
     "tecla": "F11",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 183,
-    "fallos": 62,
+    "pulsaciones": 187,
+    "fallos": 66,
     "nota": "esperando reintento",
     "metodo": "tecla",
     "casilleroEncontrado": true,
