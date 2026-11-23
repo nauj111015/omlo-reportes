@@ -1,6 +1,6 @@
 {
- "enviado": "2026-11-23T07:14:13.367Z",
- "motivo": "auto: 4 errores nuevos",
+ "enviado": "2026-11-23T07:19:18.360Z",
+ "motivo": "auto: 5 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
@@ -13,9 +13,9 @@
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 4,
+   "rechazados": 5,
    "porOpcode": {
-    "219": 4
+    "219": 5
    },
    "muestrasRechazo": {
     "219": {
@@ -354,56 +354,7 @@
     ],
     "alerta": "",
     "nota": "pausa por presencia",
-    "enMochila": [
-     {
-      "w": 1,
-      "s": 0,
-      "id": 3031,
-      "fp": "1tqmmyc:278"
-     },
-     {
-      "w": 1,
-      "s": 1,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 2,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 3,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 4,
-      "id": 3054,
-      "fp": "17q0dpd:145"
-     },
-     {
-      "w": 1,
-      "s": 5,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 6,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 1,
-      "s": 7,
-      "id": 2969,
-      "fp": "137gypd:131"
-     }
-    ]
+    "enMochila": []
    },
    "autoEatTecla": {
     "activo": true,
