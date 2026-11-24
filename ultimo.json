@@ -1,57 +1,26 @@
 {
- "enviado": "2026-11-24T11:48:52.815Z",
+ "enviado": "2026-11-24T12:01:37.001Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
-  "mapLoads": 0,
-  "tiles": 29,
-  "posicion": null,
+  "mapLoads": 1,
+  "tiles": 2366,
+  "posicion": {
+   "x": 32338,
+   "y": 32256,
+   "z": 8
+  },
   "erroresMapa": {
-   "parseErrors": 1,
-   "rechazados": 93,
-   "porOpcode": {
-    "0": 31,
-    "64": 62
-   },
-   "muestrasRechazo": {
-    "0": {
-     "at": 42,
-     "len": 53,
-     "hex": "6a 58 7e dc 7d 07 61 00 00 00 00 00 00 00 d3 1b 00 00 06 00 4b 68 61 6c 69 66 5b 02 86 00 55 72 72 55 00 00 00 00 00 f6 00 00 00 fc 01 00 d3 1b 00 00 02 00 00",
-     "marca": 42,
-     "trail": [
-      "106@0",
-      "246@39",
-      "0@42"
-     ],
-     "ini": "6a 58 7e dc 7d 07 61 00 00 00 00 00"
-    },
-    "64": {
-     "at": 16,
-     "len": 18,
-     "hex": "a2 80 6b 53 7e e4 7d 08 01 63 00 00 00 01 96 00 40 00",
-     "marca": 16,
-     "trail": [
-      "162@0",
-      "107@2",
-      "64@16"
-     ],
-     "ini": "a2 80 6b 53 7e e4 7d 08 01 63 00 00"
-    }
-   },
-   "ultimoError": "zero item at 32332,32215,7",
-   "ultimos": [
-    {
-     "op": 100,
-     "at": 581,
-     "len": 8275,
-     "hex": "0a 6e 18 00 00 32 00 00 f2 00 fd 08 00 01 00 06 00 0a 00 1d 00 2a 00 33 00 4c 00 4f 00 64 55 7e de 7d 07 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 a7"
-    }
-   ]
+   "parseErrors": 0,
+   "rechazados": 0,
+   "porOpcode": {},
+   "muestrasRechazo": {},
+   "ultimoError": null,
+   "ultimos": []
   },
   "comida": {
-   "segundos": 96,
+   "segundos": 0,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -60,15 +29,31 @@
    "entrenar": {
     "activo": true,
     "diag": {
-     "pendientes": 0,
-     "msg": "Activado.",
+     "pendientes": 4,
+     "msg": "En la mano hay otra cosa; no se toca.",
      "ids": [
+      3492,
       3277
      ],
      "mano": 5,
      "fallos": 0,
-     "registro": [],
-     "ignoradas": 0,
+     "registro": [
+      "09:00:53 Intento de recoger sin efecto (en mano 2→1, suelo 1→1).",
+      "09:00:53 En la mano hay otra cosa; no se toca.",
+      "09:00:58 Recogiendo lanza…",
+      "09:01:00 Intento de recoger sin efecto (en mano 2→1, suelo 1→1).",
+      "09:01:01 En la mano hay otra cosa; no se toca.",
+      "09:01:18 Recogiendo lanza…",
+      "09:01:20 Intento de recoger sin efecto (en mano 0→0, suelo 1→1).",
+      "09:01:20 Recogiendo lanza…",
+      "09:01:22 Intento de recoger sin efecto (en mano 0→0, suelo 1→1).",
+      "09:01:22 No pude recoger esa lanza; la ignoro un rato.",
+      "09:01:22 Yendo por una lanza (32338,32257)…",
+      "09:01:23 Recogiendo lanza…",
+      "09:01:25 Lanza recogida.",
+      "09:01:25 En la mano hay otra cosa; no se toca."
+     ],
+     "ignoradas": 1,
      "pausaHasta": 0,
      "lootWalk": false,
      "chase": "stand",
@@ -78,14 +63,14 @@
     "explorador": false,
     "nota": "entrenando quieto: ataca, recoge y rearma",
     "municion": "ID 3277",
-    "msg": "Activado."
+    "msg": "En la mano hay otra cosa; no se toca."
    },
    "pantalla": {
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 3,
-    "logrados": 3,
+    "intentos": 4,
+    "logrados": 4,
     "bloqueado": true
    },
    "presencia": {
@@ -126,60 +111,66 @@
      {
       "w": 0,
       "s": 1,
+      "id": 3277,
+      "fp": "8ro1t0:116"
+     },
+     {
+      "w": 0,
+      "s": 2,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 2,
+      "s": 3,
       "id": 3577,
       "fp": "qhktbc:394"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 4,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 4,
+      "s": 5,
       "id": 3300,
       "fp": "16wnl0r:132"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 6,
       "id": 3350,
       "fp": "kc9681:248"
      },
      {
       "w": 0,
-      "s": 6,
+      "s": 7,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 7,
+      "s": 8,
       "id": 3031,
       "fp": "q0jvf4:408"
      },
      {
       "w": 0,
-      "s": 8,
+      "s": 9,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 9,
+      "s": 10,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 10,
+      "s": 11,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -189,13 +180,13 @@
     "activo": true,
     "tecla": "F4",
     "umbral": 300,
-    "segundos": 96,
+    "segundos": 0,
     "pulsaciones": 5,
-    "fallos": 0,
+    "fallos": 5,
     "nota": "esperando reintento",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "01:36",
+    "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -229,8 +220,22 @@
   },
   "combate": {
    "historial": [
-    "08:46:21 Activado.",
-    "08:46:22 Esperando posición del personaje…"
+    "08:58:18 Activado.",
+    "08:58:19 tecla F2 → rat",
+    "08:58:19 1 monstruo cerca · tecla F2 → rat",
+    "08:58:20 1 monstruo cerca · atacando rat",
+    "08:58:31 Cuerpo anotado en 32333,32248",
+    "08:58:31 Sin monstruos a 5 casillas.",
+    "08:58:59 tecla F2 → rat",
+    "08:58:59 1 monstruo cerca · tecla F2 → rat",
+    "08:58:59 1 monstruo cerca · atacando rat",
+    "08:59:01 Cuerpo anotado en 32338,32254",
+    "08:59:01 Sin monstruos a 5 casillas.",
+    "09:00:22 tecla F2 → rat",
+    "09:00:22 1 monstruo cerca · tecla F2 → rat",
+    "09:00:23 1 monstruo cerca · atacando rat",
+    "09:00:38 Cuerpo anotado en 32339,32255",
+    "09:00:40 Sin monstruos a 5 casillas."
    ],
    "ataque": true,
    "loot": false,
@@ -238,14 +243,40 @@
    "lootKey": "",
    "lootWalk": false,
    "cuerpos": 0,
-   "estado": "Esperando posición del personaje…",
+   "estado": "Sin monstruos a 5 casillas.",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
    "recuperaciones": 0,
    "spearOn": true
   },
-  "mapa": "TypeError: Cannot read properties of null (reading 'x')",
+  "mapa": {
+   "pos": {
+    "x": 32338,
+    "y": 32256,
+    "z": 8
+   },
+   "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
+   "rows": [
+    "355Gg 355Gg 355Gg+3994 355Gg 355Gg 355Gg+2887 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3492*C 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "355Gg 355Gg 355Gg+3492 355Gg+3492 355Gg+3994 355Gg 355Gg 355Gg 355Gg+2913*C 355Gg 355Gg+3492 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 367Ww 355Gg+3996 355Gg 365Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+3492 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+2913 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+2913+2913+3492 355Gg 355Gg 355Gg+2913 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+2887 355Gg+3994 366Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww",
+    "101Ww+1272Ww 101Ww+1271Ww 101Ww+1271Ww 101Ww+1271Ww 101Ww+1271Ww 101Ww+1273Ww 101Ww 101Ww 101Ww 358Ww 355Gg+3277 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww+1270Ww 368Gg+2522Ww 368Gg+2522Ww 368Gg 368Gg+1948 368Gg+1270Ww 101Ww 101Ww 101Ww 358Ww 355Gg*C 355Gg+3994*C 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww+1270Ww 368Gg 368Gg 368Gg 368Gg+2523Ww 368Gg+1270Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+2889 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+2525Ww 368Gg+2525Ww 368Gg 368Gg+2523Ww 368Gg+1270Ww 101Ww 101Ww 101Ww 358Ww 355Gg*C 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+2471 368Gg 368Gg 368Gg+2523Ww 368Gg+1270Ww 101Ww 101Ww 101Ww 358Ww 355Gg+3492*C 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+1271Ww 368Gg+1271Ww 368Gg+1631Ww 368Gg+1271Ww 368Gg+1276Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+2523Ww 368Gg+2523Ww 368Gg 368Gg+2472Ww 368Gg+1270Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg+3492 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+2471 368Gg 368Gg 368Gg+2472Ww 368Gg+1270Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+2471 368Gg+2471 368Gg+2473+2473 368Gg+2472Ww 368Gg+1270Ww 101Ww 101Ww 358Ww 355Gg+1948 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 368Gg+1271Ww 368Gg+1271Ww 368Gg+1271Ww 368Gg+1271Ww 368Gg+1274Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". . . . . . . . . . . . . . . . . . . . ."
+   ]
+  },
   "fallosJS": []
  }
 }
