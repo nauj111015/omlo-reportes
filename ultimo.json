@@ -1,18 +1,18 @@
 {
- "enviado": "2026-11-24T11:46:56.869Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-24T11:48:52.815Z",
+ "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
   "mapLoads": 0,
-  "tiles": 10,
+  "tiles": 29,
   "posicion": null,
   "erroresMapa": {
    "parseErrors": 1,
-   "rechazados": 22,
+   "rechazados": 93,
    "porOpcode": {
-    "0": 7,
-    "64": 15
+    "0": 31,
+    "64": 62
    },
    "muestrasRechazo": {
     "0": {
@@ -51,7 +51,7 @@
    ]
   },
   "comida": {
-   "segundos": 0,
+   "segundos": 96,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -84,8 +84,8 @@
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 1,
-    "logrados": 1,
+    "intentos": 3,
+    "logrados": 3,
     "bloqueado": true
    },
    "presencia": {
@@ -189,13 +189,13 @@
     "activo": true,
     "tecla": "F4",
     "umbral": 300,
-    "segundos": 0,
-    "pulsaciones": 3,
-    "fallos": 3,
+    "segundos": 96,
+    "pulsaciones": 5,
+    "fallos": 0,
     "nota": "esperando reintento",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "00:00",
+    "textoFood": "01:36",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
