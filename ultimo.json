@@ -1,39 +1,33 @@
 {
- "enviado": "2026-11-24T03:32:48.839Z",
- "motivo": "auto: 2 errores nuevos",
+ "enviado": "2026-11-24T11:38:04.776Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
   "mapLoads": 1,
-  "tiles": 9322,
+  "tiles": 1123,
   "posicion": {
-   "x": 32652,
-   "y": 31618,
-   "z": 11
+   "x": 32340,
+   "y": 32222,
+   "z": 7
   },
   "erroresMapa": {
-   "parseErrors": 0,
-   "rechazados": 2,
-   "porOpcode": {
-    "219": 2
-   },
-   "muestrasRechazo": {
-    "219": {
-     "at": 0,
-     "len": 1187,
-     "hex": "db 01 2d b1 e0 13 78 00 03 a8 38 82 a0 00 00 00 00 00 00 00 00 04 00 00 10 00 00 00 10 00",
-     "marca": 0,
-     "trail": [
-      "219@0"
-     ],
-     "ini": "db 01 2d b1 e0 13 78 00 03 a8 38 82"
+   "parseErrors": 1,
+   "rechazados": 0,
+   "porOpcode": {},
+   "muestrasRechazo": {},
+   "ultimoError": "zero item at 32334,32223,7",
+   "ultimos": [
+    {
+     "op": 104,
+     "at": 149,
+     "len": 286,
+     "hex": "6d 58 7e de 7d 07 01 57 7e de 7d 07 68 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 f7 04 00 00 4e 0a 00 00 00 ff ff ff ad 01 00"
     }
-   },
-   "ultimoError": null,
-   "ultimos": []
+   ]
   },
   "comida": {
-   "segundos": 169,
+   "segundos": 0,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -41,14 +35,38 @@
    "gesto": null,
    "entrenar": {
     "activo": false,
+    "diag": {
+     "pendientes": 0,
+     "msg": "",
+     "ids": [
+      3425
+     ],
+     "mano": 6,
+     "fallos": 0,
+     "ignoradas": 0,
+     "pausaHasta": 0,
+     "lootWalk": true,
+     "chase": "stand",
+     "modo": "defensive",
+     "monstruos": 0
+    },
+    "explorador": false,
     "nota": "",
-    "municion": null,
+    "municion": "ID 3425",
     "msg": ""
+   },
+   "pantalla": {
+    "activo": true,
+    "soportado": true,
+    "nota": "pantalla fija encendida",
+    "intentos": 1,
+    "logrados": 1,
+    "bloqueado": true
    },
    "presencia": {
     "active": false,
     "muted": false,
-    "beeps": 3,
+    "beeps": 0,
     "savedPaused": null
    },
    "paladin": {
@@ -67,316 +85,70 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": true,
-    "objetos": [
-     {
-      "itemId": 3336,
-      "name": "",
-      "fps": [
-       "vaijun:323"
-      ]
-     },
-     {
-      "itemId": 3552,
-      "name": "",
-      "fps": [
-       "xfaeo9:355"
-      ]
-     },
-     {
-      "itemId": 3003,
-      "name": "",
-      "fps": [
-       "1u16wu9:505"
-      ]
-     },
-     {
-      "itemId": 3412,
-      "name": "",
-      "fps": [
-       "1hkshn3:616"
-      ]
-     },
-     {
-      "itemId": 3355,
-      "name": "",
-      "fps": [
-       "18aux17:302"
-      ]
-     },
-     {
-      "itemId": 3277,
-      "name": "",
-      "fps": [
-       "8ro1t0:116"
-      ]
-     },
-     {
-      "itemId": 3268,
-      "name": "",
-      "fps": [
-       "1ok1nk3:192"
-      ]
-     }
-    ],
-    "tirados": 23,
-    "ultimosTirados": [
-     {
-      "t": "12:01:45 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 2,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:01:48 a.m.",
-      "itemId": 3336,
-      "fp": "vaijun:323",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3336"
-     },
-     {
-      "t": "12:01:51 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "12:01:54 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "12:01:57 a.m.",
-      "itemId": 3336,
-      "fp": "vaijun:323",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3336"
-     },
-     {
-      "t": "12:02:00 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "12:07:32 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:09:27 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "12:09:35 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "12:09:38 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:11:56 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "12:11:59 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "12:12:17 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "12:12:20 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "12:13:08 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "12:19:04 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "12:21:17 a.m.",
-      "itemId": 3003,
-      "fp": "1u16wu9:505",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3003"
-     },
-     {
-      "t": "12:26:15 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "12:28:17 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "12:29:58 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:31:29 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "12:31:32 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:31:35 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     }
-    ],
+    "activo": false,
+    "objetos": [],
+    "tirados": 0,
+    "ultimosTirados": [],
     "alerta": "",
-    "nota": "esperando a que se detenga",
+    "nota": "esperando",
     "enMochila": [
      {
-      "w": 1,
+      "w": 0,
       "s": 0,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3447,
+      "fp": "10h62qq:468"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 1,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3577,
+      "fp": "qhktbc:394"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 2,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3457,
+      "fp": "1vfnhuv:242"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 3,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3300,
+      "fp": "16wnl0r:132"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 4,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3350,
+      "fp": "kc9681:248"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 5,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": 3447,
+      "fp": "10h62qq:468"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 6,
       "id": 3031,
       "fp": "q0jvf4:408"
      },
      {
-      "w": 1,
+      "w": 0,
       "s": 7,
+      "id": 3447,
+      "fp": "10h62qq:468"
+     },
+     {
+      "w": 0,
+      "s": 8,
+      "id": null,
+      "fp": "2sol5u:72"
+     },
+     {
+      "w": 0,
+      "s": 9,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -384,178 +156,86 @@
    },
    "autoEatTecla": {
     "activo": true,
-    "tecla": "F11",
-    "umbral": 500,
-    "segundos": 169,
-    "pulsaciones": 39,
-    "fallos": 0,
-    "nota": "apagado",
-    "metodo": "tecla",
+    "tecla": "F4",
+    "umbral": 300,
+    "segundos": 0,
+    "pulsaciones": 3,
+    "fallos": 3,
+    "nota": "esperando reintento",
+    "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "02:49",
+    "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
   "explorador": {
-   "activo": true,
-   "pasos": 1831,
-   "espera": "atacando (2 cerca)",
+   "activo": false,
+   "pasos": 0,
+   "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 11,
+    "wall": 0,
     "rare": 0,
     "empty": 0
    },
    "peligros": 0,
-   "visitadas": 762,
+   "visitadas": 0,
    "destino": null,
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "00:32:22  Explorando hacia 32668, 31626 · faltan 15 casillas · teclas",
-    "00:32:23  Explorando hacia 32668, 31626 · faltan 14 casillas · teclas",
-    "00:32:24  Explorando hacia 32668, 31626 · faltan 14 casillas · clic",
-    "00:32:24  Explorando hacia 32668, 31626 · faltan 12 casillas · clic",
-    "00:32:25  Explorando hacia 32668, 31626 · faltan 11 casillas · clic",
-    "00:32:25  Explorando hacia 32668, 31626 · faltan 10 casillas · clic",
-    "00:32:26  Meta nueva 32667,31625 (a 11 pasos, estoy en 32665,31632)",
-    "00:32:26  Explorando hacia 32667, 31625 · faltan 11 casillas · clic",
-    "00:32:27  Explorando hacia 32667, 31625 · faltan 10 casillas · clic",
-    "00:32:27  Explorando hacia 32667, 31625 · faltan 9 casillas · clic",
-    "00:32:28  Meta nueva 32669,31624 (a 9 pasos, estoy en 32667,31631)",
-    "00:32:28  Explorando hacia 32669, 31624 · faltan 9 casillas · clic",
-    "00:32:28  Explorando hacia 32669, 31624 · faltan 8 casillas · clic",
-    "00:32:29  Meta nueva 32663,31623 (a 12 pasos, estoy en 32668,31630)",
-    "00:32:29  Explorando hacia 32663, 31623 · faltan 12 casillas · clic",
-    "00:32:30  Meta nueva 32662,31622 (a 13 pasos, estoy en 32668,31629)",
-    "00:32:30  Explorando hacia 32662, 31622 · faltan 13 casillas · clic",
-    "00:32:31  Meta nueva 32661,31621 (a 14 pasos, estoy en 32668,31628)",
-    "00:32:31  Explorando hacia 32661, 31621 · faltan 14 casillas · clic",
-    "00:32:31  Explorando hacia 32661, 31621 · faltan 13 casillas · clic",
-    "00:32:32  Explorando hacia 32661, 31621 · faltan 12 casillas · clic",
-    "00:32:33  Explorando hacia 32661, 31621 · faltan 11 casillas · clic",
-    "00:32:33  Explorando hacia 32661, 31621 · faltan 10 casillas · clic",
-    "00:32:34  Explorando hacia 32661, 31621 · faltan 9 casillas · clic",
-    "00:32:34  Explorando hacia 32661, 31621 · faltan 8 casillas · clic",
-    "00:32:35  Explorando hacia 32661, 31621 · faltan 7 casillas · clic",
-    "00:32:36  Meta nueva 32660,31621 (a 7 pasos, estoy en 32664,31624)",
-    "00:32:36  Explorando hacia 32660, 31621 · faltan 7 casillas · clic",
-    "00:32:36  Meta nueva 32660,31620 (a 7 pasos, estoy en 32663,31624)",
-    "00:32:36  Explorando hacia 32660, 31620 · faltan 7 casillas · clic",
-    "00:32:37  Meta nueva 32659,31621 (a 6 pasos, estoy en 32663,31623)",
-    "00:32:37  Explorando hacia 32659, 31621 · faltan 6 casillas · clic",
-    "00:32:38  Meta nueva 32658,31621 (a 6 pasos, estoy en 32662,31623)",
-    "00:32:38  Explorando hacia 32658, 31621 · faltan 6 casillas · clic",
-    "00:32:38  Explorando hacia 32658, 31621 · faltan 5 casillas · clic",
-    "00:32:39  Meta nueva 32657,31620 (a 6 pasos, estoy en 32661,31622)",
-    "00:32:39  Explorando hacia 32657, 31620 · faltan 6 casillas · clic",
-    "00:32:40  Explorando hacia 32657, 31620 · faltan 5 casillas · clic",
-    "00:32:40  Meta nueva 32656,31620 (a 5 pasos, estoy en 32660,31621)",
-    "00:32:40  Explorando hacia 32656, 31620 · faltan 5 casillas · clic",
-    "00:32:41  Explorando hacia 32656, 31620 · faltan 4 casillas · clic",
-    "00:32:42  Meta nueva 32655,31620 (a 4 pasos, estoy en 32659,31620)",
-    "00:32:42  Explorando hacia 32655, 31620 · faltan 4 casillas · clic",
-    "00:32:42  Meta nueva 32654,31620 (a 4 pasos, estoy en 32658,31620)",
-    "00:32:42  Explorando hacia 32654, 31620 · faltan 4 casillas · clic",
-    "00:32:43  Meta nueva 32653,31620 (a 4 pasos, estoy en 32657,31620)",
-    "00:32:43  Explorando hacia 32653, 31620 · faltan 4 casillas · clic",
-    "00:32:43  Meta nueva 32652,31621 (a 5 pasos, estoy en 32656,31620)",
-    "00:32:43  Explorando hacia 32652, 31621 · faltan 5 casillas · clic",
-    "00:32:44  Meta nueva 32651,31621 (a 5 pasos, estoy en 32655,31620)",
-    "00:32:44  Explorando hacia 32651, 31621 · faltan 5 casillas · clic",
-    "00:32:45  Explorando hacia 32651, 31621 · faltan 5 casillas · teclas",
-    "00:32:46  Meta nueva 32653,31616 (a 4 pasos, estoy en 32653,31620)",
-    "00:32:46  Explorando hacia 32653, 31616 · faltan 4 casillas · teclas",
-    "00:32:46  En espera: atacando (1 cerca)",
-    "00:32:46  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "00:32:47  Detenido.",
-    "00:32:48  Explorando el piso 11. No subirá ni bajará escaleras.",
-    "00:32:48  En espera: atacando (2 cerca)",
-    "00:32:48  En espera: atacando (2 cerca). Continúa sola al terminar."
+    ""
    ]
   },
   "lootUI": {
-   "loot": true,
+   "loot": false,
    "caminar": true,
    "maestro": false,
    "presencia": false
   },
   "combate": {
-   "historial": [
-    "00:29:48 1 monstruo cerca · tecla F2 → troll",
-    "00:29:48 Loot: tecla F12",
-    "00:29:49 1 monstruo cerca · atacando troll",
-    "00:29:57 Cuerpo anotado en 32668,31668",
-    "00:29:57 Loot: tecla F12",
-    "00:30:00 Yendo al cadáver en 32668,31669…",
-    "00:30:00 Sin monstruos a 5 casillas.",
-    "00:30:02 Loot: tecla F12",
-    "00:30:08 Sin monstruos a 5 casillas.",
-    "00:31:09 tecla F2 → troll",
-    "00:31:09 1 monstruo cerca · tecla F2 → troll",
-    "00:31:09 1 monstruo cerca · atacando troll",
-    "00:31:14 2 monstruos cerca · atacando troll",
-    "00:31:18 Cuerpo anotado en 32654,31654",
-    "00:31:18 Loot: tecla F12",
-    "00:31:21 tecla F2 → troll",
-    "00:31:21 1 monstruo cerca · tecla F2 → troll",
-    "00:31:22 1 monstruo cerca · atacando troll",
-    "00:31:29 Cuerpo anotado en 32652,31655",
-    "00:31:29 Buscando el cadáver…",
-    "00:31:30 Loot: tecla F12",
-    "00:31:36 Yendo al cadáver en 32654,31653…",
-    "00:31:36 Sin monstruos a 5 casillas.",
-    "00:31:38 Loot: tecla F12",
-    "00:31:41 Sin monstruos a 5 casillas.",
-    "00:32:47 tecla F2 → troll",
-    "00:32:47 1 monstruo cerca · tecla F2 → troll",
-    "00:32:47 1 monstruo cerca · atacando troll",
-    "00:32:47 Desactivado.",
-    "00:32:48 Activado."
-   ],
-   "ataque": true,
-   "loot": true,
-   "lootMode": "key",
-   "lootKey": "F12",
+   "historial": [],
+   "ataque": false,
+   "loot": false,
+   "lootMode": "click",
+   "lootKey": "",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "Activado.",
+   "estado": "Desactivado.",
    "ultimoLoot": null,
-   "monstruos": [
-    "troll#1073883997"
-   ],
+   "monstruos": [],
    "objetivo": null,
    "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
    "pos": {
-    "x": 32652,
-    "y": 31618,
-    "z": 11
+    "x": 32340,
+    "y": 32222,
+    "z": 7
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 354Gg 354Gg",
-    ". 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 353Gg 353Gg 354Gg",
-    ". 355Gg 355Gg 355Gg 355Gg 355Gg*C 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg",
-    ". 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3987 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg",
-    ". 355Gg 366Ww 357Ww 357Ww 367Ww 355Gg 355Gg*C 355Gg 355Gg+3268 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww",
-    ". 355Gg 359Ww 101Ww 101Ww 363Ww 367Ww 355Gg+3277+3355+3987 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww",
-    ". 366Ww 362Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg+3412 354Gg 355Gg+3991 365Ww 356Ww 356Ww 356Ww 356Ww 361Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 353Gg 353Gg 353Gg 353Gg 354Gg 353Gg 365Ww 361Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 364Ww 355Gg 353Gg+3991*C 353Gg 353Gg 354Gg 353Gg 353Gg 353Gg 365Ww 361Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg 366Ww 357Ww 367Ww 353Gg 353Gg 353Gg 354Gg 365Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 354Gg 355Gg 355Gg 355Gg 359Ww 101Ww 363Ww 357Ww 367Ww 353Gg 354Gg 353Gg",
-    ". 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 354Gg 354Gg 355Gg 366Ww 357Ww 362Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg",
-    ". 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 354Gg 354Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg",
-    ". 101Ww 360Ww 356Ww 364Ww 355Gg 354Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 364Ww 353Gg",
-    ". . 364Ww 355Gg 355Gg 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 353Gg 353Gg"
+    ". 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg",
+    ". 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg",
+    ". 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1296Ww 870Gg+1295Ww 870Gg+1295Ww 870Gg 870Gg 870Gg+1295Ww 870Gg+1295Ww 870Gg+1295Ww+2597 870Gg+1295Ww",
+    ". 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+2109Ww 870Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg+3501Ww 429Gg+2333Ww 429Gg 429Gg+2982Ww",
+    ". 870Gg 870Gg+2471 870Gg+2471 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1296Ww 870Gg+1295Ww 870Gg+1298Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2334Ww 429Gg 429Gg",
+    ". 870Gg+1271Ww 870Gg+1279Ww 870Gg+1271Ww 870Gg+1271Ww+2929 870Gg+1273Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg+3501Ww 429Gg+2012Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2332Ww 429Gg*C 429Gg",
+    ". 429Gg+3046+3050+3577+3603+3534+2656 429Gg+1270Ww+2638 429Gg+14758?+3046+2393+2656+2471 429Gg+2324Ww+3279+3357 429Gg+1270Ww 870Gg+3492 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2328Ww 429Gg+2323Ww 429Gg+2327Ww",
+    ". 429Gg+3046+3017+3577+3604+3533+2656 429Gg+1270Ww+2605 429Gg+3077+3098+2393+2656+2471 429Gg+2325Ww+3574+3353 429Gg+1639 870Gg 870Gg 870Gg 870Gg*C 870Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
+    ". 429Gg+3046+3007+3577+3534+2656 429Gg+1270Ww+2605 429Gg+3385+2393+2656+2471 429Gg+2338Ww+3732+3380 429Gg+1270Ww+2931 870Gg 870Gg 870Gg 870Gg 870Gg 429Gg 429Gg*C 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
+    ". 429Gg+3046+3007+3577+3533+2656 429Gg+1639 429Gg+14758?+3046+2393+2656+2471 429Gg+2324Ww+3071+3279+3446+3353+3362 429Gg+1270Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1301Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1297Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww",
+    ". 429Gg+1271Ww 429Gg+1278Ww 429Gg+1271Ww 429Gg+1271Ww 429Gg+1274Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg+2321Ww+3499Ww 429Gg+2321Ww 429Gg+2321Ww+3499Ww 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1303Ww",
+    ". 870Gg+4657 103Gg 103Gg 103Gg 870Gg 870Gg 870Gg 870Gg 870Gg+435 870Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1947",
+    ". 870Gg+4657 103Gg 103Gg 103Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
+    ". 870Gg+4657 103Gg 103Gg 103Gg 870Gg+4662 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww+2908 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
+    ". 103Gg+1734Ww 103Gg+1282Ww+2910 103Gg+1290Ww 103Gg+1734Ww 870Gg+4659+2109Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg+2526Ww",
+    ". . . . . . 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 431Gg 429Gg+2164Ww 430Gg*C 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg"
    ]
   },
   "fallosJS": []
