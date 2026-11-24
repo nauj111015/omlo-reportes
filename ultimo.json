@@ -1,34 +1,52 @@
 {
- "enviado": "2026-11-24T11:43:04.781Z",
- "motivo": "auto: 2 errores nuevos",
+ "enviado": "2026-11-24T11:46:56.869Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
-  "mapLoads": 1,
-  "tiles": 3217,
-  "posicion": {
-   "x": 32342,
-   "y": 32223,
-   "z": 7
-  },
+  "mapLoads": 0,
+  "tiles": 10,
+  "posicion": null,
   "erroresMapa": {
-   "parseErrors": 2,
-   "rechazados": 0,
-   "porOpcode": {},
-   "muestrasRechazo": {},
-   "ultimoError": "zero item at 32335,32223,7",
+   "parseErrors": 1,
+   "rechazados": 22,
+   "porOpcode": {
+    "0": 7,
+    "64": 15
+   },
+   "muestrasRechazo": {
+    "0": {
+     "at": 42,
+     "len": 53,
+     "hex": "6a 58 7e dc 7d 07 61 00 00 00 00 00 00 00 d3 1b 00 00 06 00 4b 68 61 6c 69 66 5b 02 86 00 55 72 72 55 00 00 00 00 00 f6 00 00 00 fc 01 00 d3 1b 00 00 02 00 00",
+     "marca": 42,
+     "trail": [
+      "106@0",
+      "246@39",
+      "0@42"
+     ],
+     "ini": "6a 58 7e dc 7d 07 61 00 00 00 00 00"
+    },
+    "64": {
+     "at": 16,
+     "len": 18,
+     "hex": "a2 80 6b 53 7e e4 7d 08 01 63 00 00 00 01 96 00 40 00",
+     "marca": 16,
+     "trail": [
+      "162@0",
+      "107@2",
+      "64@16"
+     ],
+     "ini": "a2 80 6b 53 7e e4 7d 08 01 63 00 00"
+    }
+   },
+   "ultimoError": "zero item at 32332,32215,7",
    "ultimos": [
     {
-     "op": 104,
-     "at": 149,
-     "len": 286,
-     "hex": "6d 58 7e de 7d 07 01 57 7e de 7d 07 68 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 f7 04 00 00 4e 0a 00 00 00 ff ff ff ad 01 00"
-    },
-    {
-     "op": 101,
-     "at": 284,
-     "len": 746,
-     "hex": "6d 52 7e e6 7d 08 01 52 7e e5 7d 08 65 86 04 00 00 00 ff ff ff 89 04 00 00 00 ff ff ff 87 04 00 00 00 ff ff ff 87 04 00 00 00 ff ff ff 87 04 00 00 00 ff ff ff 88 04 00 00 03 ff ff ff 85 04 00 00 00 ff ff ff 86 04 00"
+     "op": 100,
+     "at": 581,
+     "len": 8275,
+     "hex": "0a 6e 18 00 00 32 00 00 f2 00 fd 08 00 01 00 06 00 0a 00 1d 00 2a 00 33 00 4c 00 4f 00 64 55 7e de 7d 07 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 00 ff ff ff 66 03 00 00 a7"
     }
    ]
   },
@@ -43,13 +61,14 @@
     "activo": true,
     "diag": {
      "pendientes": 0,
-     "msg": "Lanzas en mano: 5",
+     "msg": "Activado.",
      "ids": [
       3277
      ],
      "mano": 5,
      "fallos": 0,
-     "ignoradas": 1,
+     "registro": [],
+     "ignoradas": 0,
      "pausaHasta": 0,
      "lootWalk": false,
      "chase": "stand",
@@ -59,14 +78,14 @@
     "explorador": false,
     "nota": "entrenando quieto: ataca, recoge y rearma",
     "municion": "ID 3277",
-    "msg": "Lanzas en mano: 5"
+    "msg": "Activado."
    },
    "pantalla": {
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 4,
-    "logrados": 4,
+    "intentos": 1,
+    "logrados": 1,
     "bloqueado": true
    },
    "presencia": {
@@ -101,8 +120,8 @@
      {
       "w": 0,
       "s": 0,
-      "id": 3492,
-      "fp": "1g9cv44:65"
+      "id": 3277,
+      "fp": "8ro1t0:116"
      },
      {
       "w": 0,
@@ -171,10 +190,10 @@
     "tecla": "F4",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 9,
-    "fallos": 6,
+    "pulsaciones": 3,
+    "fallos": 3,
     "nota": "esperando reintento",
-    "metodo": "tecla",
+    "metodo": "casillero",
     "casilleroEncontrado": true,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
@@ -210,36 +229,8 @@
   },
   "combate": {
    "historial": [
-    "08:42:19 1 monstruo cerca · menú del juego → rat",
-    "08:42:21 Attack no enviado al objetivo; se reintentará.",
-    "08:42:21 1 monstruo cerca · menú del juego → rat",
-    "08:42:21 1 monstruo cerca · atacando rat",
-    "08:42:23 Cuerpo anotado en 32330,32227",
-    "08:42:24 Sin monstruos a 5 casillas.",
-    "08:42:32 Attack no enviado al objetivo; se reintentará.",
-    "08:42:32 1 monstruo cerca · menú del juego → rat",
-    "08:42:34 Attack no enviado al objetivo; se reintentará.",
-    "08:42:34 1 monstruo cerca · menú del juego → rat",
-    "08:42:36 Attack no enviado al objetivo; se reintentará.",
-    "08:42:36 1 monstruo cerca · menú del juego → rat",
-    "08:42:37 Attack no enviado al objetivo; se reintentará.",
-    "08:42:37 1 monstruo cerca · menú del juego → rat",
-    "08:42:39 Attack no enviado al objetivo; se reintentará.",
-    "08:42:39 1 monstruo cerca · menú del juego → rat",
-    "08:42:41 Attack no enviado al objetivo; se reintentará.",
-    "08:42:41 1 monstruo cerca · menú del juego → rat",
-    "08:42:43 Attack no enviado al objetivo; se reintentará.",
-    "08:42:43 1 monstruo cerca · menú del juego → rat",
-    "08:42:45 Attack no enviado al objetivo; se reintentará.",
-    "08:42:45 1 monstruo cerca · menú del juego → rat",
-    "08:42:46 Attack no enviado al objetivo; se reintentará.",
-    "08:42:46 1 monstruo cerca · menú del juego → rat",
-    "08:42:48 Attack no enviado al objetivo; se reintentará.",
-    "08:42:48 1 monstruo cerca · menú del juego → rat",
-    "08:42:51 Attack no enviado al objetivo; se reintentará.",
-    "08:42:51 1 monstruo cerca · menú del juego → rat",
-    "08:42:51 Cuerpo anotado en 32339,32228",
-    "08:42:51 Sin monstruos a 5 casillas."
+    "08:46:21 Activado.",
+    "08:46:22 Esperando posición del personaje…"
    ],
    "ataque": true,
    "loot": false,
@@ -247,40 +238,14 @@
    "lootKey": "",
    "lootWalk": false,
    "cuerpos": 0,
-   "estado": "Sin monstruos a 5 casillas.",
+   "estado": "Esperando posición del personaje…",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
    "recuperaciones": 0,
    "spearOn": true
   },
-  "mapa": {
-   "pos": {
-    "x": 32342,
-    "y": 32223,
-    "z": 7
-   },
-   "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
-   "rows": [
-    "870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+435 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg",
-    "870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg",
-    "870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+4658",
-    "870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1296Ww 870Gg+1295Ww 870Gg+1295Ww 870Gg 870Gg 870Gg+1295Ww 870Gg+1295Ww 870Gg+1295Ww+2597 870Gg+1295Ww 103Gg+4533",
-    "870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+2109Ww 870Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg+3501Ww 429Gg+2333Ww*C 429Gg 429Gg+2982Ww 4527Gg+3655",
-    "870Gg+2471 870Gg+2471 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1296Ww 870Gg+1295Ww 870Gg+1298Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2334Ww 429Gg 429Gg 4515Gg",
-    "870Gg+1279Ww 870Gg+1271Ww 870Gg+1271Ww+2929 870Gg+1271Ww+2638 870Gg+1273Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg+3501Ww 429Gg+2012Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2332Ww 429Gg 429Gg 4515Gg",
-    "429Gg+1270Ww+2638 429Gg+14758?+3046+2393+2656+2471 429Gg+2324Ww+3279+3357 429Gg+14758?+3046+2393+2656+2471 429Gg+1270Ww 870Gg+3492 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2328Ww 429Gg+2323Ww 429Gg+2327Ww 4515Gg+3654",
-    "429Gg+1270Ww+2605 429Gg+3077+3098+2393+2656+2471 429Gg+2325Ww+3574+3353 429Gg+14758?+2393+2656+2471 429Gg+1639 870Gg 870Gg 870Gg 870Gg 870Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 4515Gg+3657",
-    "429Gg+1639 429Gg+14758?+3046+2393+2656+2471 429Gg+2324Ww+3071+3279+3446+3353+3362 429Gg+14758?+3046+2393+2656+2471 429Gg+1270Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1301Ww 429Gg 429Gg*C 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1295Ww",
-    "429Gg+1278Ww 429Gg+1271Ww 429Gg+1271Ww 429Gg+1271Ww 429Gg+1274Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1295Ww 429Gg+1297Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+2110Ww 429Gg+2321Ww+3499Ww",
-    "103Gg 103Gg 103Gg 870Gg 870Gg 870Gg 870Gg 870Gg+435*C 870Gg+1294Ww 431Gg 429Gg+2321Ww+3499Ww 429Gg+2321Ww 429Gg+2321Ww+3499Ww 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1303Ww 431Gg",
-    "103Gg 103Gg 103Gg 870Gg 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1947 429Gg",
-    "103Gg 103Gg 103Gg 870Gg+4662 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww+2908 429Gg 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
-    "103Gg+1282Ww+2910 103Gg+1290Ww 103Gg+1734Ww 870Gg+4659+2109Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg",
-    "408Gg 103Gg+1290Ww 103Gg+1734Ww 103Gg+1284Ww 870Gg+4659+2109Ww 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg+2526Ww 431Gg",
-    "408Gg 408Gg+1281Ww 408Gg 408Gg+1735Ww 870Gg+4659 870Gg 870Gg 870Gg 870Gg 870Gg+1294Ww 431Gg 429Gg+2164Ww 430Gg*C 429Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 429Gg+2321Ww+3497Ww"
-   ]
-  },
+  "mapa": "TypeError: Cannot read properties of null (reading 'x')",
   "fallosJS": []
  }
 }
