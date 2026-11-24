@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-24T14:07:18.516Z",
+ "enviado": "2026-11-24T14:07:24.692Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
@@ -151,8 +151,8 @@
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 9,
-    "logrados": 9,
+    "intentos": 10,
+    "logrados": 10,
     "bloqueado": true
    },
    "presencia": {
