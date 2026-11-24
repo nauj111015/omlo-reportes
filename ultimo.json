@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-24T12:17:18.335Z",
+ "enviado": "2026-11-24T13:41:06.568Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
   "mapLoads": 1,
-  "tiles": 4252,
+  "tiles": 4831,
   "posicion": {
-   "x": 32367,
-   "y": 32250,
+   "x": 32422,
+   "y": 32217,
    "z": 8
   },
   "erroresMapa": {
@@ -30,20 +30,38 @@
     "activo": true,
     "diag": {
      "pendientes": 0,
-     "msg": "Sin lanzas. Elige una espada de respaldo.",
+     "msg": "Lanzas en mano: 1",
      "ids": [
       3277
      ],
      "mano": 5,
      "fallos": 0,
      "registro": [
-      "09:13:42 Lanzas en mano: 2",
-      "09:13:43 Lanzas en mano: 1",
-      "09:13:45 Equipando una lanza de la mochila…",
-      "09:13:48 Lanzas en mano: 1",
-      "09:14:03 Equipando una lanza de la mochila…",
-      "09:14:06 Sin lanzas. Elige una espada de respaldo."
+      "10:40:43 Lanzas en mano: 1",
+      "10:40:44 Equipando una lanza de la mochila…",
+      "10:40:52 Lanzas en mano: 1"
      ],
+     "candidatos": [
+      {
+       "id": 2889,
+       "pick": false,
+       "stack": false,
+       "wStack": true
+      },
+      {
+       "id": 2889,
+       "pick": false,
+       "stack": false,
+       "wStack": true
+      },
+      {
+       "id": 3994,
+       "pick": true,
+       "stack": false,
+       "wStack": true
+      }
+     ],
+     "aprendidos": [],
      "vistas": 0,
      "tapadas": 0,
      "ignoradas": 0,
@@ -56,7 +74,7 @@
     "explorador": false,
     "nota": "entrenando quieto: ataca, recoge y rearma",
     "municion": "ID 3277",
-    "msg": "Sin lanzas. Elige una espada de respaldo."
+    "msg": "Lanzas en mano: 1"
    },
    "pantalla": {
     "activo": true,
@@ -98,75 +116,81 @@
      {
       "w": 0,
       "s": 0,
+      "id": 3492,
+      "fp": "1ae7u10:95"
+     },
+     {
+      "w": 0,
+      "s": 1,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 1,
+      "s": 2,
       "id": 3577,
       "fp": "qhktbc:394"
      },
      {
       "w": 0,
-      "s": 2,
+      "s": 3,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 4,
       "id": 3300,
       "fp": "16wnl0r:132"
      },
      {
       "w": 0,
-      "s": 4,
+      "s": 5,
       "id": 3350,
       "fp": "kc9681:248"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 6,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 6,
+      "s": 7,
       "id": 3031,
       "fp": "q0jvf4:408"
      },
      {
       "w": 0,
-      "s": 7,
+      "s": 8,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 8,
+      "s": 9,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 9,
+      "s": 10,
       "id": 2969,
       "fp": "137gypd:131"
      }
     ]
    },
    "autoEatTecla": {
-    "activo": true,
+    "activo": false,
     "tecla": "F4",
     "umbral": 300,
     "segundos": 0,
-    "pulsaciones": 6,
-    "fallos": 6,
-    "nota": "esperando reintento",
-    "metodo": "tecla",
-    "casilleroEncontrado": true,
+    "pulsaciones": 0,
+    "fallos": 0,
+    "nota": "apagado",
+    "metodo": null,
+    "casilleroEncontrado": null,
     "textoFood": "00:00",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
@@ -201,36 +225,12 @@
   },
   "combate": {
    "historial": [
-    "09:15:57 1 monstruo cerca · menú del juego → rat",
-    "09:15:58 Attack no enviado al objetivo; se reintentará.",
-    "09:15:58 1 monstruo cerca · menú del juego → rat",
-    "09:16:00 Attack no enviado al objetivo; se reintentará.",
-    "09:16:00 1 monstruo cerca · menú del juego → rat",
-    "09:16:02 Attack no enviado al objetivo; se reintentará.",
-    "09:16:02 1 monstruo cerca · menú del juego → rat",
-    "09:16:04 Attack no enviado al objetivo; se reintentará.",
-    "09:16:04 1 monstruo cerca · menú del juego → rat",
-    "09:16:06 Attack no enviado al objetivo; se reintentará.",
-    "09:16:06 1 monstruo cerca · menú del juego → rat",
-    "09:16:07 Attack no enviado al objetivo; se reintentará.",
-    "09:16:07 1 monstruo cerca · menú del juego → rat",
-    "09:16:09 Attack no enviado al objetivo; se reintentará.",
-    "09:16:09 1 monstruo cerca · menú del juego → rat",
-    "09:16:11 Attack no enviado al objetivo; se reintentará.",
-    "09:16:11 1 monstruo cerca · menú del juego → rat",
-    "09:16:13 Attack no enviado al objetivo; se reintentará.",
-    "09:16:13 1 monstruo cerca · menú del juego → rat",
-    "09:16:15 Attack no enviado al objetivo; se reintentará.",
-    "09:16:15 1 monstruo cerca · menú del juego → rat",
-    "09:16:16 Attack no enviado al objetivo; se reintentará.",
-    "09:16:16 1 monstruo cerca · menú del juego → rat",
-    "09:16:18 Attack no enviado al objetivo; se reintentará.",
-    "09:16:18 1 monstruo cerca · menú del juego → rat",
-    "09:16:20 Cuerpo anotado en 32366,32251",
-    "09:16:20 Sin monstruos a 5 casillas.",
-    "09:17:14 Desactivado.",
-    "09:17:14 Activado.",
-    "09:17:15 Sin monstruos a 5 casillas."
+    "10:40:43 Activado.",
+    "10:40:43 tecla F2 → rat",
+    "10:40:43 1 monstruo cerca · tecla F2 → rat",
+    "10:40:43 1 monstruo cerca · atacando rat",
+    "10:40:49 Cuerpo anotado en 32422,32216",
+    "10:40:50 Sin monstruos a 5 casillas."
    ],
    "ataque": true,
    "loot": false,
@@ -247,29 +247,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32367,
-    "y": 32250,
+    "x": 32422,
+    "y": 32217,
     "z": 8
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 351Gg 351Gg 351Gg 351Gg 351Gg+2875 351Gg 353Gg 353Gg 354Gg 355Gg 366Ww 357Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww .",
-    "358Ww 351Gg 351Gg 366Ww 357Ww 357Ww 357Ww 357Ww 357Ww 367Ww 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "363Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+2887+3994 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 364Ww 355Gg 365Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww",
-    "355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+2890+2889 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg",
-    "355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3492 355Gg 355Gg 355Gg 355Gg",
-    "357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww"
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 377Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
+    ". 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 364Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
+    ". 355Gg 355Gg 355Gg 355Gg+2913 355Gg 355Gg+3135 355Gg 355Gg+3492 355Gg 355Gg+1948 355Gg 355Gg 355Gg+2913 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
+    ". 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3492+2889 355Gg 355Gg 355Gg+3507 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 380Ww .",
+    ". 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 367Ww 355Gg+2889*C 355Gg+2889 366Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+3994 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg+2889 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww . .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg+3994 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww . ."
    ]
   },
   "fallosJS": []
