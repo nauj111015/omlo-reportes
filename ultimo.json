@@ -1,23 +1,30 @@
 {
- "enviado": "2026-11-24T13:41:06.568Z",
- "motivo": "manual",
+ "enviado": "2026-11-24T13:45:17.181Z",
+ "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
   "mapLoads": 1,
-  "tiles": 4831,
+  "tiles": 5876,
   "posicion": {
-   "x": 32422,
-   "y": 32217,
-   "z": 8
+   "x": 32345,
+   "y": 32203,
+   "z": 9
   },
   "erroresMapa": {
-   "parseErrors": 0,
+   "parseErrors": 1,
    "rechazados": 0,
    "porOpcode": {},
    "muestrasRechazo": {},
-   "ultimoError": null,
-   "ultimos": []
+   "ultimoError": "zero item at 32340,32207,7",
+   "ultimos": [
+    {
+     "op": 103,
+     "at": 89,
+     "len": 779,
+     "hex": "6d 59 7e c5 7d 09 01 59 7e c6 7d 09 67 98 01 00 00 80 0c 00 00 34 0b 00 00 59 09 00 00 60 0a 00 00 a7 09 00 00 00 ff ff ff 98 01 00 00 77 0c 00 00 33 0b 00 00 59 09 00 00 60 0a 00 00 a7 09 00 00 00 ff ff ff 98 01 00"
+    }
+   ]
   },
   "comida": {
    "segundos": 0,
@@ -39,7 +46,9 @@
      "registro": [
       "10:40:43 Lanzas en mano: 1",
       "10:40:44 Equipando una lanza de la mochila…",
-      "10:40:52 Lanzas en mano: 1"
+      "10:40:52 Lanzas en mano: 1",
+      "10:41:12 Equipando una lanza de la mochila…",
+      "10:41:14 Lanzas en mano: 1"
      ],
      "candidatos": [
       {
@@ -80,8 +89,8 @@
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 3,
-    "logrados": 3,
+    "intentos": 6,
+    "logrados": 6,
     "bloqueado": true
    },
    "presencia": {
@@ -116,8 +125,8 @@
      {
       "w": 0,
       "s": 0,
-      "id": 3492,
-      "fp": "1ae7u10:95"
+      "id": 3277,
+      "fp": "8ro1t0:116"
      },
      {
       "w": 0,
@@ -225,12 +234,36 @@
   },
   "combate": {
    "historial": [
-    "10:40:43 Activado.",
-    "10:40:43 tecla F2 → rat",
-    "10:40:43 1 monstruo cerca · tecla F2 → rat",
-    "10:40:43 1 monstruo cerca · atacando rat",
-    "10:40:49 Cuerpo anotado en 32422,32216",
-    "10:40:50 Sin monstruos a 5 casillas."
+    "10:43:22 Cuerpo anotado en 32390,32220",
+    "10:43:22 1 monstruo cerca · menú del juego → Quero",
+    "10:43:23 Attack no enviado al objetivo; se reintentará.",
+    "10:43:23 1 monstruo cerca · menú del juego → Oswald",
+    "10:43:25 Attack no enviado al objetivo; se reintentará.",
+    "10:43:25 1 monstruo cerca · menú del juego → Oswald",
+    "10:43:27 Attack no enviado al objetivo; se reintentará.",
+    "10:43:27 1 monstruo cerca · menú del juego → Oswald",
+    "10:43:29 Attack no enviado al objetivo; se reintentará.",
+    "10:43:29 1 monstruo cerca · menú del juego → Oswald",
+    "10:43:29 Cuerpo anotado en 32379,32220",
+    "10:43:29 Sin monstruos a 5 casillas.",
+    "10:43:45 Attack no enviado al objetivo; se reintentará.",
+    "10:43:45 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:43:47 Attack no enviado al objetivo; se reintentará.",
+    "10:43:47 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:43:48 Cuerpo anotado en 32374,32182",
+    "10:43:48 Sin monstruos a 5 casillas.",
+    "10:43:53 Attack no enviado al objetivo; se reintentará.",
+    "10:43:53 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:43:54 Attack no enviado al objetivo; se reintentará.",
+    "10:43:54 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:43:55 Cuerpo anotado en 32375,32183",
+    "10:43:55 Sin monstruos a 5 casillas.",
+    "10:43:57 Attack no enviado al objetivo; se reintentará.",
+    "10:43:57 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:44:00 Attack no enviado al objetivo; se reintentará.",
+    "10:44:00 1 monstruo cerca · menú del juego → Grof, the guard",
+    "10:44:00 Cuerpo anotado en 32374,32182",
+    "10:44:00 Sin monstruos a 5 casillas."
    ],
    "ataque": true,
    "loot": false,
@@ -247,29 +280,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32422,
-    "y": 32217,
-    "z": 8
+    "x": 32345,
+    "y": 32203,
+    "z": 9
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    ". . . . . . . . . . . . . . . . . . . . .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 377Ww .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
-    ". 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 364Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
-    ". 355Gg 355Gg 355Gg 355Gg+2913 355Gg 355Gg+3135 355Gg 355Gg+3492 355Gg 355Gg+1948 355Gg 355Gg 355Gg+2913 359Ww 101Ww 101Ww 101Ww 101Ww 375Ww .",
-    ". 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3492+2889 355Gg 355Gg 355Gg+3507 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 380Ww .",
-    ". 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 367Ww 355Gg+2889*C 355Gg+2889 366Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+3994 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg+2889 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww . .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg+3994 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww . ."
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg 368Gg 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg 368Gg 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 351Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg+1283Ww 368Gg+1282Ww 368Gg+1282Ww 368Gg+1285Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 351Gg 351Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 367Ww 351Gg 351Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 363Ww 367Ww 351Gg 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg+3105+3105 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 363Ww 367Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww+1281Ww 368Gg 368Gg 368Gg+1281Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 360Ww+1281Ww 351Gg 351Gg 351Gg+1281Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 358Ww 351Gg 351Gg 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 358Ww 351Gg 365Ww 356Ww 356Ww 356Ww 364Ww 351Gg 351Gg 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 363Ww 357Ww 357Ww 357Ww 357Ww 357Ww 357Ww 367Ww 351Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 351Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
+    ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
   "fallosJS": []
