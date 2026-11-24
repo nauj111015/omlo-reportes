@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-24T14:51:14.723Z",
+ "enviado": "2026-11-24T14:59:30.009Z",
  "motivo": "manual",
  "resumen": {
   "version": "3.2.4",
   "ext": 39,
-  "mapLoads": 3,
-  "tiles": 662,
+  "mapLoads": 1,
+  "tiles": 3274,
   "posicion": {
-   "x": 32392,
-   "y": 32082,
+   "x": 32371,
+   "y": 32150,
    "z": 7
   },
   "erroresMapa": {
@@ -30,29 +30,29 @@
     "activo": true,
     "diag": {
      "pendientes": 0,
-     "msg": "Lanzas en mano: 3",
+     "msg": "Lanzas en mano: 5",
      "ids": [
       3277
      ],
      "mano": 5,
      "fallos": 0,
      "registro": [
-      "11:50:20 Lanzas en mano: 1",
-      "11:50:22 Sin lanzas. Elige una espada de respaldo.",
-      "11:50:38 Equipando una lanza de la mochila…",
-      "11:50:40 Pasando lanzas de la mochila a la mano…",
-      "11:50:45 Lanzas en mano: 1",
-      "11:50:47 Recogiendo lanza…",
-      "11:50:49 Intento de recoger sin efecto (en mano 1→1, suelo 1→1).",
-      "11:50:49 Recogiendo lanza…",
-      "11:50:51 Lanza recogida.",
-      "11:50:51 Lanzas en mano: 1",
-      "11:50:52 Recogiendo lanza…",
-      "11:50:54 Lanza recogida.",
-      "11:50:54 Pasando lanzas de la mochila a la mano…",
-      "11:50:56 Lanzas en mano: 3"
+      "11:58:40 Lanzas en mano: 1",
+      "11:58:55 Recogiendo lanza…",
+      "11:58:56 Intento de recoger sin efecto (en mano 1→1, suelo 1→1).",
+      "11:58:56 Recogiendo lanza…",
+      "11:58:57 Intento de recoger sin efecto (en mano 1→1, suelo 1→1).",
+      "11:58:58 Recogiendo lanza…",
+      "11:58:59 Intento de recoger sin efecto (en mano 1→1, suelo 1→1).",
+      "11:58:59 Recogiendo lanza…",
+      "11:59:01 Intento de recoger sin efecto (en mano 1→1, suelo 1→1).",
+      "11:59:01 No pude recoger esa lanza; la ignoro un rato.",
+      "11:59:01 Lanzas en mano: 1 · en el suelo: 1",
+      "11:59:15 Pasando lanzas de la mochila a la mano…",
+      "11:59:17 Lanzas en mano: 3 · en el suelo: 1",
+      "11:59:19 Lanzas en mano: 5"
      ],
-     "via": "mochila",
+     "via": "mano",
      "candidatos": [
       {
        "id": 2889,
@@ -63,7 +63,31 @@
        "wNombre": null
       },
       {
-       "id": 3998,
+       "id": 3987,
+       "nombre": null,
+       "pick": true,
+       "stack": false,
+       "wStack": true,
+       "wNombre": null
+      },
+      {
+       "id": 2889,
+       "nombre": null,
+       "pick": false,
+       "stack": false,
+       "wStack": true,
+       "wNombre": null
+      },
+      {
+       "id": 3987,
+       "nombre": null,
+       "pick": true,
+       "stack": false,
+       "wStack": true,
+       "wNombre": null
+      },
+      {
+       "id": 3987,
        "nombre": null,
        "pick": true,
        "stack": false,
@@ -87,25 +111,9 @@
        "wNombre": null
       },
       {
-       "id": 3998,
+       "id": 3987,
        "nombre": null,
        "pick": true,
-       "stack": false,
-       "wStack": true,
-       "wNombre": null
-      },
-      {
-       "id": 2889,
-       "nombre": null,
-       "pick": false,
-       "stack": false,
-       "wStack": true,
-       "wNombre": null
-      },
-      {
-       "id": 2886,
-       "nombre": null,
-       "pick": false,
        "stack": false,
        "wStack": true,
        "wNombre": null
@@ -114,7 +122,7 @@
      "aprendidos": [],
      "vistas": 0,
      "tapadas": 0,
-     "ignoradas": 0,
+     "ignoradas": 1,
      "pausaHasta": 0,
      "lootWalk": false,
      "chase": "stand",
@@ -124,14 +132,14 @@
     "explorador": false,
     "nota": "entrenando quieto: ataca, recoge y rearma",
     "municion": "ID 3277",
-    "msg": "Lanzas en mano: 3"
+    "msg": "Lanzas en mano: 5"
    },
    "pantalla": {
     "activo": true,
     "soportado": true,
     "nota": "pantalla fija encendida",
-    "intentos": 4,
-    "logrados": 4,
+    "intentos": 5,
+    "logrados": 5,
     "bloqueado": true
    },
    "presencia": {
@@ -156,7 +164,7 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": false,
+    "activo": true,
     "objetos": [
      {
       "itemId": 3552,
@@ -171,82 +179,111 @@
       "fps": [
        "18aux17:302"
       ]
+     },
+     {
+      "itemId": 3412,
+      "name": "",
+      "fps": [
+       "1hkshn3:616"
+      ]
      }
     ],
-    "tirados": 0,
-    "ultimosTirados": [],
+    "tirados": 2,
+    "ultimosTirados": [
+     {
+      "t": "11:59:11 a.m.",
+      "itemId": 3412,
+      "fp": "1hkshn3:616",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "3412"
+     },
+     {
+      "t": "11:59:14 a.m.",
+      "itemId": 3412,
+      "fp": "1hkshn3:616",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "nada"
+     },
+     {
+      "t": "11:59:16 a.m.",
+      "itemId": 3412,
+      "fp": "1hkshn3:616",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "3412"
+     }
+    ],
     "alerta": "",
-    "nota": "esperando",
+    "nota": "pantalla no visible: espero",
     "enMochila": [
      {
       "w": 0,
       "s": 0,
-      "id": null,
-      "fp": "yisel:210"
-     },
-     {
-      "w": 0,
-      "s": 1,
       "id": 3300,
       "fp": "16wnl0r:132"
      },
      {
       "w": 0,
-      "s": 2,
+      "s": 1,
       "id": 3031,
-      "fp": "10i2vv5:276"
+      "fp": "1nj0tyt:176"
      },
      {
       "w": 0,
-      "s": 3,
+      "s": 2,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 4,
+      "s": 3,
       "id": 3577,
-      "fp": "1bnqhh0:469"
+      "fp": "10pmv6l:534"
      },
      {
       "w": 0,
-      "s": 5,
+      "s": 4,
       "id": 3457,
       "fp": "1vfnhuv:242"
      },
      {
       "w": 0,
-      "s": 6,
+      "s": 5,
       "id": 3350,
       "fp": "kc9681:248"
      },
      {
       "w": 0,
-      "s": 7,
+      "s": 6,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 8,
+      "s": 7,
       "id": 3031,
       "fp": "q0jvf4:408"
      },
      {
       "w": 0,
-      "s": 9,
+      "s": 8,
       "id": 3447,
       "fp": "10h62qq:468"
      },
      {
       "w": 0,
-      "s": 10,
+      "s": 9,
       "id": null,
       "fp": "2sol5u:72"
      },
      {
       "w": 0,
-      "s": 11,
+      "s": 10,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -296,42 +333,39 @@
   },
   "combate": {
    "historial": [
-    "11:50:13 Activado.",
-    "11:50:13 tecla F2 → snake",
-    "11:50:13 4 monstruos cerca · tecla F2 → snake",
-    "11:50:15 4 monstruos cerca · atacando snake",
-    "11:50:16 Cuerpo anotado en 32393,32083",
-    "11:50:16 tecla F2 → snake",
-    "11:50:16 3 monstruos cerca · tecla F2 → snake",
-    "11:50:17 3 monstruos cerca · atacando snake",
-    "11:50:22 Cuerpo anotado en 32391,32083",
-    "11:50:22 tecla F2 → snake",
-    "11:50:22 2 monstruos cerca · tecla F2 → snake",
-    "11:50:22 2 monstruos cerca · atacando snake",
-    "11:50:31 Cuerpo anotado en 32391,32083",
-    "11:50:31 tecla F2 → snake",
-    "11:50:31 1 monstruo cerca · tecla F2 → snake",
-    "11:50:32 1 monstruo cerca · atacando snake",
-    "11:50:43 Cuerpo anotado en 32393,32083",
-    "11:50:44 Loot: clic en el cuerpo (1/3 · quedan 3)",
-    "11:50:45 Buscando el cadáver…",
-    "11:50:47 Loot: clic en el cuerpo (2/3 · quedan 3)",
-    "11:50:51 Loot: clic en el cuerpo (3/3 · quedan 3)",
-    "11:50:56 Loot: clic en el cuerpo (1/3 · quedan 2)",
-    "11:50:58 Loot: clic en el cuerpo (2/3 · quedan 2)",
-    "11:51:01 Loot: clic en el cuerpo (3/3 · quedan 2)",
-    "11:51:04 Loot: clic en el cuerpo (1/3 · quedan 1)",
-    "11:51:06 Loot: clic en el cuerpo (2/3 · quedan 1)",
-    "11:51:09 Loot: clic en el cuerpo (3/3 · quedan 1)",
-    "11:51:12 Loot: clic en el cuerpo (1/3 · quedan 0)"
+    "11:57:18 Activado.",
+    "11:57:18 tecla F2 → troll",
+    "11:57:18 3 monstruos cerca · tecla F2 → troll",
+    "11:57:19 3 monstruos cerca · atacando troll",
+    "11:57:37 Cuerpo anotado en 32370,32149",
+    "11:57:37 tecla F2 → troll",
+    "11:57:37 2 monstruos cerca · tecla F2 → troll",
+    "11:57:37 2 monstruos cerca · atacando troll",
+    "11:57:39 3 monstruos cerca · atacando troll",
+    "11:57:57 Cuerpo anotado en 32370,32149",
+    "11:57:57 tecla F2 → troll",
+    "11:57:57 2 monstruos cerca · tecla F2 → troll",
+    "11:57:57 2 monstruos cerca · atacando troll",
+    "11:58:12 Cuerpo anotado en 32372,32149",
+    "11:58:12 tecla F2 → troll",
+    "11:58:12 1 monstruo cerca · tecla F2 → troll",
+    "11:58:12 1 monstruo cerca · atacando troll",
+    "11:58:25 Cuerpo anotado en 32370,32149",
+    "11:58:25 Loot: clic en el cuerpo (1/3 · quedan 3)",
+    "11:58:28 Loot: clic en el cuerpo (2/3 · quedan 3)",
+    "11:58:30 Loot: clic en el cuerpo (3/3 · quedan 3)",
+    "11:58:33 Loot: clic en el cuerpo (1/3 · quedan 0)",
+    "11:58:36 Loot: clic en el cuerpo (2/3 · quedan 0)",
+    "11:58:38 Loot: clic en el cuerpo (3/3 · quedan 0)",
+    "11:58:39 Sin monstruos a 5 casillas."
    ],
    "ataque": true,
    "loot": true,
    "lootMode": "click",
    "lootKey": "",
    "lootWalk": false,
-   "cuerpos": 1,
-   "estado": "Loot: clic en el cuerpo (1/3 · quedan 0)",
+   "cuerpos": 0,
+   "estado": "Sin monstruos a 5 casillas.",
    "ultimoLoot": null,
    "monstruos": [],
    "objetivo": null,
@@ -340,29 +374,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32392,
-    "y": 32082,
+    "x": 32371,
+    "y": 32150,
     "z": 7
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    ". 4522Gg 4515Gg 4523Gg 4519Gg 4526Gg 4515Gg 4515Gg 4525Gg 4526Gg 4515Gg 4515Gg 4518Gg 4515Gg 4515Gg 4519Gg 4515Gg 4515Gg 4515Gg 4515Gg 4523Gg",
-    ". 4515Gg 4515Gg 4518Gg 4517Gg 4515Gg 4518Gg 4515Gg 4518Gg 4515Gg 4522Gg 4525Gg 4518Gg 4515Gg 4516Gg 4515Gg 4523Gg 4515Gg 4515Gg 4517Gg 4526Gg",
-    ". 4526Gg 4515Gg 4515Gg 4526Gg 4530Gg 4515Gg 4517Gg 4528Gg 4526Gg 4515Gg 4515Gg 4515Gg 4518Gg 4515Gg 4515Gg 4516Gg 4522Gg 4530Gg 4515Gg 4515Gg",
-    ". 4530Gg 4515Gg 4515Gg 4515Gg 4515Gg 4522Gg+3507 4515Gg 4515Gg 4522Gg 4527Gg 4515Gg 4515Gg 4515Gg 4515Gg 4528Gg 4525Gg 4515Gg 4518Gg 4528Gg 4515Gg",
-    ". 4517Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4525Gg 4515Gg 4515Gg 4517Gg 4515Gg 4515Gg 4529Gg 4406Gg+4539 4402Gg+4531 4398Gg+4531",
-    ". 4515Gg 4523Gg 4530Gg 4515Gg 4515Gg 4521Gg 4515Gg 4522Gg 4530Gg 4515Gg 4526Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4402Gg+4539 4407Gg+4535 4407Gg 4406Gg",
-    ". 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4530Gg 4518Gg 4515Gg 4515Gg 4515Gg 4529Gg 4515Gg 4515Gg 4515Gg 4515Gg 4408Gg+4539 4405Gg+4535 4396Gg 4404Gg 4406Gg",
-    ". 4515Gg 4515Gg 4526Gg 4519Gg 4515Gg 4517Gg 4515Gg 4525Gg 4515Gg 4518Gg+3998 4515Gg 4522Gg+3998 4515Gg 4515Gg 4515Gg 4408Gg+4534 4394Gg 4402Gg 4409Gg 4406Gg",
-    ". 4528Gg 4515Gg 4525Gg 4518Gg 4523Gg 4515Gg 4515Gg 4515Gg 4518Gg 4515Gg+3998*C 4515Gg 4515Gg 4522Gg 4515Gg 4525Gg 4398Gg+4534 4401Gg 4399Gg 4397Gg 4406Gg",
-    ". 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4520Gg 4515Gg 4515Gg 4515Gg+2889 4517Gg 4515Gg+2886 4515Gg 4515Gg 4528Gg 4400Gg+4539 4408Gg+4535 4394Gg 4394Gg 4398Gg 4398Gg",
-    ". 4515Gg 4515Gg 4518Gg 4529Gg 4515Gg 4527Gg 4524Gg 4518Gg 4518Gg*C 4522Gg 4518Gg*C 4517Gg 4515Gg 4515Gg 4394Gg+4541 4397Gg+4537 4398Gg 4399Gg 4407Gg 4407Gg",
-    ". 4515Gg 4515Gg 4526Gg 4515Gg 4526Gg 4515Gg 4518Gg 4518Gg 4515Gg 4515Gg 4528Gg 4517Gg 4515Gg 4526Gg 4515Gg 4405Gg+4541 4409Gg+4533 4406Gg+4533 4398Gg+4533 4408Gg+4533",
-    ". 4530Gg 4515Gg 4518Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4522Gg 4515Gg 4515Gg 4515Gg 4515Gg 4518Gg 4515Gg 4518Gg 4530Gg 4519Gg 4525Gg",
-    ". 4518Gg 4515Gg 4517Gg 4526Gg 4519Gg 4519Gg 4517Gg 4515Gg 4526Gg 4526Gg 4529Gg 4515Gg 4515Gg 4515Gg 4526Gg 4526Gg 4530Gg 4517Gg 4515Gg 4523Gg",
-    ". 4526Gg 4515Gg 4515Gg 4522Gg 4518Gg 4515Gg 4518Gg 4524Gg 4515Gg 4517Gg 4526Gg 4521Gg 4522Gg 4515Gg 4515Gg 4515Gg 4515Gg 4520Gg 4521Gg 4515Gg",
-    ". 4515Gg 4515Gg 4525Gg 4515Gg 4515Gg 4515Gg 4527Gg 4515Gg 4515Gg 4521Gg 4528Gg 4515Gg 4515Gg 4515Gg 4518Gg 4523Gg 4515Gg 4515Gg 4518Gg 4522Gg",
-    ". 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4516Gg 4520Gg 4515Gg 4518Gg 4520Gg 4518Gg 4522Gg 4528Gg 4518Gg 4515Gg 4518Gg 4522Gg 4526Gg 4515Gg+3447"
+    ". 4515Gg 4515Gg 4522Gg 4526Gg 4529Gg 4520Gg 4526Gg 231Gg+4541 231Gg+4537 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg 231Gg+4538",
+    ". 4525Gg 4515Gg 4518Gg 4526Gg 4515Gg 4515Gg 4515Gg 4522Gg 231Gg+4541 231Gg+4533 231Gg+4533 231Gg+4533 231Gg+4537 231Gg 231Gg 231Gg 231Gg+4538 231Gg+4533 231Gg+4533 231Gg+4542",
+    ". 4525Gg 4515Gg 4526Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4525Gg 4521Gg 4515Gg 4515Gg 231Gg+4541 231Gg+4533 231Gg+4533 231Gg+4533 231Gg+4542 4526Gg 4523Gg 4521Gg",
+    ". 4517Gg 4515Gg 4518Gg 4515Gg 4515Gg 4520Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4527Gg 4515Gg 4524Gg 4525Gg 4515Gg 4515Gg 4515Gg 4519Gg 4515Gg",
+    ". 4515Gg 4521Gg 4523Gg 4522Gg 4515Gg+3614Ww 4526Gg 4515Gg 4515Gg 4515Gg 4526Gg 4515Gg 4515Gg 4530Gg 4518Gg 4527Gg 4515Gg 4515Gg 4515Gg 4515Gg 4525Gg",
+    ". 4515Gg 4519Gg+3681Ww 4526Gg 4515Gg 4528Gg+3507 4515Gg+3681Ww 4519Gg 4515Gg 4515Gg 4515Gg 4515Gg 4521Gg 4518Gg 4398Gg+4539 4397Gg+4531 4394Gg+4531 4394Gg+4540 4530Gg 4404Gg+4539 4405Gg+4540",
+    ". 4515Gg+3614Ww 4518Gg+3681Ww 4517Gg+3681Ww 4519Gg 4515Gg+3617Ww 4519Gg+3682Ww 4515Gg 4515Gg 4515Gg 4518Gg 4522Gg 4515Gg 4396Gg+4539 4408Gg+4535 4396Gg 4408Gg 4408Gg+4532 4522Gg 4394Gg+4534 4406Gg+4532",
+    ". 4515Gg 4515Gg+2853 4515Gg 4515Gg 4523Gg 4516Gg 4515Gg 4515Gg 4515Gg 294Gg 4515Gg 4409Gg+4539 4405Gg+4535 4404Gg 4395Gg 4407Gg 4400Gg+4536 4402Gg+4531 4394Gg+4535 4405Gg+4536",
+    ". 4515Gg+3681Ww 4516Gg 4518Gg+3614Ww 4515Gg 4530Gg+3614Ww 4515Gg 4517Gg+3614Ww 4517Gg 4515Gg 4525Gg 4515Gg+3614Ww 4409Gg+4541 4402Gg+4537 4394Gg 4405Gg 4399Gg 4402Gg 4397Gg 4394Gg 4408Gg",
+    ". 4523Gg+3681Ww 4515Gg 4515Gg+3682Ww 4515Gg 4519Gg+3682Ww 4515Gg+3681Ww 4515Gg 4530Gg+3682Ww 4519Gg+3682Ww 4515Gg+3681Ww 4523Gg+1979 4518Gg 4394Gg+4534 4402Gg 4402Gg 4397Gg 4397Gg 4403Gg 4403Gg 4394Gg",
+    ". 4524Gg 4515Gg 4529Gg 4519Gg+3681Ww 4515Gg+3682Ww 4518Gg+3681Ww 4516Gg+2164Ww 4515Gg 4515Gg 4515Gg 4515Gg 4518Gg 4394Gg+4541 4409Gg+4537 4409Gg 4394Gg 4407Gg 4408Gg 4408Gg 4409Gg",
+    ". 103Gg+4540 4515Gg 4515Gg 4515Gg+3682Ww 4515Gg+3681Ww 4515Gg+3682Ww 4515Gg+2164Ww 4515Gg 4515Gg+1979+3661 4525Gg 4515Gg+1979 4515Gg 4515Gg+1979 4402Gg+4541 4395Gg+4537 4403Gg 4398Gg 4394Gg 4410Gg 4397Gg",
+    ". 103Gg+4536 103Gg+4531 103Gg+4540 4515Gg 4515Gg+3682Ww 4518Gg 4515Gg+2164Ww 4515Gg+3661 4530Gg 4524Gg 4525Gg 4515Gg 4515Gg 4515Gg 4408Gg+4541 4394Gg+4533 4409Gg+4533 4403Gg+4533 4405Gg+4533 4398Gg+4533",
+    ". 103Gg 103Gg 103Gg+4536 103Gg+4531 103Gg+4540 4515Gg 4515Gg+2164Ww 4515Gg 4515Gg+1979 4523Gg 4519Gg+1979 4515Gg 4523Gg+1979 4515Gg 4515Gg+1979+3661 4519Gg 4530Gg+1979 4515Gg 4522Gg+1979 4515Gg",
+    ". 103Gg 103Gg 103Gg 103Gg 103Gg+4532 4519Gg+2012Ww 4515Gg+2164Ww 4528Gg 4523Gg 4515Gg 4515Gg 4515Gg 4515Gg 4515Gg 4523Gg 4515Gg 4526Gg 4526Gg 4515Gg 4526Gg+2164Ww",
+    ". 103Gg 103Gg 103Gg 103Gg 103Gg+4536 103Gg+4531 103Gg+4531+2164Ww 103Gg+4540 4524Gg+1979 4515Gg 4519Gg+1979+3661 4515Gg 4515Gg+1979 4525Gg 4515Gg+1979 4518Gg+3661 4515Gg+3681Ww 4520Gg+3681Ww 4522Gg 4515Gg+2164Ww",
+    ". . . . . . . . . . . . . . . . . . . . ."
    ]
   },
   "fallosJS": []
