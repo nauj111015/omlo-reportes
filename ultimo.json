@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-25T02:51:09.854Z",
+ "enviado": "2026-11-25T02:56:09.854Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -33,7 +33,7 @@
    ]
   },
   "comida": {
-   "segundos": 728,
+   "segundos": 692,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -172,13 +172,13 @@
     "activo": true,
     "tecla": "F11",
     "umbral": 500,
-    "segundos": 728,
-    "pulsaciones": 31,
+    "segundos": 692,
+    "pulsaciones": 32,
     "fallos": 0,
     "nota": "Food ok",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "12:08",
+    "textoFood": "11:32",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -274,7 +274,7 @@
     "101Ww 358Ww 352Gg 355Gg 353Gg 359Ww 360Ww+1296Ww 356Ww+1295Ww 356Ww+1295Ww 364Ww+1295Ww 354Gg+3267+2853+2853+2853+2853*C 353Gg 353Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 358Ww 355Gg 353Gg 353Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg+2853*C 408Gg 408Gg 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "101Ww 358Ww 352Gg 355Gg 353Gg 359Ww 358Ww+1294Ww+2931 408Gg+2320Ww 408Gg+2162Ww 408Gg+2162Ww 408Gg+2853 408Gg 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 358Ww 355Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 453Gg 408Gg+2853+2853+2853+2853 408Gg+3412+2853+2853+2853+2853+2853+2853+3492 408Gg+1948+2853+2853*C 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 358Ww 355Gg 353Gg 354Gg 359Ww 358Ww+1294Ww 408Gg+2320Ww+3498Ww 452Gg 408Gg+2853+2853+2853+2853 408Gg+3412+2853+2853+2853+2853+2853+2853+3492 408Gg+1948+2853+2853*C 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "356Ww 364Ww 352Gg 353Gg 354Gg 359Ww 358Ww+1301Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg+1295Ww 408Gg 408Gg+2853 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "354Gg 355Gg 353Gg 355Gg 352Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg+2853+2853+2853 408Gg+2853 408Gg+2853 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "353Gg 352Gg 355Gg 355Gg 352Gg 359Ww 358Ww+1294Ww 408Gg+2321Ww+3498Ww 452Gg 408Gg+2853+2853+2853 408Gg+2853 408Gg+2853 408Gg+1294Ww 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
