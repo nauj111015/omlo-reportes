@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-25T02:05:39.851Z",
+ "enviado": "2026-11-25T02:10:44.854Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -33,7 +33,7 @@
    ]
   },
   "comida": {
-   "segundos": 612,
+   "segundos": 571,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -133,46 +133,52 @@
      {
       "w": 1,
       "s": 1,
-      "id": 3152,
-      "fp": "1hsyv6u:337"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 2,
-      "id": 3152,
-      "fp": "1hsyv6u:337"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 3,
-      "id": 3152,
-      "fp": "1hsyv6u:337"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 4,
-      "id": 3152,
-      "fp": "1hsyv6u:337"
+      "id": 3147,
+      "fp": "19fx1zg:268"
      },
      {
       "w": 1,
       "s": 5,
-      "id": 2853,
-      "fp": "1leha45:371"
+      "id": 3147,
+      "fp": "19fx1zg:268"
+     },
+     {
+      "w": 1,
+      "s": 6,
+      "id": 3147,
+      "fp": "19fx1zg:268"
      }
     ]
    },
    "autoEatTecla": {
-    "activo": true,
+    "activo": false,
     "tecla": "F11",
     "umbral": 500,
-    "segundos": 612,
-    "pulsaciones": 21,
+    "segundos": 571,
+    "pulsaciones": 22,
     "fallos": 0,
-    "nota": "Food ok",
+    "nota": "apagado",
     "metodo": "casillero",
     "casilleroEncontrado": true,
-    "textoFood": "10:12",
+    "textoFood": "09:31",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -199,9 +205,9 @@
    ]
   },
   "lootUI": {
-   "loot": true,
+   "loot": false,
    "caminar": true,
-   "maestro": false,
+   "maestro": true,
    "presencia": false
   },
   "combate": {
@@ -238,7 +244,7 @@
     "22:51:30 Yendo al cadáver en 32678,31688…"
    ],
    "ataque": false,
-   "loot": true,
+   "loot": false,
    "lootMode": "key",
    "lootKey": "F12",
    "lootWalk": true,
