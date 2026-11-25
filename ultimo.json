@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-25T04:37:07.189Z",
+ "enviado": "2026-11-25T04:42:07.215Z",
  "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -335,7 +335,7 @@
      }
     ],
     "alerta": "",
-    "nota": "pausa por presencia",
+    "nota": "pantalla no visible: espero",
     "enMochila": []
    },
    "autoEatTecla": {
