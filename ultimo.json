@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-26T21:31:29.057Z",
+ "enviado": "2026-11-26T21:36:34.023Z",
  "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 40,
   "mapLoads": 1,
-  "tiles": 8131,
+  "tiles": 8320,
   "posicion": {
-   "x": 32686,
-   "y": 31643,
+   "x": 32657,
+   "y": 31607,
    "z": 11
   },
   "erroresMapa": {
@@ -33,7 +33,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 0,
+   "segundos": 312,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -71,8 +71,8 @@
     "activo": true,
     "soportado": true,
     "nota": "pantalla no visible",
-    "intentos": 38,
-    "logrados": 38,
+    "intentos": 41,
+    "logrados": 41,
     "bloqueado": false
    },
    "presencia": {
@@ -149,35 +149,8 @@
       ]
      }
     ],
-    "tirados": 59,
+    "tirados": 62,
     "ultimosTirados": [
-     {
-      "t": "5:42:28 p.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 2,
-      "w": 0,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "5:42:31 p.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 0,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "5:42:34 p.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 0,
-      "s": 0,
-      "salio": "3268"
-     },
      {
       "t": "5:54:11 p.m.",
       "itemId": 3412,
@@ -375,6 +348,33 @@
       "w": 0,
       "s": 0,
       "salio": "3552"
+     },
+     {
+      "t": "6:32:52 p.m.",
+      "itemId": 3412,
+      "fp": "1hkshn3:616",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "3412"
+     },
+     {
+      "t": "6:32:55 p.m.",
+      "itemId": 3552,
+      "fp": "xfaeo9:355",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "3552"
+     },
+     {
+      "t": "6:32:58 p.m.",
+      "itemId": 3412,
+      "fp": "1hkshn3:616",
+      "n": 1,
+      "w": 0,
+      "s": 0,
+      "salio": "3412"
      }
     ],
     "alerta": "",
@@ -383,20 +383,20 @@
      {
       "w": 0,
       "s": 0,
-      "id": 3412,
-      "fp": "1hkshn3:616"
+      "id": 3031,
+      "fp": "q0jvf4:408"
      },
      {
       "w": 0,
       "s": 1,
-      "id": 3552,
-      "fp": "xfaeo9:355"
+      "id": 3577,
+      "fp": "qhktbc:394"
      },
      {
       "w": 0,
       "s": 2,
-      "id": 3412,
-      "fp": "1hkshn3:616"
+      "id": 3031,
+      "fp": "q0jvf4:408"
      },
      {
       "w": 0,
@@ -407,8 +407,8 @@
      {
       "w": 0,
       "s": 4,
-      "id": 3577,
-      "fp": "10pmv6l:534"
+      "id": 3031,
+      "fp": "q0jvf4:408"
      },
      {
       "w": 0,
@@ -443,36 +443,18 @@
      {
       "w": 0,
       "s": 10,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 11,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 12,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 13,
       "id": 2920,
       "fp": "k540a:130"
      },
      {
       "w": 0,
-      "s": 14,
+      "s": 11,
       "id": 3725,
       "fp": "911u6w:182"
      },
      {
       "w": 0,
-      "s": 15,
+      "s": 12,
       "id": 2969,
       "fp": "137gypd:131"
      }
@@ -482,100 +464,100 @@
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 0,
+    "segundos": 312,
     "pulsaciones": 0,
     "fallos": 0,
     "nota": "apagado",
     "metodo": null,
     "casilleroEncontrado": null,
-    "textoFood": "00:00",
+    "textoFood": "05:12",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
   },
   "explorador": {
    "activo": true,
-   "pasos": 7902,
+   "pasos": 8298,
    "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 221,
+    "wall": 181,
     "rare": 1,
-    "empty": 9,
+    "empty": 4,
     "unsafe": 1
    },
    "peligros": 0,
-   "visitadas": 841,
+   "visitadas": 846,
    "destino": {
-    "x": 32656,
-    "y": 31631,
+    "x": 32668,
+    "y": 31641,
     "z": 11
    },
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "18:30:36  Meta nueva 32693,31646 (a 14 pasos, estoy en 32684,31641)",
-    "18:30:36  Explorando hacia 32693, 31646 · faltan 14 casillas · teclas",
-    "18:30:37  Explorando hacia 32693, 31646 · faltan 14 casillas · clic",
-    "18:30:38  Meta nueva 32694,31647 (a 15 pasos, estoy en 32685,31641)",
-    "18:30:38  Explorando hacia 32694, 31647 · faltan 15 casillas · clic",
-    "18:30:38  Explorando hacia 32694, 31647 · faltan 14 casillas · clic",
-    "18:30:39  Meta nueva 32695,31648 (a 15 pasos, estoy en 32686,31642)",
-    "18:30:39  Explorando hacia 32695, 31648 · faltan 15 casillas · clic",
-    "18:30:40  Explorando hacia 32695, 31648 · faltan 15 casillas · teclas",
-    "18:30:41  Explorando hacia 32695, 31648 · faltan 14 casillas · teclas",
-    "18:30:41  Meta nueva 32695,31650 (a 15 pasos, estoy en 32687,31643)",
-    "18:30:41  Explorando hacia 32695, 31650 · faltan 15 casillas · teclas",
-    "18:30:42  Explorando hacia 32695, 31650 · faltan 15 casillas · clic",
-    "18:30:43  Explorando hacia 32695, 31650 · faltan 14 casillas · clic",
-    "18:30:43  Explorando hacia 32695, 31650 · faltan 13 casillas · clic",
-    "18:30:44  Explorando hacia 32695, 31650 · faltan 12 casillas · clic",
-    "18:30:45  Explorando hacia 32695, 31650 · faltan 12 casillas · teclas",
-    "18:30:46  Explorando hacia 32695, 31650 · faltan 11 casillas · teclas",
-    "18:30:46  Explorando hacia 32695, 31650 · faltan 10 casillas · teclas",
-    "18:30:47  Explorando hacia 32695, 31650 · faltan 9 casillas · teclas",
-    "18:30:48  Meta nueva 32695,31651 (a 9 pasos, estoy en 32693,31644)",
-    "18:30:48  Explorando hacia 32695, 31651 · faltan 9 casillas · teclas",
-    "18:30:49  Explorando hacia 32695, 31651 · faltan 9 casillas · clic",
-    "18:30:50  Explorando hacia 32695, 31651 · faltan 8 casillas · clic",
-    "18:30:50  Meta nueva 32696,31652 (a 9 pasos, estoy en 32694,31645)",
-    "18:30:50  Explorando hacia 32696, 31652 · faltan 9 casillas · clic",
-    "18:30:51  Explorando hacia 32696, 31652 · faltan 8 casillas · clic",
-    "18:30:52  Explorando hacia 32696, 31652 · faltan 8 casillas · teclas",
-    "18:30:53  Meta nueva 32697,31653 (a 9 pasos, estoy en 32695,31646)",
-    "18:30:53  Explorando hacia 32697, 31653 · faltan 9 casillas · teclas",
-    "18:30:53  En espera: atacando (1 cerca)",
-    "18:30:53  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "18:31:02  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "18:31:08  Reanudado tras: abriendo cadáveres",
-    "18:31:09  Meta nueva 32656,31631 (a 71 pasos, estoy en 32696,31650)",
-    "18:31:09  Explorando hacia 32656, 31631 · faltan 71 casillas · teclas",
-    "18:31:10  Explorando hacia 32656, 31631 · faltan 70 casillas · teclas",
-    "18:31:10  Explorando hacia 32656, 31631 · faltan 69 casillas · teclas",
-    "18:31:11  Explorando hacia 32656, 31631 · faltan 68 casillas · teclas",
-    "18:31:12  Explorando hacia 32656, 31631 · faltan 67 casillas · teclas",
-    "18:31:13  Explorando hacia 32656, 31631 · faltan 66 casillas · teclas",
-    "18:31:14  Explorando hacia 32656, 31631 · faltan 65 casillas · teclas",
-    "18:31:15  Explorando hacia 32656, 31631 · faltan 65 casillas · clic",
-    "18:31:15  Explorando hacia 32656, 31631 · faltan 64 casillas · clic",
-    "18:31:16  Explorando hacia 32656, 31631 · faltan 63 casillas · clic",
-    "18:31:17  Explorando hacia 32656, 31631 · faltan 62 casillas · clic",
-    "18:31:18  Explorando hacia 32656, 31631 · faltan 61 casillas · clic",
-    "18:31:18  Explorando hacia 32656, 31631 · faltan 61 casillas · teclas",
-    "18:31:20  Casilla bloqueada 32692,31643: se busca otro camino.",
-    "18:31:20  Explorando hacia 32656, 31631 · faltan 61 casillas · clic",
-    "18:31:21  Explorando hacia 32656, 31631 · faltan 60 casillas · clic",
-    "18:31:22  Explorando hacia 32656, 31631 · faltan 61 casillas · clic",
-    "18:31:23  Explorando hacia 32656, 31631 · faltan 60 casillas · clic",
-    "18:31:24  Explorando hacia 32656, 31631 · faltan 59 casillas · clic",
-    "18:31:25  Explorando hacia 32656, 31631 · faltan 58 casillas · clic",
-    "18:31:26  Explorando hacia 32656, 31631 · faltan 57 casillas · clic",
-    "18:31:26  Explorando hacia 32656, 31631 · faltan 57 casillas · teclas",
-    "18:31:27  Explorando hacia 32656, 31631 · faltan 56 casillas · teclas",
-    "18:31:28  Explorando hacia 32656, 31631 · faltan 55 casillas · teclas",
-    "18:31:28  Explorando hacia 32656, 31631 · faltan 54 casillas · teclas"
+    "18:35:58  Meta nueva 32650,31604 (a 13 pasos, estoy en 32659,31608)",
+    "18:35:58  Explorando hacia 32650, 31604 · faltan 13 casillas · teclas",
+    "18:35:59  Explorando hacia 32650, 31604 · faltan 12 casillas · teclas",
+    "18:36:00  Meta nueva 32649,31604 (a 12 pasos, estoy en 32658,31607)",
+    "18:36:00  Explorando hacia 32649, 31604 · faltan 12 casillas · teclas",
+    "18:36:00  Explorando hacia 32649, 31604 · faltan 11 casillas · teclas",
+    "18:36:01  Meta nueva 32648,31603 (a 12 pasos, estoy en 32657,31606)",
+    "18:36:01  Explorando hacia 32648, 31603 · faltan 12 casillas · teclas",
+    "18:36:02  Explorando hacia 32648, 31603 · faltan 11 casillas · teclas",
+    "18:36:03  Explorando hacia 32648, 31603 · faltan 11 casillas · clic",
+    "18:36:03  Meta nueva 32647,31602 (a 12 pasos, estoy en 32656,31605)",
+    "18:36:03  Explorando hacia 32647, 31602 · faltan 12 casillas · clic",
+    "18:36:04  Explorando hacia 32647, 31602 · faltan 11 casillas · clic",
+    "18:36:05  Meta nueva 32646,31602 (a 11 pasos, estoy en 32655,31604)",
+    "18:36:05  Explorando hacia 32646, 31602 · faltan 11 casillas · clic",
+    "18:36:06  Explorando hacia 32646, 31602 · faltan 11 casillas · teclas",
+    "18:36:06  Meta nueva 32645,31601 (a 12 pasos, estoy en 32654,31604)",
+    "18:36:06  Explorando hacia 32645, 31601 · faltan 12 casillas · teclas",
+    "18:36:07  Meta nueva 32644,31601 (a 12 pasos, estoy en 32653,31604)",
+    "18:36:07  Explorando hacia 32644, 31601 · faltan 12 casillas · teclas",
+    "18:36:08  Explorando hacia 32644, 31601 · faltan 11 casillas · teclas",
+    "18:36:08  Explorando hacia 32644, 31601 · faltan 11 casillas · clic",
+    "18:36:09  Meta nueva 32643,31600 (a 12 pasos, estoy en 32652,31603)",
+    "18:36:09  Explorando hacia 32643, 31600 · faltan 12 casillas · clic",
+    "18:36:10  Meta nueva 32642,31600 (a 12 pasos, estoy en 32651,31603)",
+    "18:36:10  Explorando hacia 32642, 31600 · faltan 12 casillas · clic",
+    "18:36:11  Explorando hacia 32642, 31600 · faltan 11 casillas · clic",
+    "18:36:12  Meta nueva 32641,31597 (a 14 pasos, estoy en 32650,31602)",
+    "18:36:12  Explorando hacia 32641, 31597 · faltan 14 casillas · clic",
+    "18:36:13  Meta nueva 32640,31597 (a 14 pasos, estoy en 32649,31602)",
+    "18:36:13  Explorando hacia 32640, 31597 · faltan 14 casillas · clic",
+    "18:36:14  Explorando hacia 32640, 31597 · faltan 13 casillas · clic",
+    "18:36:14  Explorando hacia 32640, 31597 · faltan 13 casillas · teclas",
+    "18:36:15  Meta nueva 32639,31597 (a 13 pasos, estoy en 32648,31601)",
+    "18:36:15  Explorando hacia 32639, 31597 · faltan 13 casillas · teclas",
+    "18:36:16  Meta nueva 32668,31641 (a 63 pasos, estoy en 32647,31601)",
+    "18:36:16  Explorando hacia 32668, 31641 · faltan 63 casillas · teclas",
+    "18:36:17  Explorando hacia 32668, 31641 · faltan 62 casillas · teclas",
+    "18:36:18  Explorando hacia 32668, 31641 · faltan 62 casillas · clic",
+    "18:36:18  Explorando hacia 32668, 31641 · faltan 61 casillas · clic",
+    "18:36:19  Explorando hacia 32668, 31641 · faltan 60 casillas · clic",
+    "18:36:20  Explorando hacia 32668, 31641 · faltan 60 casillas · teclas",
+    "18:36:20  Explorando hacia 32668, 31641 · faltan 59 casillas · teclas",
+    "18:36:21  Explorando hacia 32668, 31641 · faltan 58 casillas · teclas",
+    "18:36:22  Explorando hacia 32668, 31641 · faltan 57 casillas · teclas",
+    "18:36:23  Explorando hacia 32668, 31641 · faltan 56 casillas · teclas",
+    "18:36:23  Explorando hacia 32668, 31641 · faltan 56 casillas · clic",
+    "18:36:24  Explorando hacia 32668, 31641 · faltan 55 casillas · clic",
+    "18:36:25  Explorando hacia 32668, 31641 · faltan 54 casillas · clic",
+    "18:36:26  Explorando hacia 32668, 31641 · faltan 53 casillas · clic",
+    "18:36:26  Explorando hacia 32668, 31641 · faltan 53 casillas · teclas",
+    "18:36:27  Explorando hacia 32668, 31641 · faltan 52 casillas · teclas",
+    "18:36:28  Explorando hacia 32668, 31641 · faltan 51 casillas · teclas",
+    "18:36:29  Explorando hacia 32668, 31641 · faltan 50 casillas · teclas",
+    "18:36:30  Explorando hacia 32668, 31641 · faltan 50 casillas · clic",
+    "18:36:30  Explorando hacia 32668, 31641 · faltan 49 casillas · clic",
+    "18:36:31  Explorando hacia 32668, 31641 · faltan 48 casillas · clic",
+    "18:36:31  Explorando hacia 32668, 31641 · faltan 47 casillas · clic",
+    "18:36:32  Explorando hacia 32668, 31641 · faltan 46 casillas · clic",
+    "18:36:33  Explorando hacia 32668, 31641 · faltan 47 casillas · clic"
    ]
   },
   "lootUI": {
@@ -632,29 +614,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 32686,
-    "y": 31643,
+    "x": 32657,
+    "y": 31607,
     "z": 11
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    "365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww .",
-    "355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "355Gg*C 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     "355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 360Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 364Ww 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg+3992 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 366Ww 367Ww 355Gg 366Ww 367Ww 355Gg 355Gg 355Gg 359Ww",
-    "361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 362Ww 363Ww 357Ww 362Ww 358Ww 355Gg 355Gg 355Gg 365Ww",
-    "359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 354Gg 354Gg+3991 355Gg 355Gg",
-    "365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 354Gg+3992 355Gg 355Gg+3987",
-    "355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg 354Gg+3991*C 355Gg",
-    "355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 354Gg",
-    "352Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 355Gg+3987 355Gg+3987"
+    "367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "363Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 363Ww 357Ww 357Ww 367Ww 355Gg 355Gg 355Gg 354Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg*C 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 353Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 354Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww",
+    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg 353Gg 353Gg 365Ww 361Ww 101Ww 101Ww 101Ww",
+    "356Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 354Gg 354Gg 353Gg 365Ww 361Ww 101Ww 101Ww",
+    "355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww 353Gg 353Gg 354Gg 354Gg 353Gg 365Ww 361Ww 101Ww",
+    "355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg 354Gg 353Gg 353Gg 359Ww 101Ww",
+    "355Gg 355Gg 355Gg 355Gg 355Gg 355Gg+3992 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg 353Gg 354Gg 359Ww 101Ww",
+    "367Ww 355Gg 355Gg 355Gg 355Gg+3987 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 353Gg 353Gg 365Ww 361Ww"
    ]
   },
   "fallosJS": []
