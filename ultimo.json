@@ -1,23 +1,23 @@
 {
- "enviado": "2026-11-27T16:07:02.904Z",
- "motivo": "auto: 1 errores nuevos",
+ "enviado": "2026-11-27T16:12:02.909Z",
+ "motivo": "auto: 2 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 40,
   "mapLoads": 5,
-  "tiles": 9920,
+  "tiles": 10051,
   "posicion": {
-   "x": 32640,
+   "x": 32638,
    "y": 31599,
    "z": 11
   },
   "erroresMapa": {
    "parseErrors": 0,
-   "rechazados": 7,
+   "rechazados": 8,
    "porOpcode": {
     "173": 1,
     "217": 1,
-    "219": 5
+    "219": 6
    },
    "muestrasRechazo": {
     "173": {
@@ -98,10 +98,15 @@
     "bloqueado": true
    },
    "presencia": {
-    "active": false,
+    "active": true,
     "muted": false,
-    "beeps": 3,
-    "savedPaused": null
+    "beeps": 8,
+    "savedPaused": {
+     "attack": true,
+     "loot": true,
+     "spear": false,
+     "train": false
+    }
    },
    "paladin": {
     "activo": false,
@@ -400,81 +405,8 @@
      }
     ],
     "alerta": "",
-    "nota": "esperando a que se detenga",
-    "enMochila": [
-     {
-      "w": 0,
-      "s": 0,
-      "id": 3031,
-      "fp": "1dpa58e:69"
-     },
-     {
-      "w": 0,
-      "s": 1,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 2,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 3,
-      "id": 3054,
-      "fp": "17q0dpd:145"
-     },
-     {
-      "w": 0,
-      "s": 4,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 5,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 6,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 7,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 8,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 9,
-      "id": 3577,
-      "fp": "10pmv6l:534"
-     },
-     {
-      "w": 0,
-      "s": 10,
-      "id": 3725,
-      "fp": "911u6w:182"
-     },
-     {
-      "w": 0,
-      "s": 11,
-      "id": 2969,
-      "fp": "137gypd:131"
-     }
-    ]
+    "nota": "pausa por presencia",
+    "enMochila": []
    },
    "autoEatTecla": {
     "activo": false,
@@ -494,7 +426,7 @@
   "explorador": {
    "activo": true,
    "pasos": 3897,
-   "espera": "atacando (1 cerca)",
+   "espera": "control de presencia: resuélvelo tú",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
@@ -513,7 +445,6 @@
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "13:06:34  Explorando hacia 32660, 31612 · faltan 4 casillas · teclas",
     "13:06:35  Meta nueva 32659,31610 (a 6 pasos, estoy en 32663,31612)",
     "13:06:35  Explorando hacia 32659, 31610 · faltan 6 casillas · teclas",
     "13:06:36  Explorando hacia 32659, 31610 · faltan 5 casillas · teclas",
@@ -572,18 +503,18 @@
     "13:07:00  Meta nueva 32638,31599 (a 4 pasos, estoy en 32642,31599)",
     "13:07:00  Explorando hacia 32638, 31599 · faltan 4 casillas · teclas",
     "13:07:01  En espera: atacando (1 cerca)",
-    "13:07:01  En espera: atacando (1 cerca). Continúa sola al terminar."
+    "13:07:01  En espera: atacando (1 cerca). Continúa sola al terminar.",
+    "13:07:03  En espera: control de presencia: resuélvelo tú. Continúa sola al terminar."
    ]
   },
   "lootUI": {
    "loot": true,
    "caminar": true,
    "maestro": false,
-   "presencia": false
+   "presencia": true
   },
   "combate": {
    "historial": [
-    "13:01:40 tecla F2 → troll",
     "13:01:40 1 monstruo cerca · tecla F2 → troll",
     "13:01:41 1 monstruo cerca · atacando troll",
     "13:01:46 2 monstruos cerca · atacando troll",
@@ -612,33 +543,27 @@
     "13:03:07 Sin monstruos a 5 casillas.",
     "13:07:01 tecla F2 → troll",
     "13:07:01 1 monstruo cerca · tecla F2 → troll",
-    "13:07:02 1 monstruo cerca · atacando troll"
+    "13:07:02 1 monstruo cerca · atacando troll",
+    "13:07:02 Desactivado."
    ],
-   "ataque": true,
-   "loot": true,
+   "ataque": false,
+   "loot": false,
    "lootMode": "key",
    "lootKey": "F7",
    "lootWalk": true,
    "cuerpos": 0,
-   "estado": "1 monstruo cerca · atacando troll",
+   "estado": "Desactivado.",
    "ultimoLoot": null,
    "monstruos": [
     "troll#1073800878"
    ],
-   "objetivo": {
-    "id": 1073800878,
-    "name": "troll",
-    "x": 32637,
-    "y": 31599,
-    "z": 11,
-    "snap": {}
-   },
+   "objetivo": null,
    "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
    "pos": {
-    "x": 32640,
+    "x": 32638,
     "y": 31599,
     "z": 11
    },
@@ -649,18 +574,18 @@
     ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
     ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 356Ww 364Ww 355Gg 355Gg 355Gg+3992 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg+3277 355Gg+3412+3277 355Gg 355Gg 355Gg+3991 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg*C 355Gg+3987 355Gg+3336+3355+3412 355Gg+3991+3552+3268 355Gg+3355 355Gg 355Gg+3003+3277 355Gg+3992 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww",
-    ". 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 366Ww 357Ww 357Ww 357Ww 367Ww 355Gg 355Gg 355Gg+3992 355Gg 355Gg+3992 355Gg 365Ww 356Ww 361Ww",
-    ". 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww",
-    ". 101Ww 358Ww 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg",
-    ". 101Ww 363Ww 367Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg",
-    ". 101Ww 101Ww 363Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg+3987 355Gg",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 356Ww 364Ww 355Gg 355Gg 355Gg+3992 365Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg+3277 355Gg+3412+3277 355Gg 355Gg 355Gg+3991 355Gg 365Ww 361Ww 101Ww 101Ww",
+    ". 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg+3987*C 355Gg*C 355Gg+3336+3355+3412 355Gg+3991+3552+3268 355Gg+3355 355Gg 355Gg+3003+3277 355Gg+3992 355Gg 365Ww 356Ww 361Ww",
+    ". 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 366Ww 357Ww 357Ww 357Ww 367Ww 355Gg 355Gg 355Gg+3992 355Gg 355Gg+3992 355Gg 365Ww",
+    ". 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 355Gg",
+    ". 101Ww 101Ww 101Ww 358Ww 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg",
+    ". 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg",
+    ". 101Ww 101Ww 101Ww 101Ww 363Ww 357Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww",
     ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww",
-    ". . . . . . 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww"
+    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
+    ". . . . . . . . 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww"
    ]
   },
   "fallosJS": []
