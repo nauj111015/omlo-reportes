@@ -1,63 +1,51 @@
 {
- "enviado": "2026-11-28T05:15:17.789Z",
- "motivo": "auto: 14 errores nuevos",
+ "enviado": "2026-11-28T10:04:04.061Z",
+ "motivo": "auto: 4 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 40,
-  "mapLoads": 2,
-  "tiles": 8532,
+  "mapLoads": 1,
+  "tiles": 2427,
   "posicion": {
-   "x": 32648,
-   "y": 31616,
-   "z": 11
+   "x": 32336,
+   "y": 31778,
+   "z": 7
   },
   "erroresMapa": {
-   "parseErrors": 2,
-   "rechazados": 12,
+   "parseErrors": 0,
+   "rechazados": 4,
    "porOpcode": {
-    "219": 10,
-    "236": 2
+    "236": 1,
+    "237": 3
    },
    "muestrasRechazo": {
-    "219": {
-     "at": 0,
-     "len": 1187,
-     "hex": "db 01 c7 0c cf 63 78 00 03 a8 38 80 00 00 00 00 88 00 02 00 00 00 01 00 00 00 00 00 00 00",
-     "marca": 0,
-     "trail": [
-      "219@0"
-     ],
-     "ini": "db 01 c7 0c cf 63 78 00 03 a8 38 80"
-    },
     "236": {
-     "at": 560,
-     "len": 597,
-     "hex": "ff 65 00 00 00 00 ff ff ff 65 00 00 00 00 ff ff ff 65 00 00 00 00 ff ff ff 65 00 00 00 00 ff ff ff 65 00 00 00 00 ff ff ff 65 00 00 00 00 ff ff ff 6b a7 7f c7 7b 08 00 c5 01 00 00 ec 02 00 00 b4 15 1d 00 59 6f 75 72 20 64 65 70 6f 74 20 63 6f 6e 74 61 69 6e 73 20 34 30",
+     "at": 321,
+     "len": 358,
+     "hex": "ff 6a 00 00 00 00 ff ff ff 6a 00 00 00 00 ff ff ff 6a 00 00 00 00 ff ff ff 6d 08 00 00 6b 08 00 00 bd 01 00 00 00 ff ff ff c1 01 00 00 79 ff ff ff 6b 50 7e 22 7c 07 00 ae 01 00 00 ec 02 00 00 b4 15 1d 00 59 6f 75 72 20 64 65 70 6f 74 20 63 6f 6e 74 61 69 6e 73 20 34 31",
      "marca": 60,
      "trail": [
-      "109@0",
-      "104@12",
-      "107@549",
-      "236@560"
+      "245@0",
+      "109@1",
+      "101@13",
+      "107@310",
+      "236@321"
      ],
-     "ini": "6d a8 7f c7 7b 08 01 a7 7f c7 7b 08"
+     "ini": "f5 6d 50 7e 23 7c 07 01 50 7e 22 7c"
+    },
+    "237": {
+     "at": 0,
+     "len": 6,
+     "hex": "ed 00 00 00 e8 03",
+     "marca": 0,
+     "trail": [
+      "237@0"
+     ],
+     "ini": "ed 00 00 00 e8 03"
     }
    },
-   "ultimoError": "zero item at 32675,31673,7",
-   "ultimos": [
-    {
-     "op": 103,
-     "at": 217,
-     "len": 833,
-     "hex": "6d a2 7f b1 7b 08 01 a2 7f b2 7b 08 67 06 ff ff ff c7 06 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 12 09 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00"
-    },
-    {
-     "op": 101,
-     "at": 169,
-     "len": 874,
-     "hex": "6d a9 7f c1 7b 08 01 a9 7f c0 7b 08 65 c7 06 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 12 09 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 00 ff ff ff 98 01 00 00 67 06 00"
-    }
-   ]
+   "ultimoError": null,
+   "ultimos": []
   },
   "comida": {
    "segundos": 0,
@@ -68,14 +56,44 @@
    "gesto": null,
    "entrenar": {
     "activo": false,
+    "diag": {
+     "pendientes": 0,
+     "msg": "",
+     "ids": [
+      3277
+     ],
+     "mano": 5,
+     "fallos": 0,
+     "registro": [],
+     "via": "",
+     "candidatos": [],
+     "aprendidos": [],
+     "vistas": 0,
+     "tapadas": 0,
+     "ignoradas": 0,
+     "pausaHasta": 0,
+     "lootWalk": true,
+     "chase": "chase",
+     "modo": "defensive",
+     "monstruos": 0
+    },
+    "explorador": false,
     "nota": "",
-    "municion": null,
+    "municion": "ID 3277",
     "msg": ""
+   },
+   "pantalla": {
+    "activo": true,
+    "soportado": true,
+    "nota": "pantalla fija encendida",
+    "intentos": 4,
+    "logrados": 4,
+    "bloqueado": true
    },
    "presencia": {
     "active": false,
     "muted": false,
-    "beeps": 3,
+    "beeps": 0,
     "savedPaused": null
    },
    "paladin": {
@@ -94,34 +112,13 @@
     "huirBajo": 35
    },
    "autoDrop": {
-    "activo": true,
+    "activo": false,
     "objetos": [
-     {
-      "itemId": 3336,
-      "name": "",
-      "fps": [
-       "vaijun:323"
-      ]
-     },
      {
       "itemId": 3552,
       "name": "",
       "fps": [
        "xfaeo9:355"
-      ]
-     },
-     {
-      "itemId": 3003,
-      "name": "",
-      "fps": [
-       "1u16wu9:505"
-      ]
-     },
-     {
-      "itemId": 3412,
-      "name": "",
-      "fps": [
-       "1hkshn3:616"
       ]
      },
      {
@@ -132,10 +129,10 @@
       ]
      },
      {
-      "itemId": 3277,
+      "itemId": 3412,
       "name": "",
       "fps": [
-       "8ro1t0:116"
+       "1hkshn3:616"
       ]
      },
      {
@@ -144,269 +141,130 @@
       "fps": [
        "1ok1nk3:192"
       ]
+     },
+     {
+      "itemId": 3277,
+      "name": "",
+      "fps": [
+       "8ro1t0:116"
+      ]
+     },
+     {
+      "itemId": 3336,
+      "name": "",
+      "fps": [
+       "vaijun:323"
+      ]
+     },
+     {
+      "itemId": 3003,
+      "name": "",
+      "fps": [
+       "1u16wu9:505"
+      ]
      }
     ],
-    "tirados": 143,
-    "ultimosTirados": [
-     {
-      "t": "12:26:33 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "12:40:26 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "12:57:52 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "1:06:54 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:06:57 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "1:11:12 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "1:11:15 a.m.",
-      "itemId": 3336,
-      "fp": "vaijun:323",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3336"
-     },
-     {
-      "t": "1:14:26 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:14:29 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "1:14:32 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "1:17:46 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:21:02 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:24:42 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "1:24:45 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "1:25:28 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "1:31:32 a.m.",
-      "itemId": 3355,
-      "fp": "18aux17:302",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3355"
-     },
-     {
-      "t": "1:31:35 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:31:38 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "1:31:41 a.m.",
-      "itemId": 3336,
-      "fp": "vaijun:323",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3336"
-     },
-     {
-      "t": "1:32:50 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:32:53 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     },
-     {
-      "t": "1:32:56 a.m.",
-      "itemId": 3268,
-      "fp": "1ok1nk3:192",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3268"
-     },
-     {
-      "t": "1:34:38 a.m.",
-      "itemId": 3277,
-      "fp": "8ro1t0:116",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3277"
-     },
-     {
-      "t": "1:34:41 a.m.",
-      "itemId": 3412,
-      "fp": "1hkshn3:616",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3412"
-     },
-     {
-      "t": "1:34:48 a.m.",
-      "itemId": 3552,
-      "fp": "xfaeo9:355",
-      "n": 1,
-      "w": 1,
-      "s": 0,
-      "salio": "3552"
-     }
-    ],
+    "tirados": 0,
+    "ultimosTirados": [],
     "alerta": "",
-    "nota": "hay monstruos: espera",
+    "nota": "esperando",
     "enMochila": [
      {
+      "w": 0,
+      "s": 0,
+      "id": 3502,
+      "fp": "bzp454:655"
+     },
+     {
+      "w": 0,
+      "s": 1,
+      "id": null,
+      "fp": "9q0dvb:548"
+     },
+     {
+      "w": 0,
+      "s": 2,
+      "id": null,
+      "fp": "1u2vk9o:889"
+     },
+     {
+      "w": 0,
+      "s": 3,
+      "id": null,
+      "fp": "1a7l48r:555"
+     },
+     {
       "w": 1,
       "s": 0,
-      "id": 3577,
-      "fp": "1bnqhh0:469"
+      "id": null,
+      "fp": "cm0pwy:816"
      },
      {
       "w": 1,
       "s": 1,
-      "id": 3031,
-      "fp": "q0jvf4:408"
+      "id": null,
+      "fp": "npbn2l:816"
      },
      {
       "w": 1,
       "s": 2,
-      "id": 3725,
-      "fp": "911u6w:182"
+      "id": null,
+      "fp": "110wzdn:816"
      },
      {
       "w": 1,
       "s": 3,
-      "id": 2969,
-      "fp": "137gypd:131"
+      "id": null,
+      "fp": "1ddlraq:816"
+     },
+     {
+      "w": 1,
+      "s": 4,
+      "id": null,
+      "fp": "16ck5pi:816"
+     },
+     {
+      "w": 1,
+      "s": 5,
+      "id": null,
+      "fp": "1219ic2:816"
+     },
+     {
+      "w": 1,
+      "s": 6,
+      "id": null,
+      "fp": "pnalmm:816"
+     },
+     {
+      "w": 1,
+      "s": 7,
+      "id": null,
+      "fp": "1thh4qk:816"
+     },
+     {
+      "w": 1,
+      "s": 8,
+      "id": null,
+      "fp": "ccwo2e:816"
+     },
+     {
+      "w": 1,
+      "s": 9,
+      "id": null,
+      "fp": "1fn2f6t:816"
+     },
+     {
+      "w": 1,
+      "s": 10,
+      "id": null,
+      "fp": "1s0axym:816"
      }
     ]
    },
    "autoEatTecla": {
     "activo": false,
     "tecla": "F11",
-    "umbral": 500,
+    "umbral": 300,
     "segundos": 0,
     "pulsaciones": 0,
     "fallos": 0,
@@ -419,169 +277,72 @@
    }
   },
   "explorador": {
-   "activo": true,
-   "pasos": 20721,
-   "espera": "atacando (2 cerca)",
+   "activo": false,
+   "pasos": 0,
+   "espera": "",
    "atasco": 0,
    "evitarRaras": true,
    "plan": {
     "nodes": 0,
-    "wall": 6,
+    "wall": 0,
     "rare": 0,
     "empty": 0
    },
    "peligros": 0,
-   "visitadas": 604,
-   "destino": {
-    "x": 32685,
-    "y": 31662,
-    "z": 11
-   },
+   "visitadas": 0,
+   "destino": null,
    "tiposInseguros": [],
    "casillasPeligro": 0,
    "log": [
-    "01:58:50  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "01:59:28  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "01:59:35  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "01:59:41  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:00:15  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:00:20  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:00:21  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:00:57  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:01:00  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:01:38  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:01:45  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:01:51  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:02:25  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:02:30  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:02:31  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:03:07  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:03:10  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:03:48  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:03:55  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:04:01  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:04:35  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:04:40  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:04:41  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:05:18  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:05:20  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:05:58  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:06:05  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:06:11  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:06:45  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:06:50  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:06:52  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:07:28  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:07:30  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:08:08  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:08:15  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:08:22  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:08:55  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:09:00  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:09:02  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:09:38  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:09:40  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:10:18  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:10:25  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:10:32  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:11:05  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:11:10  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:11:12  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:11:48  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:11:51  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:12:28  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:12:35  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:12:42  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:13:16  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:13:20  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:13:22  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:13:58  En espera: atacando (2 cerca). Continúa sola al terminar.",
-    "02:14:01  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:14:38  En espera: abriendo cadáveres. Continúa sola al terminar.",
-    "02:14:46  En espera: atacando (1 cerca). Continúa sola al terminar.",
-    "02:14:52  En espera: atacando (2 cerca). Continúa sola al terminar."
+    ""
    ]
   },
   "lootUI": {
-   "loot": true,
+   "loot": false,
    "caminar": true,
    "maestro": false,
    "presencia": false
   },
   "combate": {
-   "historial": [
-    "02:12:34 Yendo al cadáver en 32650,31615…",
-    "02:12:34 Yendo al cadáver en 32650,31616…",
-    "02:12:34 Yendo al cadáver en 32652,31621…",
-    "02:12:35 Yendo al cadáver en 32650,31615…",
-    "02:12:36 1 monstruo cerca",
-    "02:12:42 2 monstruos cerca",
-    "02:13:16 Cuerpo anotado en 32649,31615",
-    "02:13:16 Buscando el cadáver…",
-    "02:13:18 1 monstruo cerca",
-    "02:13:21 2 monstruos cerca",
-    "02:13:22 Cuerpo anotado en 32650,31615",
-    "02:13:22 1 monstruo cerca",
-    "02:13:58 2 monstruos cerca",
-    "02:14:01 Cuerpo anotado en 32650,31616",
-    "02:14:01 Loot: tecla F12",
-    "02:14:07 1 monstruo cerca",
-    "02:14:38 Cuerpo anotado en 32652,31621",
-    "02:14:38 Yendo al cadáver en 32650,31616…",
-    "02:14:39 Sin monstruos a 5 casillas.",
-    "02:14:40 Yendo al cadáver en 32650,31615…",
-    "02:14:40 Yendo al cadáver en 32650,31616…",
-    "02:14:41 Yendo al cadáver en 32652,31621…",
-    "02:14:42 Sin monstruos a 5 casillas.",
-    "02:14:42 Yendo al cadáver en 32650,31615…",
-    "02:14:43 Yendo al cadáver en 32650,31616…",
-    "02:14:44 Yendo al cadáver en 32652,31621…",
-    "02:14:45 Sin monstruos a 5 casillas.",
-    "02:14:45 Yendo al cadáver en 32650,31615…",
-    "02:14:46 1 monstruo cerca",
-    "02:14:52 2 monstruos cerca"
-   ],
-   "ataque": true,
-   "loot": true,
+   "historial": [],
+   "ataque": false,
+   "loot": false,
    "lootMode": "key",
-   "lootKey": "F12",
+   "lootKey": "F7",
    "lootWalk": true,
-   "cuerpos": 6,
-   "estado": "2 monstruos cerca",
+   "cuerpos": 0,
+   "estado": "Desactivado.",
    "ultimoLoot": null,
-   "monstruos": [
-    "troll#1073864986",
-    "troll#1073863848"
-   ],
+   "monstruos": [],
    "objetivo": null,
-   "recuperaciones": 1,
+   "recuperaciones": 0,
    "spearOn": false
   },
   "mapa": {
    "pos": {
-    "x": 32648,
-    "y": 31616,
-    "z": 11
+    "x": 32336,
+    "y": 31778,
+    "z": 7
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
     ". . . . . . . . . . . . . . . . . . . . .",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg 354Gg",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 353Gg",
-    ". 101Ww 101Ww 360Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww",
-    ". 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 358Ww",
-    ". 101Ww 358Ww 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 356Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww",
-    ". 360Ww 364Ww 355Gg 355Gg 355Gg 355Gg+3355 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 364Ww 355Gg 355Gg 355Gg 366Ww 357Ww 357Ww 367Ww 355Gg+3003+3552 355Gg*C 355Gg*C 355Gg*C 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 363Ww 367Ww 355Gg 355Gg+2886 355Gg*C 355Gg*C 355Gg 365Ww 361Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 355Gg 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 363Ww 357Ww 367Ww 355Gg 355Gg 355Gg 355Gg 359Ww 101Ww 101Ww 101Ww 101Ww",
-    ". 355Gg 355Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 354Gg 355Gg 365Ww 356Ww 356Ww 356Ww 356Ww",
-    ". 366Ww 357Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 363Ww 367Ww 355Gg 353Gg 353Gg 353Gg 353Gg 354Gg 353Gg",
-    ". 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 356Ww 364Ww 355Gg 353Gg 353Gg 353Gg 354Gg 353Gg 353Gg",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 355Gg*C 355Gg 366Ww 357Ww 367Ww 353Gg 353Gg",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 354Gg 355Gg 355Gg 355Gg 359Ww 101Ww 363Ww 357Ww 367Ww",
-    ". 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 354Gg 354Gg 355Gg 366Ww 357Ww 362Ww 101Ww 101Ww 101Ww 363Ww",
-    "101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww 360Ww 364Ww 355Gg 355Gg 354Gg 354Gg 366Ww 362Ww 101Ww 101Ww 101Ww 101Ww 101Ww 101Ww"
+    ". 408Gg 408Gg 408Gg+1281Ww+2907 408Gg 408Gg+1281Ww 408Gg+2319Ww 408Gg 408Gg 408Gg 408Gg 408Gg+1288Ww 4517Gg+1947 870Gg 870Gg 870Gg 870Gg+4532 4525Gg+3618Ww 4515Gg 4520Gg .",
+    ". 408Gg 408Gg 408Gg+1639 408Gg 408Gg+1639 408Gg 408Gg 408Gg 408Gg+2487Ww 408Gg+2487Ww 408Gg+1281Ww 870Gg 870Gg 870Gg 870Gg 870Gg+4532 4523Gg 4528Gg+3654 4515Gg .",
+    ". 408Gg 408Gg 408Gg+1288Ww 408Gg+1632Ww 408Gg+1287Ww+2908 408Gg 408Gg 408Gg 408Gg+2488Ww 408Gg+2488Ww 408Gg+1281Ww 870Gg+4533+2022Ww 870Gg+4537 870Gg 870Gg 870Gg+4536 870Gg+4531 870Gg+4531+2021Ww 870Gg+4531 870Gg+4531",
+    ". 408Gg+1734Ww 408Gg+1282Ww 408Gg+1285Ww 4519Gg+3657 4515Gg+1286Ww 408Gg+1282Ww 408Gg+1282Ww 408Gg+1734Ww 408Gg+1282Ww 408Gg+1282Ww 408Gg+1285Ww 4526Gg+2109Ww 870Gg+4534 870Gg 870Gg+435 870Gg 870Gg 870Gg 870Gg 870Gg",
+    ". 4515Gg+3656 4519Gg 4528Gg 4515Gg 4515Gg 4515Gg 4525Gg 4515Gg 4518Gg 4515Gg 4515Gg 4521Gg 870Gg+4534 870Gg 870Gg 870Gg 870Gg+4538+2109Ww 870Gg+4533 870Gg+4533 870Gg+4533",
+    ". 4526Gg 4525Gg 4515Gg 4515Gg 4515Gg+1296Ww 4515Gg+1295Ww 4523Gg+1295Ww 4515Gg+1295Ww 4518Gg+1303Ww 4516Gg+1295Ww 4521Gg+1295Ww 4515Gg+1295Ww 870Gg+4534+1297Ww 870Gg 870Gg 870Gg 870Gg+4532+1296Ww 4515Gg+1295Ww 4515Gg+1295Ww 4515Gg+1295Ww+2910",
+    ". 4515Gg 4518Gg 4524Gg+3682Ww 4528Gg 4516Gg+1294Ww 429Gg+2321Ww+3499Ww 429Gg+2321Ww 429Gg+2321Ww+3499Ww 429Gg+1294Ww 429Gg+2321Ww+3499Ww 429Gg+2321Ww 429Gg+2321Ww+3499Ww 429Gg+1294Ww 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2487Ww 408Gg 408Gg",
+    ". 4515Gg+1734Ww 4515Gg+1282Ww+2597 4515Gg+1284Ww 4515Gg 4526Gg+1294Ww 431Gg 429Gg+2164Ww 431Gg 429Gg+1294Ww 430Gg*C 429Gg+2164Ww 431Gg 429Gg+1294Ww 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2488Ww 408Gg 408Gg",
+    ". 429Gg+2472Ww 429Gg 429Gg+1281Ww 4522Gg 4528Gg+1294Ww+2908 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww+2908 429Gg 429Gg+2164Ww 429Gg 429Gg+1294Ww 870Gg 870Gg 870Gg 870Gg+4532+1301Ww 408Gg+1282Ww 408Gg+1282Ww 408Gg+1290Ww",
+    ". 429Gg 429Gg 429Gg+1735Ww 4518Gg 4518Gg+1294Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2487Ww 408Gg 408Gg+1281Ww",
+    ". 429Gg+2318Ww+2927 429Gg 429Gg+1281Ww 4515Gg 4515Gg+1294Ww 414Gg 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1303Ww 429Gg+1300Ww 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2488Ww 408Gg 408Gg+1281Ww+2907",
+    ". 409Gg 409Gg 409Gg+1735Ww 4518Gg 4530Gg+1294Ww+2908 429Gg+2526Ww 429Gg 429Gg 429Gg 429Gg 429Gg 429Gg+1947 429Gg+1294Ww+2908 870Gg 870Gg 870Gg 870Gg+4532+1294Ww+2908 408Gg 408Gg 408Gg+1281Ww",
+    ". 409Gg 409Gg 409Gg+1281Ww 4526Gg 4515Gg+1294Ww 429Gg+2326Ww+2981 429Gg+2331Ww 429Gg+3501Ww 429Gg 429Gg 429Gg 429Gg 429Gg 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg 408Gg 408Gg+1639",
+    ". 409Gg 409Gg 409Gg+1735Ww 4515Gg 4515Gg+1294Ww+2602 429Gg 429Gg+2328Ww 429Gg+2331Ww 429Gg 429Gg 429Gg 429Gg 429Gg 870Gg 870Gg 870Gg 870Gg+4532+1301Ww 408Gg+1282Ww 408Gg+1282Ww+2910 408Gg+1289Ww",
+    ". 409Gg 409Gg 409Gg+1281Ww 4527Gg 4517Gg+1294Ww 429Gg*C 429Gg 429Gg+2325Ww 429Gg 429Gg 429Gg 429Gg 429Gg 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2487Ww 408Gg 408Gg",
+    ". 409Gg 409Gg+2982Ww 409Gg+1735Ww 4515Gg 4519Gg+1294Ww+2908 429Gg 429Gg 429Gg+2334Ww 429Gg 429Gg 429Gg 429Gg 429Gg+1294Ww+2908 870Gg 870Gg 870Gg 870Gg+4532+1294Ww 408Gg+2488Ww 408Gg 408Gg"
    ]
   },
   "fallosJS": []
