@@ -1,5 +1,5 @@
 {
- "enviado": "2026-11-28T10:44:24.097Z",
+ "enviado": "2026-11-28T10:49:29.103Z",
  "motivo": "auto: 32 errores nuevos",
  "resumen": {
   "version": "3.2.4",
@@ -86,8 +86,8 @@
     "activo": true,
     "soportado": true,
     "nota": "pantalla no visible",
-    "intentos": 10,
-    "logrados": 10,
+    "intentos": 14,
+    "logrados": 14,
     "bloqueado": false
    },
    "presencia": {
