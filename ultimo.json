@@ -1,14 +1,14 @@
 {
- "enviado": "2026-11-28T14:06:53.138Z",
+ "enviado": "2026-11-28T14:11:58.147Z",
  "motivo": "auto: 1 errores nuevos",
  "resumen": {
   "version": "3.2.4",
   "ext": 40,
   "mapLoads": 5,
-  "tiles": 5731,
+  "tiles": 3913,
   "posicion": {
-   "x": 31989,
-   "y": 31557,
+   "x": 32036,
+   "y": 31544,
    "z": 7
   },
   "erroresMapa": {
@@ -69,7 +69,7 @@
    "ultimos": []
   },
   "comida": {
-   "segundos": 345,
+   "segundos": 40,
    "intentos": 0,
    "confirmados": 0,
    "accion": "waiting-food-timer",
@@ -339,68 +339,19 @@
     ],
     "alerta": "APAGADO: se tiró 2868,2973,3031,3054,3270,3457,3577,3578,3725 en vez de 3130",
     "nota": "APAGADO: se tiró 2868,2973,3031,3054,3270,3457,3577,3578,3725 en vez de 3130",
-    "enMochila": [
-     {
-      "w": 0,
-      "s": 0,
-      "id": 3578,
-      "fp": "19wwcg5:232"
-     },
-     {
-      "w": 0,
-      "s": 1,
-      "id": 3031,
-      "fp": "1nj0tyt:176"
-     },
-     {
-      "w": 0,
-      "s": 2,
-      "id": 3054,
-      "fp": "17q0dpd:145"
-     },
-     {
-      "w": 0,
-      "s": 3,
-      "id": 3031,
-      "fp": "q0jvf4:408"
-     },
-     {
-      "w": 0,
-      "s": 4,
-      "id": 2973,
-      "fp": "9t4eie:131"
-     },
-     {
-      "w": 0,
-      "s": 5,
-      "id": 3725,
-      "fp": "911u6w:182"
-     },
-     {
-      "w": 0,
-      "s": 6,
-      "id": 3457,
-      "fp": "1vfnhuv:242"
-     },
-     {
-      "w": 0,
-      "s": 7,
-      "id": 2868,
-      "fp": "irh8vo:592"
-     }
-    ]
+    "enMochila": []
    },
    "autoEatTecla": {
     "activo": false,
     "tecla": "F11",
     "umbral": 300,
-    "segundos": 345,
+    "segundos": 40,
     "pulsaciones": 0,
     "fallos": 0,
     "nota": "apagado",
     "metodo": null,
     "casilleroEncontrado": null,
-    "textoFood": "05:45",
+    "textoFood": "00:40",
     "configAntigua": "{\"tickMs\":1000,\"eatCooldownMs\":2500,\"eatHotbarSlot\":4,\"enabled\":false}",
     "ultimosMensajes": []
    }
@@ -493,36 +444,36 @@
   },
   "combate": {
    "historial": [
-    "11:02:17 Cuerpo anotado en 31987,31576",
-    "11:02:17 Buscando el cadáver…",
-    "11:02:18 Loot: tecla F7",
-    "11:02:23 Yendo al cadáver en 31986,31576…",
-    "11:02:23 Sin monstruos a 5 casillas.",
-    "11:02:25 Loot: tecla F7",
-    "11:02:26 Sin monstruos a 5 casillas.",
-    "11:02:28 Desactivado.",
-    "11:04:43 Activado.",
-    "11:04:43 tecla F2 → frost troll",
-    "11:04:43 2 monstruos cerca · tecla F2 → frost troll",
-    "11:04:43 2 monstruos cerca · atacando frost troll",
-    "11:04:44 3 monstruos cerca · atacando frost troll",
-    "11:04:45 4 monstruos cerca · atacando frost troll",
-    "11:04:50 Cuerpo anotado en 31994,31556",
-    "11:04:50 Buscando el cadáver…",
-    "11:04:51 tecla F2 → frost troll",
-    "11:04:51 3 monstruos cerca · tecla F2 → frost troll",
-    "11:04:51 3 monstruos cerca · atacando frost troll",
-    "11:04:58 Cuerpo anotado en 31993,31556",
-    "11:04:58 tecla F2 → frost troll",
-    "11:04:58 2 monstruos cerca · tecla F2 → frost troll",
-    "11:04:58 2 monstruos cerca · atacando frost troll",
-    "11:05:04 Cuerpo anotado en 31992,31556",
-    "11:05:04 tecla F2 → frost troll",
-    "11:05:04 1 monstruo cerca · tecla F2 → frost troll",
-    "11:05:04 1 monstruo cerca · atacando frost troll",
-    "11:05:10 Cuerpo anotado en 31994,31556",
-    "11:05:10 Loot: tecla F7",
-    "11:05:40 Sin monstruos a 5 casillas."
+    "11:07:10 Loot: tecla F7",
+    "11:07:15 Sin monstruos a 5 casillas.",
+    "11:07:49 tecla F2 → winter wolf",
+    "11:07:49 1 monstruo cerca · tecla F2 → winter wolf",
+    "11:07:49 1 monstruo cerca · atacando winter wolf",
+    "11:07:54 Cuerpo anotado en 32012,31549",
+    "11:07:54 Buscando el cadáver…",
+    "11:07:55 Loot: tecla F7",
+    "11:08:00 Yendo al cadáver en 32012,31549…",
+    "11:08:00 Sin monstruos a 5 casillas.",
+    "11:08:02 Loot: tecla F7",
+    "11:08:03 Sin monstruos a 5 casillas.",
+    "11:08:25 tecla F2 → rabbit",
+    "11:08:25 1 monstruo cerca · tecla F2 → rabbit",
+    "11:08:25 1 monstruo cerca · atacando rabbit",
+    "11:08:28 Cuerpo anotado en 32036,31544",
+    "11:08:28 Buscando el cadáver…",
+    "11:08:30 1 monstruo cerca · atacando rabbit",
+    "11:08:31 Cuerpo anotado en 32036,31542",
+    "11:08:31 Yendo al cadáver en 32036,31544…",
+    "11:08:31 Buscando el cadáver…",
+    "11:08:32 1 monstruo cerca · atacando rabbit",
+    "11:08:33 Loot: tecla F7",
+    "11:08:34 1 monstruo cerca · atacando rabbit",
+    "11:08:39 Cuerpo anotado en 32036,31543",
+    "11:08:39 Loot: tecla F7",
+    "11:08:53 Yendo al cadáver en 32036,31544…",
+    "11:08:53 Sin monstruos a 5 casillas.",
+    "11:08:55 Loot: tecla F7",
+    "11:08:59 Sin monstruos a 5 casillas."
    ],
    "ataque": true,
    "loot": true,
@@ -539,29 +490,29 @@
   },
   "mapa": {
    "pos": {
-    "x": 31989,
-    "y": 31557,
+    "x": 32036,
+    "y": 31544,
     "z": 7
    },
    "legend": "W/G=tabla vieja (pared/suelo), w/g=DAT real, ?=id desconocido, *C=criatura, .=sin dato",
    "rows": [
-    ". . . 4600Ww 4597Ww 4602Ww 4601Ww 4602Ww 4602Ww 4598Ww 799Gg+4639Ww 799Gg+4643Ww 799Gg 799Gg 799Gg+4642Ww 799Gg+4633Ww 799Gg+4633Ww 799Gg+4633Ww 799Gg+4633Ww 799Gg+4633Ww 799Gg+4638Ww",
-    ". 4599Ww 4598Ww 4599Ww 4599Ww 4599Ww 4601Ww 4601Ww 4600Ww 4600Ww 4601Ww 799Gg+4639Ww 799Gg+4643Ww 799Gg 799Gg 799Gg+2853 799Gg 799Gg+2853 799Gg 799Gg 799Gg+4642Ww",
-    "4599Ww 4601Ww 4598Ww 4598Ww 4602Ww 4601Ww 4598Ww 4597Ww 4597Ww 4600Ww 4599Ww 4598Ww 799Gg+4636Ww 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg",
-    "4602Ww 4601Ww 799Gg+4637Ww+3577+3130+2471 799Gg+4638Ww+3582+3412 4600Ww 4602Ww 4597Ww 4599Ww 4597Ww 4602Ww 4597Ww 4597Ww 799Gg+4636Ww 799Gg 799Gg+3277 799Gg+3562 799Gg+3412+3268 799Gg 799Gg 799Gg 799Gg",
-    "4600Ww 799Gg+4637Ww+3270+3412 799Gg+4641Ww 799Gg+4642Ww 799Gg+4638Ww 4601Ww 4598Ww 4600Ww 4601Ww 4597Ww 4598Ww 4600Ww 799Gg+4636Ww 799Gg 799Gg+3412 799Gg 799Gg+3412 799Gg+3336+3412 799Gg 799Gg 799Gg",
-    "4602Ww 799Gg+4639Ww+2853+3031 799Gg+4643Ww 799Gg 799Gg+4642Ww 799Gg+4638Ww 4601Ww 4597Ww 4597Ww 4599Ww 4601Ww 4599Ww 799Gg+4636Ww 799Gg 799Gg 799Gg+3270 799Gg 799Gg+3268 799Gg+2853+2853 799Gg 799Gg",
-    "4602Ww 4599Ww 799Gg+4636Ww 799Gg 799Gg 799Gg+4642Ww 799Gg+4638Ww 4598Ww 4599Ww 4599Ww 799Gg+4637Ww 799Gg+4633Ww 799Gg+4641Ww 6594? 6594?+2889 799Gg+3270 799Gg+3277 799Gg 799Gg 799Gg 799Gg+4459Ww",
-    "4598Ww 799Gg+4637Ww 799Gg+4641Ww 799Gg 799Gg 799Gg 799Gg+4634Ww 4597Ww 799Gg+4637Ww+3130 799Gg+4633Ww 799Gg+4641Ww 799Gg*C 799Gg*C 6594?+4109*C 799Gg+4109*C 799Gg+4109*C 799Gg 799Gg 799Gg+4459Ww 799Gg+4458Ww 799Gg+4468Ww",
-    "799Gg+4633Ww 799Gg+4641Ww 799Gg 799Gg 799Gg 799Gg 799Gg+4642Ww 799Gg+4633Ww 799Gg+4641Ww 799Gg 799Gg 6594? 6594? 6594? 799Gg 799Gg 799Gg 799Gg+4459Ww 799Gg+4468Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+4459Ww 799Gg+4458Ww 799Gg+4458Ww 799Gg+4458Ww 799Gg+4458Ww 799Gg+4458Ww 799Gg+4468Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg+3270 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+3130*C 799Gg 799Gg+3130 799Gg 799Gg 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+3270 799Gg+3562 799Gg+3130 799Gg 799Gg 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg+3130 799Gg+3130 799Gg 799Gg 799Gg 799Gg+4459Ww 799Gg+4458Ww 799Gg+4468Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg+3130 799Gg 799Gg 799Gg 799Gg 799Gg+3130 799Gg 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg+3130 799Gg 799Gg 799Gg 799Gg+3270 799Gg 799Gg+3130+3130+3130 799Gg+3130 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww",
-    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+3135*C 799Gg 799Gg+3130 799Gg+4457Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww 1128Ww+1082Ww"
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+2887+4173 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg+3355 799Gg 799Gg 799Gg 799Gg+3682Ww 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg 799Gg+2853 799Gg+2853 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg .",
+    "799Gg 799Gg 799Gg+3355 799Gg 799Gg 799Gg+3609Ww 799Gg+3130 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg 799Gg+2853+2853 799Gg 799Gg 799Gg 799Gg . ."
    ]
   },
   "fallosJS": []
